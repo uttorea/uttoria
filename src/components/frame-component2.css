@@ -1,0 +1,179 @@
+.frame-child22 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.download-brochure {
+  margin: 0;
+  width: 1520px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 89px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.backgroundborderoverlayblur-icon4 {
+  align-self: stretch;
+  height: 400px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.small-medium {
+  align-self: stretch;
+  position: relative;
+  line-height: 33px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.backgroundborderoverlayblur-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.backgroundborderoverlayblur-icon5,
+.vtol-uam {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.backgroundborderoverlayblur-icon5 {
+  height: 400px;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vtol-uam {
+  line-height: 33px;
+  text-transform: capitalize;
+}
+.backgroundborderoverlayblur-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.backgroundborderoverlayblur-icon6 {
+  align-self: stretch;
+  height: 400px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inflatables-for-uav {
+  align-self: stretch;
+  position: relative;
+  line-height: 33px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.backgroundborderoverlayblur-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+}
+.backgroundborderoverlayblur-parent4,
+.frame-parent32,
+.rectangle-parent5 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent32 {
+  width: 1520.9px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-44xl);
+  grid-template-columns: repeat(3, minmax(349px, 1fr));
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.rectangle-parent5 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-230xl-7) var(--padding-2xl) var(--padding-198xl-3)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-52xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1350px) {
+  .frame-parent32 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(349px, 606px));
+  }
+  .rectangle-parent5 {
+    padding-top: var(--padding-143xl);
+    padding-bottom: var(--padding-122xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .download-brochure {
+    font-size: var(--font-size-19xl);
+    line-height: 71px;
+  }
+  .frame-parent32 {
+    gap: var(--gap-12xl);
+    grid-template-columns: minmax(349px, 1fr);
+  }
+  .rectangle-parent5 {
+    gap: var(--gap-16xl);
+    padding-top: var(--padding-86xl);
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .download-brochure {
+    font-size: var(--font-size-10xl);
+    line-height: 53px;
+  }
+  .inflatables-for-uav,
+  .small-medium,
+  .vtol-uam {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .frame-parent32 {
+    gap: var(--gap-base);
+  }
+  .rectangle-parent5 {
+    gap: var(--gap-lg);
+  }
+}

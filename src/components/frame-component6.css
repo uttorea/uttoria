@@ -1,0 +1,184 @@
+.at-uttoria-we,
+.autonomous-drone-safety {
+  position: relative;
+  text-transform: capitalize;
+}
+.autonomous-drone-safety {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 12px;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.at-uttoria-we {
+  height: 155px;
+  flex: 1;
+  letter-spacing: 0.95px;
+  line-height: 46px;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.backgroundborder7 {
+  flex: 1;
+  width: 953px;
+  height: 420px;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    114.03deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-112xl) var(--padding-61xl);
+  min-width: 400px;
+  max-width: 100%;
+  z-index: 1;
+}
+.generateanimagedepictingamoder-icon {
+  position: absolute;
+  top: -25px;
+  left: -246px;
+  width: 896px;
+  height: 504px;
+  object-fit: contain;
+  display: none;
+}
+.unnamed-2-icon {
+  position: absolute;
+  top: -124.2px;
+  left: -264px;
+  width: 912.3px;
+  height: 655.1px;
+  object-fit: contain;
+}
+.backgroundborder-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aqua-100);
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: hue;
+  z-index: 1;
+}
+.backgroundborder8 {
+  height: 420px;
+  width: 466px;
+  position: relative;
+  box-shadow: var(--blue-blur);
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 466px;
+  max-width: 100%;
+  z-index: 1;
+}
+.backgroundborder-group {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-82xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.autonomous-drone-safety-parent,
+.backgroundborder-group,
+.home-inner1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.autonomous-drone-safety-parent {
+  width: 1520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-179xl);
+}
+.home-inner1 {
+  width: 1920px;
+  height: 1080px;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) var(--padding-430xl-7) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--cyan);
+  font-family: var(--font-urbanist);
+}
+@media screen and (max-width: 1350px) {
+  .backgroundborder7 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .backgroundborder8 {
+    flex: 1;
+  }
+  .backgroundborder-group {
+    flex-wrap: wrap;
+  }
+  .autonomous-drone-safety-parent {
+    gap: var(--gap-80xl);
+  }
+  .home-inner1 {
+    padding-bottom: var(--padding-273xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .autonomous-drone-safety {
+    font-size: var(--font-size-19xl);
+    line-height: 9px;
+  }
+  .backgroundborder7,
+  .backgroundborder8 {
+    min-width: 100%;
+  }
+  .backgroundborder-group {
+    gap: var(--gap-31xl);
+  }
+  .autonomous-drone-safety-parent {
+    gap: var(--gap-30xl);
+  }
+  .home-inner1 {
+    padding-bottom: var(--padding-171xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .autonomous-drone-safety {
+    font-size: var(--font-size-10xl);
+    line-height: 7px;
+  }
+  .at-uttoria-we {
+    font-size: var(--font-size-lgi);
+    line-height: 37px;
+  }
+  .backgroundborder7 {
+    padding-top: var(--padding-66xl);
+    padding-bottom: var(--padding-66xl);
+    box-sizing: border-box;
+  }
+  .autonomous-drone-safety-parent,
+  .backgroundborder-group {
+    gap: var(--gap-6xl);
+  }
+}
