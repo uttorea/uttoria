@@ -393,7 +393,7 @@
 .frame-wrapper12 {
   align-self: stretch;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-85xl-6);
+  /* padding: 0 var(--padding-xl) var(--padding-85xl-6); */
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-45xl);

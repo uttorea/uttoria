@@ -1,5 +1,6 @@
-.enhance-safety-with {
-    
+.our-solution {
+    padding: 0px;
+    margin: 0px;
     align-self: stretch;
     position: relative;
     font-size: var(--font-size-29xl);
@@ -10,12 +11,13 @@
     color: var(--cyan);
     z-index: 1;
   }
-  .our-inflatable-solutions {
+  .our-p-solutions {
     margin-block-start: 0;
-    margin-block-end: 39px;
+    margin-block-end: 0;
   }
  
-  .our-inflatable-solutions-container {
+  .our-solutions-container {
+    margin-top: 0px;
     flex: 1;
     position: relative;
     line-height: 46px;
@@ -168,48 +170,8 @@
     color: var(--cyan);
     text-align: center;
   }
-  .vector-icon4 {
-    width: 17.2px;
-    height: 11.5px;
-    position: relative;
-  }
-  .vector-wrapper1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-11xs-7) 0 0;
-  }
-  .explore-inflatable-airbags-sys-parent,
-  .frame-wrapper17 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .explore-inflatable-airbags-sys-parent {
-    cursor: pointer;
-    border: 2px solid var(--cyan);
-    padding: var(--padding-mid) var(--padding-24xl);
-    background-color: transparent;
-    border-radius: var(--br-5xs);
-    background: linear-gradient(
-      114.03deg,
-      rgba(255, 255, 255, 0.05),
-      rgba(255, 255, 255, 0)
-    );
-    overflow: hidden;
-    justify-content: flex-start;
-    gap: var(--gap-10xl);
-    z-index: 1;
-  }
-  .frame-wrapper17 {
-    width: 1510.8px;
-    justify-content: center;
-    padding: 0 var(--padding-xl);
-  }
-  .enhance-safety-with-inflatable-parent,
+ 
+  .our-solutions-parent,
   .frame-parent44 {
     display: flex;
     flex-direction: column;
@@ -217,17 +179,22 @@
     max-width: 100%;
   }
   .frame-parent44 {
+    
     align-self: stretch;
     align-items: flex-start;
     gap: var(--gap-41xl-1);
   }
-  .enhance-safety-with-inflatable-parent {
+  .our-solutions-parent {
     width: 1521px;
     align-items: flex-end;
-    gap: var(--gap-130xl-8);
+    /* gap: var(--gap-41xl-1); */
+    gap: var(--gap-21xl-3);
+
+
+    /* gap: var(--gap-130xl-8); */
     flex-shrink: 0;
   }
-  .home-inner3 {
+  .home-inner8 {
     align-self: stretch;
     display: flex;
     flex-direction: row;
@@ -248,7 +215,7 @@
       justify-content: center;
       grid-template-columns: repeat(2, minmax(262px, 455px));
     }
-    .enhance-safety-with-inflatable-parent {
+    .our-solutions-parent {
       gap: var(--gap-56xl);
     }
     .home-inner3 {
@@ -257,7 +224,7 @@
     }
   }
   @media screen and (max-width: 900px) {
-    .enhance-safety-with {
+    .our-solution {
       font-size: var(--font-size-19xl);
       line-height: 9px;
     }
@@ -267,15 +234,11 @@
       gap: var(--gap-xl);
       grid-template-columns: minmax(262px, 1fr);
     }
-    .explore-inflatable-airbags-sys-parent {
-      padding-left: var(--padding-2xl);
-      padding-right: var(--padding-2xl);
-      box-sizing: border-box;
-    }
+    
     .frame-parent44 {
       gap: var(--gap-11xl);
     }
-    .enhance-safety-with-inflatable-parent {
+    .our-solutions-parent {
       gap: var(--gap-18xl);
     }
     .home-inner3 {
@@ -284,16 +247,16 @@
     }
   }
   @media screen and (max-width: 450px) {
-    .enhance-safety-with {
+    .our-solution {
       font-size: var(--font-size-10xl);
       line-height: 7px;
     }
-    .our-inflatable-solutions-container {
+    .our-p-solutions {
       font-size: var(--font-size-lgi);
       line-height: 37px;
     }
     
-    .explore-inflatable-airbags,
+   
     .fixed-wing-drone-container2,
     .fixed-wing-drone-container3,
     .multirotor-drone-for-container2,
@@ -301,13 +264,11 @@
       font-size: var(--font-size-lgi);
       line-height: 26px;
     }
-    .explore-inflatable-airbags {
-      line-height: 12px;
-    }
+   
     .frame-parent44 {
       gap: var(--gap-mini);
     }
-    .enhance-safety-with-inflatable-parent {
+    .our-solutions-parent {
       gap: var(--gap-lgi);
     }
     .home-inner3 {

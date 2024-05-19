@@ -9,7 +9,7 @@
 .frame-child15,
 .overlay3 {
   position: absolute;
-  top: 0;
+  top:0;
   left: 0.1px;
   background-color: var(--color-gray-600);
   width: 100%;
@@ -28,7 +28,7 @@
   z-index: 3;
 }
 .recovery-systems {
-  top: 180.7px;
+  top: 290px;
   font-size: inherit;
   letter-spacing: 0.04em;
   line-height: 109px;
@@ -39,7 +39,7 @@
   width: 969.5px;
 }
 .plug-and-play {
-  top: 442.7px;
+  top: 552.7px;
   font-size: var(--font-size-17xl);
   line-height: 37px;
   font-weight: 400;
@@ -71,7 +71,7 @@
   z-index: 3;
 }
 .divelementor-widget-wrap1 {
-  top: 617.7px;
+  top:720.7px;
   box-shadow: var(--min);
   border-radius: var(--br-5xs);
   background-color: var(--background);
@@ -91,7 +91,7 @@
 }
 .what-we-do {
   margin: 0;
-  top: 547.7px;
+  top: 650.7px;
   font-size: var(--font-size-29xl);
   line-height: 48.59px;
   text-transform: capitalize;

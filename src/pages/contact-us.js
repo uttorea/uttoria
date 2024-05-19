@@ -5,23 +5,6 @@ import "./contact-us.css";
 import Navbar from "./Navbar";
 
 const ContactUs = () => {
-  // const navigate = useNavigate();
-
-  // const onImage116Click = useCallback(() => {
-  //   navigate("/home");
-  // }, [navigate]);
-
-  // const onHomeTextClick = useCallback(() => {
-  //   navigate("/home");
-  // }, [navigate]);
-
-  // const onParachuteRecoverySystemClick = useCallback(() => {
-  //   navigate("/product");
-  // }, [navigate]);
-
-  // const onAboutUsTextClick = useCallback(() => {
-  //   navigate("/about-us");
-  // }, [navigate]);
 
   return (
     <div className="contact-us">
