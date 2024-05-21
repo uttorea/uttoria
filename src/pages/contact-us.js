@@ -36,7 +36,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <main className="frame-parent">
-        <Navbar/>
+        <Navbar />
         <section className="parent">
           <img className="icon" alt="" src="/5301854-1@2x.png" />
           <div className="rectangle-parent">
