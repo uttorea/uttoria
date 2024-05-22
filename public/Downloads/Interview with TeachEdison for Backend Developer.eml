@@ -1,0 +1,264 @@
+Delivered-To: nikhilrai662@gmail.com
+Received: by 2002:a05:7108:400e:b0:35d:47a8:53c5 with SMTP id a14csp334142gdh;
+        Wed, 20 Dec 2023 07:49:04 -0800 (PST)
+X-Received: by 2002:a05:6122:21ab:b0:4b6:d6f4:ceb6 with SMTP id j43-20020a05612221ab00b004b6d6f4ceb6mr2745162vkd.32.1703087344412;
+        Wed, 20 Dec 2023 07:49:04 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1703087344; cv=none;
+        d=google.com; s=arc-20160816;
+        b=u+WTJU4LEOPDY7Gs73rVmJCO5/RWDmMK8BE5/WG0QyJUXcyj70387EW9ZMpzH/ivBz
+         OyeX61MZxNEkwJTHK2J6FKvpMmCW3Fb1sSyk3EZ0m8AyykzWt9A9eEnBs3p/xkfMsaQp
+         gOowIDbDPw7AwQtf0bHbZ0PabJmLEn3zvDMBqogPZ2FIZsa6TgLmAm36fi7YSXER65Kn
+         dfk9YkV/QzBKM5q1KGoNmtZ/CvCSEveIi2bMWMvxACeC4HvQotMfW/2kOU6cFqNpDa9D
+         9Qz6P3vx2IiuAHmZbyO+t1wUR1cr/XCyznJS1M66Lih8G3UOEwBspUMqClfbVS9PIkm4
+         xiTQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=cTJJWCHt+nTXWI3C+yKCXPmjjQAbGlaNHXoulJhLjOM=;
+        fh=FQbFRo59FJwQcNSYdihMcrWTO6WFBOQODM5htC46aEA=;
+        b=0F2lOSUuE7LSOMs9kQPZSyqdfEhtIpvLhA19iGMnXjwbcb2+81Y6Hj/yOklQ1bOhwD
+         RiT/A/UrLyKGiBXvlrxDmZG/KGrkaG1BqtgoS81foSjlTTpygEiee4A1jN1rn/MtL/PN
+         s0IeYPNvwdwfSo4xeUKMs3NY8okvUMazPeaP6qXbIWrDPr8asuISG7V4Ieaw6IJJWj+s
+         vzhxbTJh82tzrwQ4t1SDnPCd8G3D8WTuZG0xDZ7AhF/RG9D+HLGv6vezNT4vb/sNfuQf
+         U4qoKDiJmDbeOnbpNkj6PwaKZdwjp0dTZzv7mUEy8YLebRIWMbnx8n8fktpiIfsWT7H4
+         cpHg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@teachedison.com header.s=google header.b=VoiKmqQy;
+       spf=pass (google.com: domain of sivakumar@teachedison.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=sivakumar@teachedison.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=teachedison.com
+Return-Path: <sivakumar@teachedison.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e24-20020a05610211f800b00466c8c4f593sor88044vsg.7.2023.12.20.07.49.04
+        for <nikhilrai662@gmail.com>
+        (Google Transport Security);
+        Wed, 20 Dec 2023 07:49:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of sivakumar@teachedison.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@teachedison.com header.s=google header.b=VoiKmqQy;
+       spf=pass (google.com: domain of sivakumar@teachedison.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=sivakumar@teachedison.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=teachedison.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=teachedison.com; s=google; t=1703087344; x=1703692144; dara=google.com;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=cTJJWCHt+nTXWI3C+yKCXPmjjQAbGlaNHXoulJhLjOM=;
+        b=VoiKmqQy4SbXc+zjQosotvwZzcuBByfuZAO0nqB+yvA46DPx2rl1Ug6CkqP3J//mVu
+         8X/arGpbW6uHORR5yIofPLOGvkvXVE/tF1I48rHANAT865hIZWVE/D30oHvZcV49uobo
+         a2cE5D+L4X0Ti22rc2JFDFYbjn382D9hinzA+PuRoPldKk5/GnY+9KESe/l0yeYmU8Bd
+         NnpcxBzmGV9BX9peeM6iqRaLQAJUcdgVUZk80E24T1/riKU2ihNXwIw3KPJWF4WrTdzW
+         0C+p/PtHF7ldH/F/aQjWnPNyF5nt0gy2ITcy2VKT0nAgm58zKyM0sa5Wvu0jKtGTF7f/
+         /zoQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1703087344; x=1703692144;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=cTJJWCHt+nTXWI3C+yKCXPmjjQAbGlaNHXoulJhLjOM=;
+        b=RP7EMMMvtU6qzYGUTV3VqOwwnWLhIneTaAyTDmzhi6D6MHtVgjpgI7qmX9eydSXfaA
+         oihKHC4+4ReUXn/JIWqhuK4wx4nOwZh+yaylnxcfV+prqwCRRoNIXyMwfAkDLnRKvB1A
+         CwNQhwoUPHqiMUF4Kfa5lTTAs5BVmFCvYC/vwNJuq6oEZZD0skp5N6isOMIgBSDPserz
+         dzL2jRZuSx9nCxXTfwS3XxNLfe/AG3Tvqxt9CPli7vsas4aZO1UtWRzqHrvFLeIi1GrZ
+         VSFE+mevk1dvWjQFuYkv9jj9Ve8uBcjekhu+U5iiVoxEc5H8bPEaG4pUNT7vSSGQSMPV
+         NplQ==
+X-Gm-Message-State: AOJu0Yw6DKtFXhHMTsehQNyUHTDXojmlocO5lYDLWgJpnXA2Ee780K5R
+	VcMqyd6COJ7HyWNucq/erEoW6i2FAmHsQWjtkSNpiUghd9og0kkpby5/05S81Z1MA/GMx3aVebi
+	6OvD8JyUqGOSaW0z2Ee6XmpUEhPqI15M1TjhpY6E=
+X-Google-Smtp-Source: AGHT+IHuMcmyuX8WykoevJx6lWphABNJ5j61hyz1qV/tP/JBrDD1Wjiy7IqTIdc0a5d5QZygDs0z0v3ivZuu8ImPat4=
+X-Received: by 2002:a05:6122:2006:b0:4b6:e672:fe3 with SMTP id
+ l6-20020a056122200600b004b6e6720fe3mr1658562vkd.3.1703087343819; Wed, 20 Dec
+ 2023 07:49:03 -0800 (PST)
+MIME-Version: 1.0
+From: Sivakumar Sankara Subbu <sivakumar@teachedison.com>
+Date: Wed, 20 Dec 2023 21:18:27 +0530
+Message-ID: <CAGvYwTfOU68AxD3ZRKX29NN1-ORp-fe=SV49MTXk_MLHYZXCmw@mail.gmail.com>
+Subject: Interview with TeachEdison for Backend Developer
+To: nikhilrai662@gmail.com
+Cc: Deepak Murugaian <deepak@teachedison.com>, 
+	Neeraj Krishnamoorthy <krish.neeraj@teachedison.com>, Yoganandan P <yoga@teachedison.com>
+Content-Type: multipart/alternative; boundary="000000000000268482060cf2ecc0"
+
+--000000000000268482060cf2ecc0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Nikhil Rai,
+
+We want to thank you for your interest in working at TeachEdison.
+
+Here is a task for you. Could you try completing it? This assignment will
+help us to evaluate your candidature for what we need. Please send an
+acknowledgement email once you read it.
+
+I have included the following pointers for you to get started.
+
+
+*Assignment: Bookstore REST API with CRUD Operations*
+*Objective:* To evaluate the candidate's ability to design and implement a
+RESTful API using Django, including CRUD operations and additional features=
+.
+
+*Instructions: *Create a robust REST API for a bookstore with the following
+features:
+
+*API Endpoints:*
+
+   1. *Retrieve All Books with Filtering and Pagination (Read):* Implement
+   an endpoint that allows users to retrieve a list of all books with
+   filtering options (e.g., by author, genre, publication year) and paginat=
+ion
+   for large result sets.
+   2. *Retrieve a Single Book with Related Data (Read):* Implement an
+   endpoint that allows users to retrieve details for a single book by its
+   unique identifier, including related data like reviews and author detail=
+s.
+   3. *Create a New Book (Create):* Implement an endpoint that allows users
+   to create a new book by providing the book's title, author, ISBN, and ot=
+her
+   relevant information. Include validation to ensure that the ISBN is uniq=
+ue.
+   4. *Update a Book with Transactions (Update): *Implement an endpoint
+   that allows users to update the details of an existing book, including i=
+ts
+   related data. Utilize database transactions to ensure data consistency
+   during updates.
+   5. *Delete a Book with Soft Deletion (Delete):* Implement an endpoint
+   that allows users to "soft delete" a book, marking it as inactive rather
+   than physically removing it from the database. Include an endpoint for
+   restoring "soft deleted" books.
+
+*Advanced Features (bonus points):*
+
+   1. Implement user authentication and authorization using a token-based
+   system, allowing only authorized users to perform CRUD operations.
+   2. Create a separate API endpoint for user reviews of books, allowing
+   users to rate and review books.
+   3. Implement caching for frequently requested data to improve API
+   performance.
+
+*Requirements:*
+
+   1. Use the Django REST framework and DB of your choice.
+   2. Utilize Python for any custom logic in views, serializers, and models=
+.
+   3. Implement proper error handling and validation for each endpoint.
+   4. Include unit tests for the API endpoints and cover advanced features
+   like transactions and soft deletion.
+   5. Provide API documentation using Swagger/ReDoc/Insomnia/Postman.
+   6. Include a README.md file that explains how to run the project locally=
+.
+
+
+Could you share your code via GitHub and deployment instructions by *Sunday=
+,
+24 December 2023, at 10:00 PM IST*?
+
+Feel free to contact me(via WhatsApp +91 9538085212) if you have any
+questions about this assignment.
+
+Thanks.
+
+--=20
+This e-mail (and any attachments), is confidential and may be privileged.=
+=20
+It may be read, copied and used only by the intended recipients.=20
+Unauthorised access to this e-mail (or attachments) and disclosure or=20
+copying of its contents or any action taken in reliance on it is unlawful.=
+=20
+Unintended recipients must notify the sender immediately by e-mail or phone=
+=20
+and delete it from their system without making any copies or disclosing it=
+=20
+to a third person. TeachEdison=C2=A0Solutions Private Limited reserves the =
+right=20
+to store, monitor and review the content of all messages sent to or from=20
+this email address.
+
+--000000000000268482060cf2ecc0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif">Hi=C2=A0Nikhil Rai,</fo=
+nt><div><font face=3D"verdana, sans-serif"><br></font></div><div><div style=
+=3D"font-size:12.8px"><font face=3D"verdana, sans-serif">We want to thank y=
+ou for your interest in=C2=A0working at=C2=A0TeachEdison.</font></div><div =
+style=3D"font-size:12.8px"><font color=3D"#000000" face=3D"verdana, sans-se=
+rif"><br></font></div><div><font face=3D"verdana, sans-serif"><font color=
+=3D"#000000" style=3D"font-size:12.8px">Here is a task for you. Could you t=
+ry completing it? This assignment will help us to evaluate your candidature=
+ for what we need. Please</font><font color=3D"#000000"><span style=3D"font=
+-size:12.8px">=C2=A0send an=C2=A0</span></font>acknowledgement=C2=A0<span s=
+tyle=3D"font-size:12.8px;color:rgb(0,0,0)">email once you read it.</span></=
+font></div><div style=3D"font-size:12.8px"><font color=3D"#000000" face=3D"=
+verdana, sans-serif"><br></font></div><div style=3D"font-size:12.8px"><font=
+ color=3D"#000000" face=3D"verdana, sans-serif">I have included the followi=
+ng pointers for you=C2=A0to get started.</font></div></div><div style=3D"fo=
+nt-size:12.8px"><font color=3D"#000000" face=3D"verdana, sans-serif"><br></=
+font></div><div style=3D"font-size:12.8px"><font face=3D"verdana, sans-seri=
+f"><b>Assignment: Bookstore REST API with CRUD Operations<br></b><br><b>Obj=
+ective:</b>=C2=A0To evaluate the candidate&#39;s ability to design and impl=
+ement a RESTful API using Django, including CRUD operations and additional =
+features.<br><br><b>Instructions:=C2=A0</b>Create a robust REST API for a b=
+ookstore with the following features:<br><br><b>API Endpoints:</b><br><ol><=
+li style=3D"margin-left:15px"><font face=3D"verdana, sans-serif"><b>Retriev=
+e All Books with Filtering and Pagination (Read):</b>=C2=A0Implement an end=
+point that allows users to retrieve a list of all books with filtering opti=
+ons (e.g., by author, genre, publication year) and pagination for large res=
+ult sets.</font></li><li style=3D"margin-left:15px"><b>Retrieve a Single Bo=
+ok with Related Data (Read):</b>=C2=A0Implement an endpoint that allows use=
+rs to retrieve details for a single book by its unique identifier, includin=
+g related data like reviews and author details.</li><li style=3D"margin-lef=
+t:15px"><b>Create a New Book (Create):</b>=C2=A0Implement an endpoint that =
+allows users to create a new book by providing the book&#39;s title, author=
+, ISBN, and other relevant information. Include validation to ensure that t=
+he ISBN is unique.</li><li style=3D"margin-left:15px"><b>Update a Book with=
+ Transactions (Update):=C2=A0</b>Implement an endpoint that allows users to=
+ update the details of an existing book, including its related data. Utiliz=
+e database transactions to ensure data consistency during updates.</li><li =
+style=3D"margin-left:15px"><b>Delete a Book with Soft Deletion (Delete):</b=
+>=C2=A0Implement an endpoint that allows users to &quot;soft delete&quot; a=
+ book, marking it as inactive rather than physically removing it from the d=
+atabase. Include an endpoint for restoring &quot;soft deleted&quot; books.<=
+/li></ol></font></div><div style=3D"font-size:12.8px"><font face=3D"verdana=
+, sans-serif"><b>Advanced Features (bonus points):</b><br><ol><li style=3D"=
+margin-left:15px"><font face=3D"verdana, sans-serif">Implement user authent=
+ication and authorization using a token-based system, allowing only authori=
+zed users to perform CRUD operations.</font></li><li style=3D"margin-left:1=
+5px">Create a separate API endpoint for user reviews of books, allowing use=
+rs to rate and review books.</li><li style=3D"margin-left:15px">Implement c=
+aching for frequently requested data to improve API performance.</li></ol><=
+b>Requirements:</b><br><ol><li style=3D"margin-left:15px"><font face=3D"ver=
+dana, sans-serif">Use the Django REST framework and DB of your choice.=C2=
+=A0</font></li><li style=3D"margin-left:15px">Utilize Python for any custom=
+ logic in views, serializers, and models.</li><li style=3D"margin-left:15px=
+">Implement proper error handling and validation for each endpoint.</li><li=
+ style=3D"margin-left:15px">Include unit tests for the API endpoints and co=
+ver advanced features like transactions and soft deletion.</li><li style=3D=
+"margin-left:15px">Provide API documentation using Swagger/ReDoc/Insomnia/P=
+ostman.<br></li><li style=3D"margin-left:15px">Include a README.md file tha=
+t explains how to run the project locally.<br></li></ol></font></div><div s=
+tyle=3D"font-size:12.8px"><font color=3D"#000000" face=3D"verdana, sans-ser=
+if"><br></font></div><div><font face=3D"verdana, sans-serif"><div><font col=
+or=3D"#000000"><span style=3D"font-size:12.8px">Could you share your code v=
+ia GitHub and deployment instructions by=C2=A0<b>Sunday, 24 December 2023, =
+at 10:00 PM IST</b>?</span></font></div></font><div style=3D"font-size:12.8=
+px"><div><font color=3D"#000000" face=3D"verdana, sans-serif"><br></font></=
+div><div><div><font face=3D"verdana, sans-serif"><font color=3D"#000000">Fe=
+el free to contact me</font>(via WhatsApp +91 9538085212)<span style=3D"col=
+or:rgb(0,0,0)">=C2=A0if you have any questions about this assignment.</span=
+></font></div></div><div><span style=3D"color:rgb(0,0,0)"><font face=3D"ver=
+dana, sans-serif"><br></font></span></div><div><span style=3D"color:rgb(0,0=
+,0)"><font face=3D"verdana, sans-serif">Thanks.</font></span></div></div></=
+div></div>
+
+<br>
+<span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+2.8px;background:white">This e-mail (and any attachments), is confidential =
+and may be privileged. It may be read, copied and used only by the intended=
+ recipients. Unauthorised access to this e-mail (or attachments) and disclo=
+sure or copying of its contents or any action taken in reliance on it is un=
+lawful. Unintended recipients must notify the sender immediately by e-mail =
+or phone and delete it from their system without making any copies or discl=
+osing it to a third person. TeachEdison=C2=A0</span><span lang=3D"EN-US" st=
+yle=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:12.8px;ba=
+ckground-color:rgb(255,255,255)">Solutions Private Limited reserves the rig=
+ht to store, monitor and review the content of all messages sent to or from=
+ this email address.</span>
+--000000000000268482060cf2ecc0--
