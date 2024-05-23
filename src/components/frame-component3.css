@@ -166,6 +166,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  /* background-image: url('/public/Frame\ 427318925\ 3.png'); */
 }
 @media screen and (max-width: 1350px) {
   .generateanimageshowcasinguttor-parent {

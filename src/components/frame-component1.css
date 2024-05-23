@@ -380,6 +380,7 @@
 }
 .frame-parent33,
 .frame-wrapper12 {
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -393,6 +394,7 @@
 .frame-wrapper12 {
   align-self: stretch;
   justify-content: center;
+  padding-top: 8%;
   /* padding: 0 var(--padding-xl) var(--padding-85xl-6); */
   box-sizing: border-box;
   text-align: left;

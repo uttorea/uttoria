@@ -578,8 +578,11 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-6xs) 273.1px 0;
+  padding-top: 10%;
+  /* padding: 0 var(--padding-6xs) 273.1px 0; */
   gap: 168.5px;
+  width: 1920px;
+  height: 601px;
 }
 .image-116-icon5 {
   height: 92px;
@@ -721,13 +724,14 @@
 }
 .home2 {
   width: 100%;
+  height: 9635px;
   position: relative;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px 0 314px;
+  padding: 0px;
   box-sizing: border-box;
   line-height: normal;
   letter-spacing: normal;
@@ -764,12 +768,12 @@
   }
   .frame-footer,
   .home-child {
-    padding-bottom: 214px;
+    /* padding-bottom: 214px; */
     box-sizing: border-box;
   }
   .frame-footer {
     gap: var(--gap-65xl);
-    padding-bottom: 178px;
+    /* padding-bottom: 178px; */
   }
 }
 @media screen and (max-width: 900px) {

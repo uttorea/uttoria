@@ -128,6 +128,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  margin-bottom: 3%;
 }
 @media screen and (max-width: 1350px) {
   .frame-parent48 {

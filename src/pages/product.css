@@ -251,6 +251,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  /* background-image: url('/public//Frame\ 427318925\ 4.png'); */
 }
 .frame-container,
 .product {
@@ -280,6 +281,7 @@
   padding: 0;
   line-height: normal;
   letter-spacing: normal;
+  background-image: url('/public/Frame\ 427318925.png');
 }
 @media screen and (max-width: 1800px) {
   .frame-parent1,
