@@ -2,14 +2,23 @@ import "./background-border-overlay-blur.css";
 
 const BackgroundBorderOverlayBlur = () => {
   return (
-    <div className="backgroundborderoverlayblur1">
-      <div className="heading-2">
-        <div className="heading-2-child" />
-        <div className="name-wrapper">
-          <div className="name3">name</div>
-        </div>
+
+    <div class="backgroundborderoverlayblur1">
+         <div class="card__container">
+            <article class="card__article">
+               <img src="/image-752x.png" alt="image" class="card__img"/>
+
+               <div class="card__data">
+                  <h2 class="card__title">The Great Path</h2>
+                  <a href="#" class="card__button">Read More</a>
+               </div>
+            </article>
+
+           
+
+           
+         </div>
       </div>
-    </div>
   );
 };
 

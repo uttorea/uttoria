@@ -22,7 +22,6 @@ const FrameComponent6 = () => {
             />
             <img
               className="unnamed-2-icon"
-              loading="lazy"
               alt=""
               src="/unnamed-2@2x.png"
             />

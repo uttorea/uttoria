@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import "./frame-component41.css";
+import "./frame-component8.css";
 
 const FrameComponent8 = () => {
   const navigate = useNavigate();
@@ -10,13 +10,13 @@ const FrameComponent8 = () => {
   }, [navigate]);
 
   return (
-    <section className="home-inner3">
-      <div className="enhance-safety-with-inflatable-parent">
-        <h1 className="enhance-safety-with">Our Solutions</h1>
+    <section className="home-inner8">
+      <div className="our-solutions-parent">
+        <h1 className="our-solution">Our Solutions</h1>
        
-            <div className="our-inflatable-solutions-container">
+            <div className="our-solutions-container">
               
-                <p className="our-inflatable-solutions">
+                <p className="our-p-solutions">
                   Uttorea offers a range of safety and recovery systems designed
                   to meet the diverse needs of the aerospace industry. From
                   custom solutions for speciality or customized UAS to
@@ -27,6 +27,7 @@ const FrameComponent8 = () => {
              
             
         </div>
+
         <div className="frame-parent44">
           <div className="frame-parent45">
             <div className="backgroundborderoverlayblur-parent6">
@@ -81,20 +82,7 @@ const FrameComponent8 = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="frame-wrapper17">
-            <button
-              className="explore-inflatable-airbags-sys-parent"
-              onClick={onFrameButtonClick}
-            >
-              <div className="explore-inflatable-airbags">
-                Explore Inflatable airbags system
-              </div>
-              <div className="vector-wrapper1">
-                <img className="vector-icon4" alt="" src="/vector1.svg" />
-              </div>
-            </button>
-          </div>
+            </div>
         </div>
       </div>
     </section>
