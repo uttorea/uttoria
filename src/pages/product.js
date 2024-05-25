@@ -1,11 +1,13 @@
 import FrameComponent5 from "../components/frame-component5";
-import Product2 from "../components/product2";
+// import Product2 from "../components/product2";
 import FrameComponent4 from "../components/frame-component4";
 import Product1 from "../components/product1";
 import FrameComponent3 from "../components/frame-component3";
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
+import Product3 from "../components/product3";
+import Product4 from "../components/product4";
 import './product.css'
 import Navbar from "./Navbar";
 
@@ -42,11 +44,14 @@ const Product = () => {
           </div>
         </div>
         <section className="product-1-parent">
-          <Product2 />
+          {/* <Product2 /> */}
+          <Product3/>
           <FrameComponent4 />
         </section>
         <section className="product-2-parent">
-          <Product1 />
+          {/* <Product1 />
+           */}
+           <Product4/>
           <FrameComponent3 />
         </section>
         <section className="frame-wrapper">

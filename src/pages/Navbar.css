@@ -1,3 +1,8 @@
+.frame-parent24{
+  width: 100%;
+  position: fixed;
+  margin-top: 0px;
+}
 .frame-parent24, .frame-parent25 
 { 
   box-sizing: border-box;

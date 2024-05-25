@@ -1,13 +1,4 @@
-.icon {
-  position: absolute;
-  top: 1297px;
-  left: 0;
-  width: 1920px;
-  height: 689px;
-  object-fit: cover;
-  mix-blend-mode: color-dodge;
-  z-index: 1;
-}
+
 .frame-child,
 .frame-inner,
 .frame-item {
@@ -38,7 +29,7 @@
 .image-25-icon {
   position: absolute;
   top: -60.3px;
-  left: calc(50% - 1148px);
+  /* left: calc(50% - 1148px); */
   width: 2375px;
   height: 1336px;
   object-fit: cover;
@@ -169,6 +160,7 @@
   justify-content: center;
   white-space: nowrap;
 }
+
 .about-us {
   left: 888.3px;
   min-width: 102px;
@@ -228,7 +220,7 @@
 .frame-textarea,
 .message {
   position: absolute;
-  left: 687px;
+  left: 35%;
   z-index: 3;
 }
 .frame-textarea {
@@ -286,7 +278,7 @@
 .message-content,
 .name {
   position: absolute;
-  left: 686px;
+  left: 35%;
   z-index: 3;
 }
 .message-content {
@@ -337,7 +329,7 @@
 .contact,
 .message-content1 {
   position: absolute;
-  left: 1254px;
+  left: 67%;
   z-index: 3;
 }
 .message-content1 {
@@ -388,7 +380,7 @@
 .email,
 .message-content2 {
   position: absolute;
-  left: 686px;
+  left: 35%;
   z-index: 3;
 }
 .message-content2 {
@@ -439,7 +431,7 @@
 .message-content3 {
   position: absolute;
   top: 943.2px;
-  left: 1254px;
+  left: 67%;
   border-bottom: 1px solid var(--secondary);
   box-sizing: border-box;
   width: 467px;
@@ -453,7 +445,7 @@
 .subject {
   position: absolute;
   top: 887.2px;
-  left: 1254px;
+  left: 67%;
   font-weight: 500;
   display: inline-block;
   min-width: 108px;
@@ -465,7 +457,7 @@
   font-weight: 600;
   font-family: var(--font-urbanist);
   color: var(--cyan);
-  text-align: left;
+  text-align: center;
 }
 .send-message-wrapper,
 .symbol {
@@ -480,7 +472,7 @@
   padding: 0 72px;
   background-color: transparent;
   top: 1377.7px;
-  left: 1413.9px;
+  left: 78%;
   filter: drop-shadow(0 0 21.62px rgba(0, 0, 0, 0.12));
   border-radius: 7.72px;
   box-sizing: border-box;
@@ -665,7 +657,7 @@
 .for-general-other-inquiries-parent {
   position: absolute;
   top: 715.7px;
-  left: 199.6px;
+  left: 7%;
   width: 386px;
   height: 712px;
   display: flex;

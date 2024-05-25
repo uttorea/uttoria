@@ -22,9 +22,9 @@ const FrameComponent6 = () => {
             />
             <img
               className="unnamed-2-icon"
-              loading="lazy"
               alt=""
-              src="/unnamed-2@2x.png"
+              // style={}
+              src="/drone 1.png"
             />
             <div className="backgroundborder-item" />
           </div>

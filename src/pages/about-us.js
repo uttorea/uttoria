@@ -2,6 +2,8 @@
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import FrameComponent8 from "../components/frame-component8";
+import FrameComponent9 from "../components/frame-component9";
+
 
 import './about-us.css'
 import Navbar from "./Navbar";
@@ -48,6 +50,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <FrameComponent9/>
+     
       <FrameComponent8/>
       <FrameComponent1 />
       <FrameComponent />
