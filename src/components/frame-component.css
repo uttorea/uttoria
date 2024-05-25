@@ -183,6 +183,7 @@
   position: relative;
   line-height: 48px;
   text-align: start;
+  left: 50%;
 }
 .frame-parent42,
 .subscribe2 {
@@ -202,7 +203,7 @@
 .frame-parent42 {
   width: 1628.7px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-shrink: 0;
   debug_commit: 1de1738;
   max-width: 100%;
@@ -314,6 +315,7 @@
   position: absolute;
   margin: 0 !important;
   display: inline-block;
+   
   z-index: 1;
 }
 .salesuttoreacom3 {
@@ -324,10 +326,11 @@
   white-space: nowrap;
 }
 .djac-siic-building4 {
-  width: 370px;
+  width: 400px;
   height: 56px;
   top: 67px;
   right: -3.5px;
+  align-items: start;
   color: var(--color-whitesmoke-200);
 }
 .footer-ui2 {

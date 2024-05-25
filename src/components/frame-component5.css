@@ -1,7 +1,7 @@
 .image-72-icon {
   position: absolute;
   top: -27px;
-  left: -20.3px;
+  /* left: -20.3px; */
   width: 1920px;
   height: 1080px;
   object-fit: contain;
@@ -129,14 +129,17 @@
 }
 .image-72-parent {
   height: 1080px;
-  width: 1920px;
+  /* width: 1920px;
+   */
+   width: 100%;
   position: relative;
   flex-shrink: 0;
   debug_commit: 1de1738;
-  max-width: 102%;
+  max-width: 100%;
 }
 .b4fa8b1f819ec20581eca-homepage {
-  width: 1898px;
+  /* width: 1898px;*/
+  width: 100%;
   margin: 0 !important;
   position: absolute;
   bottom: -978px;
@@ -294,6 +297,7 @@
 .frame-section {
   align-self: stretch;
   padding: 0 0 var(--padding-790xl-5);
+
   box-sizing: border-box;
 }
 /* @media screen and (max-width: 1350px) {

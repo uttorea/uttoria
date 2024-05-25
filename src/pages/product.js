@@ -20,7 +20,7 @@ const Product = () => {
         <FrameComponent5 />
         <div className="image-116-group">
           <img className="image-116-icon1" alt="" src="/image-116-1@2x.png" />
-          {/* <div className="frame-parent1">
+          <div className="frame-parent1">
             <div className="home-wrapper">
               <div className="home1">Home</div>
             </div>
@@ -41,7 +41,7 @@ const Product = () => {
             <div className="contact-us-wrapper">
               <div className="contact-us2">Contact Us</div>
             </div>
-          </div> */}
+          </div>
         </div>
         <section className="product-1-parent">
           {/* <Product2 /> */}
