@@ -10,9 +10,9 @@ const FrameComponent3 = () => {
         <h1 className="our-customer">{`Our Customer `}</h1>
         <div className="backgroundborderoverlayblur-parent10">
           <BackgroundBorderOverlayBlur />
+          {/* <BackgroundBorderOverlayBlur />
           <BackgroundBorderOverlayBlur />
-          <BackgroundBorderOverlayBlur />
-          <BackgroundBorderOverlayBlur />
+          <BackgroundBorderOverlayBlur /> */}
           {/* <BackgroundBorderOverlayBlur /> */}
         </div> 
       </div>

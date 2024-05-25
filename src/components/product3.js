@@ -165,7 +165,7 @@ const Product3 = () => {
           className="zoom-controls"
           onMouseMove={handleMouseMove}
           onTouchMove={handleTouchMove}
-          style={{ right: '50px', top: '40%', height: '150px', width: '50px' }}
+          style={{ right: '50px', top: '40%', height: '150px', width: '50px', }}
         >
           <div
             className="zoom-handle"
