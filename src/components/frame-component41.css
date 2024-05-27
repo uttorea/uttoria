@@ -1,5 +1,5 @@
 .enhance-safety-with {
-  margin: 0;
+  /* margin-top:10px; */
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-29xl);
@@ -92,7 +92,7 @@
   height: 343.7px;
   border-radius: 6.25px;
   overflow: hidden;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
 }
 .backgroundborder-inner,
@@ -349,6 +349,7 @@
   font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
+
 }
 @media screen and (max-width: 1350px) {
   .backgroundborder-inner {
@@ -410,11 +411,12 @@
 @media screen and (max-width: 450px) {
   .enhance-safety-with {
     font-size: var(--font-size-10xl);
-    line-height: 7px;
+    line-height: 35px;
   }
   .our-inflatable-solutions-container {
     font-size: var(--font-size-lgi);
     line-height: 37px;
+    height: 100%;
   }
   .backgroundborder9 {
     gap: var(--gap-lg);
@@ -428,7 +430,7 @@
     line-height: 26px;
   }
   .explore-inflatable-airbags {
-    line-height: 12px;
+    line-height: 20px;
   }
   .frame-parent44 {
     gap: var(--gap-mini);

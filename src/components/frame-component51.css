@@ -9,6 +9,7 @@
   font-family: inherit;
   flex-shrink: 0;
   z-index: 1;
+  margin-top: 50px;
 }
 .our-recovery-system {
   width: 938.7px;
@@ -93,6 +94,7 @@
   max-width: 100%;
 }
 .home-inner2 {
+  width: 100%;
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -105,6 +107,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+ 
 }
 @media screen and (max-width: 1350px) {
   .home-inner2 {
@@ -134,7 +137,7 @@
 @media screen and (max-width: 450px) {
   .discover-our-recovery {
     font-size: var(--font-size-10xl);
-    line-height: 7px;
+    line-height: 35px;
   }
   .our-recovery-system {
     font-size: var(--font-size-lgi);

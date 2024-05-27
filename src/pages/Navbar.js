@@ -1,77 +1,74 @@
-import React from 'react'
-import './Navbar.css'
-import { useCallback } from "react";
+import React, { useState, useCallback } from 'react';
+import './Navbar.css';
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const navigate = useNavigate();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-      const onImage116Click = useCallback(() => {
+    const onImage116Click = useCallback(() => {
         navigate("/");
-      }, [navigate]);
-    
-      const onHomeText1Click = useCallback(() => {
-        navigate("/");
-      }, [navigate]);
+    }, [navigate]);
 
-      const onParachuteClick = useCallback(() => {
+    const onHomeText1Click = useCallback(() => {
+        navigate("/");
+        setIsMenuOpen(false);
+    }, [navigate]);
+
+    const onParachuteClick = useCallback(() => {
         navigate("/product");
-      }, [navigate]);
+        setIsMenuOpen(false);
+    }, [navigate]);
 
-      const onInflatableClick = useCallback(() => {
+    const onInflatableClick = useCallback(() => {
         navigate("/");
-      }, [navigate]);
-    
-      const onAboutUsText1Click = useCallback(() => {
+        setIsMenuOpen(false);
+    }, [navigate]);
+
+    const onAboutUsText1Click = useCallback(() => {
         navigate("/about-us");
-      }, [navigate]);
-    
-      const onContactUsText1Click = useCallback(() => {
+        setIsMenuOpen(false);
+    }, [navigate]);
+
+    const onContactUsText1Click = useCallback(() => {
         navigate("/contact-us");
-      }, [navigate]);
-    
-  return (
-    <div className="frame-parent24">
-    <div className="image-116-frame">
-      <img
-        className="image-116-icon7"
-        loading="lazy"
-        alt=""
-        src="/image-1161@2x.png"
-        onClick={onImage116Click}
-      />
-    </div>
-    <div className="frame-parent25">
-      <div className="home-wrapper4">
-        <div className="home8" onClick={onHomeText1Click}>
-          Home
-        </div>
-      </div>
-      <div className="parachute-recovery-system7">
-      <div className="home8" onClick={onParachuteClick}>
-        Parachute recovery system
-      </div>
-      </div>
+        setIsMenuOpen(false);
+    }, [navigate]);
 
-      <div className="inflatable-airbags-system-frame">
-        <div className="inflatable-airbags-system7" onClick={onInflatableClick}>
-          Inflatable airbags system
-        </div>
-      </div>
-      <div className="frame-child16" />
-      <div className="about-us-wrapper4">
-        <div className="about-us8" onClick={onAboutUsText1Click}>
-          About us
-        </div>
-      </div>
-      <div className="contact-us-wrapper4">
-        <div className="contact-us8" onClick={onContactUsText1Click}>
-          Contact Us
-        </div>
-      </div>
-    </div>
-  </div>
-  )
-}
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
-export default Navbar
+    return (
+        <div className="navbar">
+            <div className="navbar-container">
+                <img
+                    className="logo"
+                    loading="lazy"
+                    alt="Logo"
+                    src="/image-1161@2x.png"
+                    onClick={onImage116Click}
+                />
+                <div className="navbar-menu">
+                    <div className="navbar-item" onClick={onHomeText1Click}>Home</div>
+                    <div className="navbar-item" onClick={onParachuteClick}>Parachute recovery system</div>
+                    <div className="navbar-item" onClick={onInflatableClick}>Inflatable airbags system</div>
+                    <div className="navbar-item" onClick={onAboutUsText1Click}>About us</div>
+                    <div className="navbar-item" onClick={onContactUsText1Click}>Contact Us</div>
+                </div>
+                <div className="hamburger-menu" onClick={toggleMenu}>
+                    &#9776;
+                </div>
+            </div>
+            <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
+                <div className="mobile-menu-item" onClick={onHomeText1Click}>Home</div>
+                <div className="mobile-menu-item" onClick={onParachuteClick}>Parachute recovery system</div>
+                <div className="mobile-menu-item" onClick={onInflatableClick}>Inflatable airbags system</div>
+                <div className="mobile-menu-item" onClick={onAboutUsText1Click}>About us</div>
+                <div className="mobile-menu-item" onClick={onContactUsText1Click}>Contact Us</div>
+            </div>
+        </div>
+    );
+};
+
+export default Navbar;

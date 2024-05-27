@@ -1,57 +1,16 @@
-// Import React, Swiper React components, and Swiper styles
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
+import "./background-border-overlay-blur.css";
 
-// Import required Swiper modules
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-
-// Custom CSS
-import './background-border-overlay-blur.css';
-
-export default function BackgroundBorderOverlayBlur() {
+const BackgroundBorderOverlayBlur = () => {
   return (
-    <>
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 20,
-          stretch: 0,
-          depth: 200,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        loop={true}
-        pagination={{ clickable: true }} // Enable pagination
-        modules={[EffectCoverflow, Pagination, Navigation]} // Include the necessary modules
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt='#' src='/drone 1.png'/>
-        </SwiperSlide>
-      </Swiper>
-    </>
+    <div className="backgroundborderoverlayblur1">
+      <div className="heading-2">
+        <div className="heading-2-child" />
+        <div className="name-wrapper">
+          <div className="name3">name</div>
+        </div>
+      </div>
+    </div>
   );
-}
+};
+
+export default BackgroundBorderOverlayBlur;

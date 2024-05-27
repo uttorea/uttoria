@@ -116,7 +116,7 @@
 }
 .rectangle-parent5 {
   align-self: stretch;
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-shrink: 0;
   display: flex;
   flex-direction: column;

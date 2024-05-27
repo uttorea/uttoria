@@ -395,7 +395,6 @@
   align-self: stretch;
   justify-content: center;
   padding-top: 8%;
-  /* padding: 0 var(--padding-xl) var(--padding-85xl-6); */
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-45xl);
@@ -429,7 +428,8 @@
     gap: var(--gap-33xl);
   }
   .frame-wrapper12 {
-    padding-bottom: var(--padding-49xl);
+    /* padding-bottom: var(--padding-49xl); */
+    padding: 20px;
     box-sizing: border-box;
   }
 }

@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS library
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./frame-component21.css";
+import ButtonWithPopup from "./ButtonWithPopup";
 
 const FrameComponent2 = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedSystem, setSelectedSystem] = useState("");
   const [email, setEmail] = useState("");
-
-  const handleIconClick = (system) => {
-    setSelectedSystem(system);
-    setIsPopupOpen(true);
-  };
 
   const handleClosePopup = () => {
     setIsPopupOpen(false);
@@ -35,14 +31,20 @@ const FrameComponent2 = () => {
   const sendEmail = async (system, email) => {
     try {
       await emailjs.send(
-        'service_utx929k', // Replace with your EmailJS service ID
-        'template_5w3q5pt', // Replace with your EmailJS template ID
+        "service_utx929k", // Replace with your EmailJS service ID
+        "template_5w3q5pt", // Replace with your EmailJS template ID
         { system, email },
-        'N2fOyjGttFJAEtRu_' // Replace with your EmailJS user ID
+        "N2fOyjGttFJAEtRu_" // Replace with your EmailJS user ID
       );
     } catch (error) {
-      throw new Error('Failed to send email');
+      throw new Error("Failed to send email");
     }
+  };
+
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+
+  const togglePopup = () => {
+    setIsPopupVisible(!isPopupVisible);
   };
 
   return (
@@ -50,9 +52,9 @@ const FrameComponent2 = () => {
       <div className="frame-child35" />
       <h1 className="download-brochure1">{`Download Brochure`}</h1>
       <div className="frame-parent48">
-        <div 
-          className="backgroundborderoverlayblur-parent11 clickable" 
-          onClick={() => handleIconClick("Small & Medium UAV Recovery System")}
+        <div
+          className="backgroundborderoverlayblur-parent11 clickable"
+          onClick={togglePopup}
         >
           <img
             className="backgroundborderoverlayblur-icon11"
@@ -62,10 +64,11 @@ const FrameComponent2 = () => {
           />
           <div className="small-medium1">{`Small & Medium UAV recovery system`}</div>
         </div>
-        <div 
-          className="backgroundborderoverlayblur-parent12 clickable" 
-          onClick={() => handleIconClick("VTOL / UAM Recovery System")}
+        <div
+          className="backgroundborderoverlayblur-parent12 clickable"
+          onClick={togglePopup}
         >
+          
           <img
             className="backgroundborderoverlayblur-icon12"
             loading="lazy"
@@ -74,10 +77,12 @@ const FrameComponent2 = () => {
           />
           <div className="vtol-uam1">VTOL / UAM recovery system</div>
         </div>
-        <div 
-          className="backgroundborderoverlayblur-parent13 clickable" 
-          onClick={() => handleIconClick("Inflatables for UAV Recovery System")}
+        <div
+          className="backgroundborderoverlayblur-parent13 clickable"
+          onClick={togglePopup}
         >
+
+
           <img
             className="backgroundborderoverlayblur-icon13"
             loading="lazy"
@@ -89,7 +94,12 @@ const FrameComponent2 = () => {
           </div>
         </div>
       </div>
-      {isPopupOpen && (
+
+      <ButtonWithPopup
+        togglePopup={togglePopup}
+        isPopupVisible={isPopupVisible}
+      />
+      {/* {isPopupOpen && (
         <div className="popup">
           <div className="popup-content">
             <h2>Request Details for {selectedSystem}</h2>
@@ -103,7 +113,7 @@ const FrameComponent2 = () => {
             <button onClick={handleClosePopup}>Close</button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

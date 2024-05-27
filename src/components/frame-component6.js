@@ -16,14 +16,9 @@ const FrameComponent6 = () => {
           </div>
           <div className="backgroundborder8">
             <img
-              className="generateanimagedepictingamoder-icon"
-              alt=""
-              src="/generateanimagedepictingamodernurbanlandscapewithdronesoperatingoverheadthesceneshouldconveyasenseofcontemporarytechnologyandsafetymeasuresindroneoperationsshowdrone1-1@2x.png"
-            />
-            <img
               className="unnamed-2-icon"
               alt=""
-              // style={}
+              
               src="/drone 1.png"
             />
             <div className="backgroundborder-item" />
