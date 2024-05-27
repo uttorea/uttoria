@@ -22,11 +22,8 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-<<<<<<< HEAD
-    console.log('Form Data:', formData); // Log formData
-=======
     console.log('Form Data:', formData); 
->>>>>>> 9fbc218b823bb69cbf27590ed96affc126f5fe6c
+    console.log('Form Data:', formData); 
     emailjs.send('service_utx929k', 'template_5w3q5pt', formData, 'N2fOyjGttFJAEtRu_')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
@@ -40,10 +37,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <main className="frame-parent">
-<<<<<<< HEAD
-        <Navbar/>
-=======
->>>>>>> 9fbc218b823bb69cbf27590ed96affc126f5fe6c
+
         <section className="parent">
         <Navbar />
        
@@ -75,11 +69,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 9fbc218b823bb69cbf27590ed96affc126f5fe6c
             <form onSubmit={handleSubmit}>
               <textarea
                 className="frame-textarea"
@@ -143,11 +133,6 @@ const ContactUs = () => {
                 <div className="send-message">Send message</div>
               </button>
             </form>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 9fbc218b823bb69cbf27590ed96affc126f5fe6c
             <div className="for-general-other-inquiries-parent">
               <div className="for-general-other-inquiries">
                 <div className="spanelementor-icon">
