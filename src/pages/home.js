@@ -1,14 +1,14 @@
 import { useCallback } from "react";
 import FrameComponent6 from "../components/frame-component6";
-// import FrameComponent5 from "../components/frame-component5";
-import FrameComponent4 from "../components/frame-component4";
-import FrameComponent3 from "../components/frame-component3";
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import FrameComponent41 from "../components/frame-component41";
 import FrameComponent51 from '../components/frame-component51';
 import FrameComponent31 from '../components/frame-component31'
+import ButtonWithPopup from "../components/ButtonWithPopup";
+
+
 import Navbar from "./Navbar";
 
 import { useNavigate } from "react-router-dom";
@@ -20,9 +20,7 @@ const Home = () => {
   return (
     <div className="home2">
       <Navbar/>
-
-    
-      <div className="overlay2" />
+      {/* <div className="overlay2" /> */}
       <section className="home-inner">
         <div className="frame-parent2">
           <div className="uttorea-group">
@@ -33,6 +31,8 @@ const Home = () => {
             <div className="imbibing-the-qualities1">{`Imbibing the qualities of our name, Uttoria’s goal is about bringing safety & protection to Unmanned Aerial Systems (UAS), Remotely Piloted Aerial Systems (RPAS)  & Urban Air Mobility (UAM) operations.`}</div>
           </div>
         </div>
+
+        
       </section>
       <section className="home-child">
         <div className="empowering-unmanned-aerial-op-parent">
@@ -52,18 +52,20 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
       <FrameComponent6 />
       <FrameComponent51/>
       <FrameComponent41/>
-      <FrameComponent31/>
+      {/* <FrameComponent31/> */}
         <FrameComponent2 />
         <FrameComponent1 />
 
-      <footer className="frame-footer">
+    
       <FrameComponent />
-      </footer>
+      
      
+    
+     
+      <ButtonWithPopup/>
     </div>
   );
 };

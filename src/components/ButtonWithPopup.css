@@ -1,0 +1,118 @@
+.open-popup-btn27 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup-overlay27 {
+    position:fixed;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content27 {
+    background: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1199px;
+    height: 500px;
+    max-width: 100%;
+    text-align: center;
+    color: #a0f9ff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  
+  .popup-content27 .One-last-step {
+    color: #00f7ff;
+    font-size: 48px;
+  }
+  .One-last-step{
+    padding: 0px;
+    margin: 0px;
+  }
+  .provide-your-email{
+font-size: 32px;
+margin-top: 15px;
+color: #00f7ff;
+font-family: urbanist;
+
+  }
+  
+  .download-small{
+    color: #3B69B2;
+    font-size: 24px;
+    font-family: urbanist;
+   
+  }
+  
+  .popup-form27 {
+    display: flex;
+    margin-top: 10px;
+    gap: 100px;
+    width: 80%;
+    padding-left: 70px;
+  }
+ 
+  
+  .form-group27 {
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .form-group27 label {
+    display: block;
+    color: #3B69B2;
+    font-size: 28.69px;
+    font-family: urbanist;
+    
+  
+  }
+  .form-group27 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7b77ff;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #7b77ff;
+    background: #333;
+  }
+  
+  .submit-btn27 {
+    font-size: 24px;
+    padding:10px 60px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    border: 2px solid cyan;
+  
+    
+  }
+  .popup-btn-submit{
+    width: 88%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .privacy-text27 {
+    margin-top: 60px;
+    color: #3B69B2;
+    font-size: 24px;
+    font-family: urbanist;
+  }
+  
