@@ -115,7 +115,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  
+  /* background: url('../../public/Frame\ 427318926\ 4.png');  */
  
 }
 @media screen and (max-width: 1350px) {

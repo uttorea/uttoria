@@ -355,6 +355,8 @@
   font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
+  /* background: url('../../public/Frame\ 427318926\ 5.png'); */
+
 
 }
 @media screen and (max-width: 1350px) {

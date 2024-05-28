@@ -130,6 +130,8 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  
+
 }
 @media screen and (max-width: 1350px) {
   .backgroundborder7 {

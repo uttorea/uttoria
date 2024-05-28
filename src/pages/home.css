@@ -163,6 +163,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  background: url('../../public/Frame\ 427318926\ 3.png');
 }
 .image-116-icon2 {
   height: 92px;
@@ -899,4 +900,16 @@
   .contact-us6 {
     line-height: 18px;
   }
+ .background-video{
+
+  width: 100%;
+  height: 50vh;
+  padding: 0;
+ }
+ .home-inner{
+  padding: 0;
+  padding-top: 60px;
+  /* height: 100vh; */
+ }
+
 }
