@@ -41,10 +41,9 @@ const FrameComponent2 = () => {
     }
   };
 
-  const [isPopupVisible, setIsPopupVisible] = useState(false);
-
-  const togglePopup = () => {
-    setIsPopupVisible(!isPopupVisible);
+  const togglePopup = (systemName) => {
+    setSelectedSystem(systemName);
+    setIsPopupOpen(!isPopupOpen);
   };
 
   return (
@@ -54,7 +53,7 @@ const FrameComponent2 = () => {
       <div className="frame-parent48">
         <div
           className="backgroundborderoverlayblur-parent11 clickable"
-          onClick={togglePopup}
+          onClick={() => togglePopup("Small & Medium UAV recovery system")}
         >
           <img
             className="backgroundborderoverlayblur-icon11"
@@ -66,9 +65,8 @@ const FrameComponent2 = () => {
         </div>
         <div
           className="backgroundborderoverlayblur-parent12 clickable"
-          onClick={togglePopup}
+          onClick={() => togglePopup("VTOL / UAM recovery system")}
         >
-          
           <img
             className="backgroundborderoverlayblur-icon12"
             loading="lazy"
@@ -79,10 +77,8 @@ const FrameComponent2 = () => {
         </div>
         <div
           className="backgroundborderoverlayblur-parent13 clickable"
-          onClick={togglePopup}
+          onClick={() => togglePopup("Inflatables for UAV recovery system")}
         >
-
-
           <img
             className="backgroundborderoverlayblur-icon13"
             loading="lazy"
@@ -95,25 +91,13 @@ const FrameComponent2 = () => {
         </div>
       </div>
 
-      <ButtonWithPopup
-        togglePopup={togglePopup}
-        isPopupVisible={isPopupVisible}
-      />
-      {/* {isPopupOpen && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Request Details for {selectedSystem}</h2>
-            <form onSubmit={handleSubmit}>
-              <label>
-                Email:
-                <input type="email" value={email} onChange={handleEmailChange} required />
-              </label>
-              <button type="submit">Submit</button>
-            </form>
-            <button onClick={handleClosePopup}>Close</button>
-          </div>
-        </div>
-      )} */}
+      {isPopupOpen && (
+        <ButtonWithPopup
+          togglePopup={() => togglePopup("")}
+          isPopupVisible={isPopupOpen}
+          selectedSystem={selectedSystem}
+        />
+      )}
     </div>
   );
 };
