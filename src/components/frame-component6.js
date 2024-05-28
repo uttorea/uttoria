@@ -19,7 +19,7 @@ const FrameComponent6 = () => {
               className="unnamed-2-icon"
               alt=""
               
-              src="/drone 1.png"
+              src="/Layer_1.png"
             />
             <div className="backgroundborder-item" />
           </div>

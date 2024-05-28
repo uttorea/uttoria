@@ -6,13 +6,13 @@ import FrameComponent from "../components/frame-component";
 import FrameComponent41 from "../components/frame-component41";
 import FrameComponent51 from '../components/frame-component51';
 import FrameComponent31 from '../components/frame-component31'
-import ButtonWithPopup from "../components/ButtonWithPopup";
 
 
 import Navbar from "./Navbar";
 
 import { useNavigate } from "react-router-dom";
 import "./home.css";
+import backGround from '../assert/Uttorea H.mp4'
 
 const Home = () => {
  
@@ -20,9 +20,12 @@ const Home = () => {
   return (
     <div className="home2">
       <Navbar/>
-      {/* <div className="overlay2" /> */}
       <section className="home-inner">
-        <div className="frame-parent2">
+        <video autoPlay muted loop playsInline className="background-video">
+          <source src={backGround} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* <div className="frame-parent2">
           <div className="uttorea-group">
             <h1 className="uttorea1">Uttorea</h1>
             <h2 className="rescue-safety1">{`Rescue & Safety systems`}</h2>
@@ -30,15 +33,14 @@ const Home = () => {
           <div className="imbibing-the-qualities-of-our-wrapper">
             <div className="imbibing-the-qualities1">{`Imbibing the qualities of our name, Uttoria’s goal is about bringing safety & protection to Unmanned Aerial Systems (UAS), Remotely Piloted Aerial Systems (RPAS)  & Urban Air Mobility (UAM) operations.`}</div>
           </div>
-        </div>
-
-        
+        </div> */}
       </section>
+
       <section className="home-child">
         <div className="empowering-unmanned-aerial-op-parent">
           <h1 className="empowering-unmanned-aerial-container">
             <p className="empowering">{`“Empowering `}</p>
-            <p className="unmanned-aerial-operations">{`unmanned aerial operations `}</p>
+            <p className="unmanned-aerial-operations">{`unmanned aerial Movement/ Movability `}</p>
             <p className="to-fly-everywhere">to fly everywhere safely.”</p>
           </h1>
           <div className="backgroundborder2">
@@ -52,10 +54,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <FrameComponent6 />
       <FrameComponent51/>
       <FrameComponent41/>
-      {/* <FrameComponent31/> */}
+      <FrameComponent6 />
+      <FrameComponent31/>
         <FrameComponent2 />
         <FrameComponent1 />
 
@@ -65,7 +67,7 @@ const Home = () => {
      
     
      
-      <ButtonWithPopup/>
+      
     </div>
   );
 };

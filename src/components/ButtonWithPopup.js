@@ -4,20 +4,13 @@ import React, { useState } from 'react';
 import './ButtonWithPopup.css';
 
 const ButtonWithPopup = ({togglePopup, isPopupVisible}) => {
-  // const [isPopupVisible, setIsPopupVisible] = useState(false);
-
-  // const togglePopup = () => {
-  //   setIsPopupVisible(!isPopupVisible);
-  // };
-
   return (
     <div>
-      {/* <button className="open-popup-btn" onClick={togglePopup}>
-        Open Popup
-      </button> */}
+    
       
       {isPopupVisible && (
         <div className="popup-overlay27" onClick={togglePopup}>
+          <button className="close-btn27" onClick={togglePopup}>×</button>
           <div className="popup-content27" onClick={(e) => e.stopPropagation()}>
             <h2 className='One-last-step'>One Last Step!</h2>
             <p className='provide-your-email'>Provide Your Email, And We'll Email Your Brochure</p>

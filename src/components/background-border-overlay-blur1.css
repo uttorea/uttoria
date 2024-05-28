@@ -82,6 +82,8 @@
   font-size: var(--font-size-5xl);
   color: var(--cyan);
   font-family: var(--font-poppins);
+  background-color: rgba(59, 105, 178, 0.1);
+  
 }
 @media screen and (max-width: 900px) {
   .backgroundborderoverlayblur {

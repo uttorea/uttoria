@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./frame-component41.css";
 
-const FrameComponent4 = () => {
+const FrameComponent41 = () => {
   const navigate = useNavigate();
 
   const onFrameButtonClick = useCallback(() => {
@@ -125,4 +125,4 @@ const FrameComponent4 = () => {
   );
 };
 
-export default FrameComponent4;
+export default FrameComponent41;
