@@ -4,6 +4,7 @@ import './frame-component.css';
 const FrameComponent = () => {
   return (
     <footer className="footer">
+      <hr/>
       <div className="footer-top">
         <div className="footer-section-1">
           <img
