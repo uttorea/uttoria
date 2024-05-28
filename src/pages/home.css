@@ -1,4 +1,6 @@
-
+.background-video{
+  width: 102.9%;
+}
 .rescue-safety1,
 .uttorea1 {
   margin: 0;
@@ -67,6 +69,7 @@
   justify-content: flex-start;
   gap: 107.7px;
 }
+
 .home-inner {
   align-self: stretch;
   flex-direction: row;
@@ -77,6 +80,10 @@
   font-size: var(--font-size-109xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
+  height: 110vh;
+  
+  
+ 
 }
 .empowering,
 .to-fly-everywhere,
@@ -90,10 +97,10 @@
   text-transform: capitalize;
 }
 .empowering-unmanned-aerial-container {
-  margin: 0;
+  margin-top: 450px;
   align-self: stretch;
   font-size: inherit;
-  line-height: 89px;
+  line-height: 80px;
   font-weight: 700;
   font-family: inherit;
   z-index: 1;
@@ -126,7 +133,9 @@
   border: 1px solid var(--color-gray-100);
   box-sizing: border-box;
   flex-direction: row;
-  padding: var(--padding-46xl) var(--padding-61xl);
+  /* padding: var(--padding-46xl) var(--padding-61xl); */
+  padding: 40px 80px;
+  margin-left: 22px;
   z-index: 1;
   text-align: left;
   font-size: var(--font-size-5xl);
@@ -734,7 +743,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-whitesmoke-300);
   font-family: var(--font-urbanist);
- background-image: url('../../public/Frame\ 427318926\ 1.png');
+ background-image: url('../../public/Frame\ 427318928.png');
 }
 @media screen and (max-width: 1725px) {
   .frame-parent3,

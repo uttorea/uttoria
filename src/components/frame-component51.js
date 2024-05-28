@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import BackgroundBorderOverlayBlur1 from "./background-border-overlay-blur1";
 import "./frame-component51.css";
 
-const FrameComponent5 = () => {
+const FrameComponent51 = () => {
   const navigate = useNavigate();
 
   const onFrameContainer1Click = useCallback(() => {
@@ -34,7 +34,7 @@ const FrameComponent5 = () => {
                 onFrameContainer1Click={onFrameContainer1Click}
               />
               <BackgroundBorderOverlayBlur1
-                image54="/image-125@2x.png"
+                image54="/unnamed 7.png"
                 arsenTM="DicerisTM"
                 vector="/vector-1.svg"
                 propPadding="var(--padding-157xl) 0px var(--padding-138xl)"
@@ -59,4 +59,4 @@ const FrameComponent5 = () => {
   );
 };
 
-export default FrameComponent5;
+export default FrameComponent51;

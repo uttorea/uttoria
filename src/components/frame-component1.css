@@ -33,6 +33,7 @@
   color: var(--color-gray-800);
   white-space: pre-wrap;
   z-index: 1;
+  font-weight: 200;
 }
 .need-help-lets-discuss-you-group {
   width: 488.4px;
@@ -45,6 +46,7 @@
   max-width: 100%;
 }
 .name2 {
+  color: #3B69B2;
   position: relative;
   text-transform: capitalize;
   font-weight: 500;
@@ -109,9 +111,10 @@
   display: inline-block;
   min-width: 102px;
   z-index: 1;
+  color: #3B69B2;
 }
 .frame-child24,
-.phno-name2 {
+.phno-name27 {
   position: relative;
   max-width: 100%;
 }
@@ -122,7 +125,7 @@
   box-sizing: border-box;
   display: none;
 }
-.phno-name2 {
+.phno-name27 {
   width: 100%;
   border: 0;
   outline: 0;
@@ -176,6 +179,7 @@
   display: inline-block;
   min-width: 70px;
   z-index: 1;
+  color: #3B69B2;
 }
 .frame-child25 {
   height: 62.8px;
@@ -186,7 +190,7 @@
   display: none;
   max-width: 100%;
 }
-.your-email-address2 {
+.your-email-address22 {
   width: 350.6px;
   position: relative;
   line-height: 32.3px;
@@ -196,6 +200,8 @@
   transform: rotate(-0.1deg);
   max-width: 100%;
   z-index: 2;
+  background-color: transparent;
+  font-weight: 200;
 }
 .rectangle-parent8 {
   align-self: stretch;
@@ -252,6 +258,7 @@
   display: inline-block;
   min-width: 97px;
   z-index: 1;
+  color: #3B69B2;
 }
 .frame-child26 {
   height: 62.8px;
@@ -400,6 +407,7 @@
   font-size: var(--font-size-45xl);
   color: var(--secondary);
   font-family: var(--font-poppins);
+  margin-bottom: 200px;
 }
 @media screen and (max-width: 1350px) {
   .need-help-lets-discuss-you-group {
@@ -452,14 +460,14 @@
   .contact2 {
     font-size: var(--font-size-4xl);
   }
-  .phno-name2 {
+  .phno-name27 {
     font-size: var(--font-size-mid);
     line-height: 26px;
   }
   .email2 {
     font-size: var(--font-size-4xl);
   }
-  .your-email-address2 {
+  .your-email-address22 {
     font-size: var(--font-size-mid);
     line-height: 26px;
   }

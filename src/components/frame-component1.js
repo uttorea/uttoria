@@ -35,7 +35,7 @@ const FrameComponent1 = () => {
               <div className="rectangle-parent7">
                 <div className="frame-child24" />
                 <input
-                  className="phno-name2"
+                  className="phno-name27"
                   placeholder="Phno. name"
                   type="text"
                 />
@@ -49,7 +49,7 @@ const FrameComponent1 = () => {
                 <div className="frame-parent38">
                   <div className="rectangle-parent8">
                     <div className="frame-child25" />
-                    <div className="your-email-address2">
+                    <div className="your-email-address22">
                       Your email address
                     </div>
                   </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import "./frame-component21.css";
+import "./frame-component2.css";
 import ButtonWithPopup from "./ButtonWithPopup";
 
 const FrameComponent2 = () => {
