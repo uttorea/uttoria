@@ -44,6 +44,7 @@
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0)
   );
+  box-shadow: var(--blue-blur);
   border: 1px solid var(--color-whitesmoke-400);
   overflow: hidden;
   flex-direction: row;

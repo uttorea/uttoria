@@ -146,6 +146,7 @@
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
+  box-shadow: var(--blue-blur);
 }
 .multirotor-drone-for2,
 .sea-based-recovery2 {
@@ -209,6 +210,8 @@
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
+  box-shadow: var(--blue-blur);
+
 }
 .fixed-wing-drone5,
 .sea-based-recovery3 {
@@ -231,6 +234,8 @@
   box-sizing: border-box;
   gap: var(--gap-sm-4);
   max-width: 100%;
+
+
 }
 .backgroundborderoverlayblur-icon10 {
   align-self: stretch;
@@ -238,6 +243,7 @@
   position: relative;
   border-radius: var(--br-base);
   max-width: 100%;
+  box-shadow: var(--blue-blur);
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -346,6 +352,7 @@
   flex-shrink: 0;
 }
 .home-inner3 {
+  
   align-self: stretch;
   display: flex;
   flex-direction: row;

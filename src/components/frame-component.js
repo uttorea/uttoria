@@ -4,7 +4,6 @@ import './frame-component.css';
 const FrameComponent = () => {
   return (
     <footer className="footer">
-      <hr/>
       <div className="footer-top">
         <div className="footer-section-1">
           <img
@@ -38,7 +37,7 @@ const FrameComponent = () => {
         </div>
         <div className="footer-section-office">
           <h3>Office</h3>
-          <p style={{ textAlign: 'start', width:'90%'}}>
+          <p style={{ textAlign: 'start', width:'60%'}}>
             DJAC, SIIC building, IIT Kanpur 208016
           </p>
         </div>

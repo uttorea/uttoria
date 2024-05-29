@@ -1,11 +1,25 @@
-.need-help1 {
-  color: var(--cyan);
-}
+
 .discuss1,
 .lets1,
 .need-help1 {
   margin-block-start: 0;
-  margin-block-end: 19px;
+  margin-block-end: 10px;
+  
+}
+.need-help1 {
+  margin-top: 0;
+  padding-top: 0;
+  color: var(--cyan);
+  margin-bottom: 20px;
+  font-family: poppins;
+  
+}
+.discuss1,
+.lets1,
+.your-vision1{
+  font-size: 64px;
+  font-family: poppins;
+  margin: 0;
 }
 .your-vision1 {
   margin: 0;
@@ -34,6 +48,7 @@
   white-space: pre-wrap;
   z-index: 1;
   font-weight: 200;
+  padding-top: 40px;
 }
 .need-help-lets-discuss-you-group {
   width: 488.4px;
@@ -407,6 +422,7 @@
   /* height: 100vh; */
 }
 .frame-wrapper12 {
+
   padding-bottom: 15%;
   align-self: stretch;
   justify-content: center;
@@ -434,6 +450,13 @@
   .need-help-lets-discuss-you-group {
     min-width: 100%;
   }
+  .lets1,
+  .discuss1,
+  .your-vision1{
+    font-size: 45px;
+    line-height: 50px;
+
+  }
   .frame-parent35,
   .frame-parent37 {
     flex-wrap: wrap;
@@ -448,6 +471,9 @@
 
     padding: 20px;
     box-sizing: border-box;
+  }
+  .whether-youre-seeking1{
+    line-height: 37px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -491,9 +517,10 @@
   .send-message2 {
     font-size: var(--font-size-mid);
   }
+  .message2{
+    right: 68%;
+  }
   .send-message-frame {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
   .frame-parent34 {
@@ -501,5 +528,15 @@
   }
   .frame-parent33 {
     gap: var(--gap-7xl);
+  }
+  .need-help1{
+    font-size: 30px;
+  }
+  .lets1,
+  .discuss1,
+  .your-vision1{
+    font-size: 28px;
+    line-height: 35px;
+
   }
 }

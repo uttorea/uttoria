@@ -44,6 +44,8 @@
   flex-wrap: wrap;
   gap: var(--gap-83xl);
   color: var(--cyan);
+  box-shadow: var(--blue-blur);
+ 
 
 }
 .explore-our-range {
