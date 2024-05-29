@@ -60,7 +60,7 @@ const FrameComponent2 = () => {
             alt=""
             src="/backgroundborderoverlayblur-4.svg"
           />
-          <div className="small-medium1">{`Small & Medium UAV recovery system`}</div>
+          <div className="small-medium1">Small & Medium UAV recovery system</div>
         </div>
         <div
           className="backgroundborderoverlayblur-parent12 clickable"

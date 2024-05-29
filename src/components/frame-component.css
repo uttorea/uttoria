@@ -16,6 +16,7 @@
   align-items: flex-start;
   width: 100%;
   flex-direction: column;
+  padding-left: 15%;
 }
 
 .footer-section-1 {
@@ -38,7 +39,7 @@
 .foter-h2 h2 {
   margin: 0;
   font-size: 33.95px;
-  font-weight: 900; /* Corrected font-weight */
+  font-weight: 900; 
   font-family: urbanist;
   padding-bottom: 0px;
   padding-left: 5px;
@@ -51,13 +52,14 @@
 }
 
 hr {
-  width: 100%;
+  width: 94%;
   margin: 0px;
+}
+.hrbottom{
+  margin-left: 50px;
 }
 
 .footer-phone {
-  /* margin-top: 1.8%; */
-  /* line-height: 116.08%; */
   font-size: 24px;
   padding-left: 2%;
 }
@@ -69,20 +71,42 @@ hr {
 
 .footer-content {
   display: flex;
+  padding-left: 5%;
   flex-wrap: wrap;
   justify-content: center;
   text-align: left;
-  width: 100%;
+  width: 85%;
   margin-top: 2%;
 }
 
-.footer-section {
+.footer-section-products {
   flex: 1;
-  margin-left: 2%;
+  margin-left: 5%;
+  min-width: 200px;
+}
+.footer-section-services{
+  flex: 1;
+  min-width: 200px;
+}
+.footer-section-office{
+  flex: 1;
+  /* margin-left: 5%; */
   min-width: 200px;
 }
 
-.footer-section h3 {
+.footer-section-products h3 {
+  margin-bottom: 10px;
+  font-size: 27.09px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.footer-section-services h3 {
+  margin-bottom: 10px;
+  font-size: 27.09px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.footer-section-office h3 {
   margin-bottom: 10px;
   font-size: 27.09px;
   font-weight: bold;
@@ -105,7 +129,7 @@ hr {
 
 .social-icons p {
   position: absolute;
-  left: 74%;
+  left: 70%;
 }
 
 .social-icons img {
@@ -114,7 +138,7 @@ hr {
   font-size: 24px;
 }
 
-/* For small devices (phones, 600px and down) */
+
 @media screen and (max-width: 600px) {
   .footer {
     padding: 10px;
@@ -161,16 +185,40 @@ hr {
     align-items: center;
   }
 
-  .footer-section {
+  .footer-section-products {
+    margin: 5px 0;
+    min-width: 100%;
+  }
+  .footer-section-services {
+    margin: 5px 0;
+    min-width: 100%;
+  }
+  .footer-section-office {
     margin: 5px 0;
     min-width: 100%;
   }
 
-  .footer-section h3 {
+  .footer-section-services h3 {
     font-size: 20px;
     
   }
-  .footer-section p{
+  .footer-section-products h3 {
+    font-size: 20px;
+    
+  }
+  .footer-section-office h3 {
+    font-size: 20px;
+    
+  }
+  .footer-section-services p{
+    
+    font-size: 15px;
+  }
+  .footer-section-products p{
+    
+    font-size: 15px;
+  }
+  .footer-section-office p{
     
     font-size: 15px;
   }
@@ -200,75 +248,3 @@ hr {
     height: 30px;
   }
 }
-
-/* For medium devices (tablets, 601px to 768px) */
-/* @media  screen and (min-width: 601px) and (max-width: 768px) {
-  .foter-h2 h2 {
-    font-size: 28px;
-  }
-
-  .foter-h2 p {
-    font-size: 11px;
-  }
-
-  .footer-phone p,
-  .footer-phone {
-    font-size: 20px;
-  }
-
-  .footer-section h3 {
-    font-size: 23px;
-  }
-
-  .social-icons img {
-    font-size: 22px;
-  }
-} */
-
-/* For large devices (tablets/laptops, 769px to 1350px) */
-/* @media screen and (min-width: 769px) and (max-width: 1350px) {
-  .foter-h2 h2 {
-    font-size: 30px;
-  }
-
-  .foter-h2 p {
-    font-size: 12px;
-  }
-
-  .footer-phone p,
-  .footer-phone {
-    font-size: 22px;
-  }
-
-  .footer-section h3 {
-    font-size: 25px;
-  }
-
-  .social-icons img {
-    font-size: 23px;
-  }
-} */
-
-/* For extra large devices (laptops/desktops, 1351px and up) */
-/* @media (min-width: 1351px) {
-  .foter-h2 h2 {
-    font-size: 33.95px;
-  }
-
-  .foter-h2 p {
-    font-size: 12.07px;
-  }
-
-  .footer-phone p,
-  .footer-phone {
-    font-size: 24px;
-  }
-
-  .footer-section h3 {
-    font-size: 27.09px;
-  }
-
-  .social-icons img {
-    font-size: 24px;
-  }
-} */

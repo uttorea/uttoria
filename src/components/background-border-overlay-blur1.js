@@ -63,7 +63,7 @@ const BackgroundBorderOverlayBlur1 = ({
         >
           <span className="explore-arsentm-series-container3">
             <span>{`Explore `}</span>
-            <span className="arsentm1">{arsenTM}</span>
+            <span className="arsentm1">{arsenTM}<sup>TM</sup></span>
             <span> Series</span>
           </span>
         </div>

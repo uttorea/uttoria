@@ -18,9 +18,11 @@
 }
 .arsentm1 {
   font-weight: 600;
+  padding-bottom: 8px;
 }
 .explore-arsentm-series-container3 {
   width: 80%;
+  gap: 10px;
 }
 .explore-arsentm-series-container2 {
   height: 15px;
@@ -47,9 +49,11 @@
 .backgroundborderoverlayblur,
 .explore-arsentm-series-group {
   background: linear-gradient(
-    114.03deg,
+    /* 114.03deg, */
     rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 0),
+    rgba(59, 105, 178, 0.97),
+    
   );
   overflow: hidden;
   display: flex;
