@@ -21,7 +21,7 @@ const FrameComponent6 = () => {
               
               src="/Layer_1.png"
             />
-            <div className="backgroundborder-item" />
+            
           </div>
         </div>
       </div>

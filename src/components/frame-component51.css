@@ -115,7 +115,8 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  /* background: url('../../public/Frame\ 427318926\ 4.png');  */
+  
+
  
 }
 @media screen and (max-width: 1350px) {
@@ -126,34 +127,54 @@
 }
 @media screen and (max-width: 900px) {
   .discover-our-recovery {
-    font-size: var(--font-size-19xl);
+    font-size: 30px;
+    margin: 0;
     line-height: 9px;
   }
   .backgroundborderoverlayblur-parent5 {
     gap: var(--gap-32xl);
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 10%;
   }
   .frame-parent43 {
     gap: var(--gap-11xl);
   }
   .discover-our-recovery-systems-parent {
     gap: var(--gap-37xl);
+    padding: 0;
+    margin-top: 200px;
+   
+  }
+  .our-recovery-system{
+    font-size: 20px;
   }
   .home-inner2 {
     padding-bottom: var(--padding-78xl);
     box-sizing: border-box;
+    /* padding-top: 100px; */
+  }
+  .explore-our-range{
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 450px) {
   .discover-our-recovery {
-    font-size: var(--font-size-10xl);
+   font-size: 20px;
     line-height: 35px;
+    margin-top: 150px;
   }
+  
   .our-recovery-system {
-    font-size: var(--font-size-lgi);
+    font-size: 18px;
     line-height: 24px;
   }
   .backgroundborderoverlayblur-parent5 {
     gap: var(--gap-6xl);
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
   .explore-our-range {
     font-size: var(--font-size-lgi);
@@ -161,5 +182,6 @@
   }
   .discover-our-recovery-systems-parent {
     gap: var(--gap-9xl);
+    
   }
 }

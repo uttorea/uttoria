@@ -46,12 +46,6 @@ const FrameComponent = () => {
       <div className="footer-bottom">
         <hr/>
         <div className="social-icons">
-          {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"></i>
-          </a> */}
           <img
           className="facebook-icon2"
           loading="lazy"

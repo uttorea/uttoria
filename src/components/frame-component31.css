@@ -1,5 +1,5 @@
 .frame-child32 {
-  height: 1080;
+  /* height: 1080; */
   width: calc(100% - 7px);
   position: absolute;
   margin: 0 !important;
@@ -10,7 +10,7 @@
 }
 .frame-child33 {
   width: 100%;
-  height: 1080px;
+  /* height: 1080px; */
   position: relative;
   display: none;
   max-width: 100%;
@@ -37,7 +37,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  /* gap: var(--gap-19xl-8); */
   gap: 40px;
   text-align: left;
   color: var(--color-white);
@@ -209,8 +208,7 @@
   font-size: var(--font-size-5xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  height: 100vh;
-  /* background: url('../../public/Frame\ 427318926\ 7.png'); */
+  
 
 }
 @media screen and (max-width: 1725px) {
@@ -226,11 +224,16 @@
 }
 @media screen and (max-width: 900px) {
   .our-customer {
-    font-size: var(--font-size-19xl);
-    line-height: 9px;
+    padding-top: 0;
+   font-size: 30px;
+    line-height: 37px;
+  }
+  .frame-parent46{
+    padding-top: 0;
   }
   .backgroundborderoverlayblur-parent10 {
-    gap: var(--gap-lgi);
+    margin-top: 50px;
+    gap: 30px;
   }
   .rectangle-parent11 {
     gap: var(--gap-13xl);
@@ -241,8 +244,9 @@
 }
 @media screen and (max-width: 450px) {
   .our-customer {
-    font-size: var(--font-size-10xl);
+    font-size: 20px;
     line-height: 35px;
+    padding-bottom: 40px;
   }
   .home9 {
     font-size: var(--font-size-lgi);
@@ -258,6 +262,9 @@
   .about-us9,
   .contact-us9 {
     line-height: 18px;
+  }
+  .backgroundborderoverlayblur-parent10{
+    gap: 30px;
   }
   .rectangle-parent11 {
     gap: var(--gap-base);

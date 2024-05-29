@@ -31,10 +31,10 @@ const FrameComponent2 = () => {
   const sendEmail = async (system, email) => {
     try {
       await emailjs.send(
-        "service_utx929k", // Replace with your EmailJS service ID
-        "template_5w3q5pt", // Replace with your EmailJS template ID
+        "service_utx929k",
+        "template_5w3q5pt",
         { system, email },
-        "N2fOyjGttFJAEtRu_" // Replace with your EmailJS user ID
+        "N2fOyjGttFJAEtRu_"
       );
     } catch (error) {
       throw new Error("Failed to send email");
@@ -48,7 +48,6 @@ const FrameComponent2 = () => {
 
   return (
     <div className="rectangle-parent12">
-      <div className="frame-child35" />
       <h1 className="download-brochure1">{`Download Brochure`}</h1>
       <div className="frame-parent48">
         <div
