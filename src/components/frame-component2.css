@@ -133,7 +133,7 @@
 }
 @media screen and (max-width: 900px) {
   .download-brochure1 {
-    font-size: var(--font-size-19xl);
+    font-size: 30px;
     line-height: 71px;
   }
   .frame-parent48 {
@@ -147,10 +147,16 @@
     padding-bottom: var(--padding-55xl);
     box-sizing: border-box;
   }
+  .inflatables-for-uav1,
+  .small-medium1,
+  .vtol-uam1 {
+   font-size: 20px;
+    line-height: 26px;
+  }
 }
 @media screen and (max-width: 450px) {
   .download-brochure1 {
-    font-size: var(--font-size-10xl);
+    font-size: 20px;
     line-height: 53px;
   }
   .inflatables-for-uav1,
@@ -162,11 +168,11 @@
   .frame-parent48 {
     display: flex;
     flex-direction: column;
-    
-    /* width: 100%; */
+    width: 80%;
   
   }
   .rectangle-parent12 {
+    /* background-color: red; */
     gap: var(--gap-lg);
     padding-top: var(--padding-41xl);
     padding-bottom: var(--padding-29xl);

@@ -53,11 +53,6 @@ const FrameComponent1 = () => {
                       Your email address
                     </div>
                   </div>
-                  <input
-                    className="message2"
-                    placeholder="Message"
-                    type="text"
-                  />
                 </div>
               </div>
               <div className="subject-group">
@@ -72,6 +67,7 @@ const FrameComponent1 = () => {
                 </div>
               </div>
             </div>
+            <input className="message2" placeholder="Message" type="text" />
             <textarea
               className="frame-child27"
               placeholder="Write your message.."

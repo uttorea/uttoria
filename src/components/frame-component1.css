@@ -226,12 +226,15 @@
   height: 34px;
   position: relative;
   text-transform: capitalize;
-  color: var(--white);
   text-align: left;
   display: inline-block;
   padding: 0;
+  padding-top: 20px;
   z-index: 1;
+  right: 87%;
+  
 }
+
 .email-group,
 .frame-parent38 {
   display: flex;
@@ -325,7 +328,7 @@
 .frame-child27 {
   border: 0.9px solid var(--secondary);
   background-color: transparent;
-  height: 201.3px;
+  /* height: 201.3px; */
   width: auto;
   outline: 0;
   border-radius: 7.17px;
@@ -397,7 +400,7 @@
   width: 1520px;
   justify-content: flex-start;
   gap: var(--gap-84xl-5);
-  height: 100vh;
+  /* height: 100vh; */
 }
 .frame-wrapper12 {
   align-self: stretch;
@@ -437,7 +440,7 @@
     gap: var(--gap-33xl);
   }
   .frame-wrapper12 {
-    /* padding-bottom: var(--padding-49xl); */
+
     padding: 20px;
     box-sizing: border-box;
   }

@@ -37,12 +37,11 @@ const FrameComponent51 = () => {
                 image54="/unnamed 7.png"
                 arsenTM="DicerisTM"
                 vector="/vector-1.svg"
-                propPadding="var(--padding-157xl) 0px var(--padding-138xl)"
+                propPadding="201px 0px 0px"
                 propGap="62.5px"
-                propHeight="536px"
                 propPadding1="0px var(--padding-xl) 0px var(--padding-2xl)"
-                propWidth="389px"
-                propWidth1="285px"
+                width= "389px"
+                margin-top="27px"
                 onFrameContainer1Click={onFrameContainer12Click}
               />
             </div>

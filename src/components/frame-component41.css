@@ -19,13 +19,14 @@
 }
 .our-inflatable-solutions-container {
   height: 405px;
+
   flex: 1;
   position: relative;
   line-height: 46px;
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  min-width: 578px;
+  /* min-width: 578px; */
   max-width: 100%;
 }
 .image-75-icon {
@@ -74,8 +75,8 @@
 }
 .image-75-parent {
   margin-left: -6.19999999999709px;
-  height: 432.7px;
-  width: 453px;
+  /* height: 432.7px;
+  width: 453px; */
   justify-content: center;
   padding: var(--padding-34xl-6) var(--padding-xl) var(--padding-35xl)
     var(--padding-14xl);
@@ -101,7 +102,7 @@
   display: flex;
   align-items: flex-start;
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
 }
 .backgroundborder-inner {
   width: 426.5px;
@@ -292,7 +293,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-11xs-7) 0 0;
+  padding-left: 1px;
 }
 .explore-inflatable-airbags-sys-parent,
 .frame-wrapper17 {
@@ -355,7 +356,7 @@
   font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
-  /* background: url('../../public/Frame\ 427318926\ 5.png'); */
+ 
 
 
 }
@@ -383,22 +384,47 @@
 }
 @media screen and (max-width: 900px) {
   .enhance-safety-with {
-    font-size: var(--font-size-19xl);
-    line-height: 9px;
+    font-size: 30px;
+    line-height: 35px;
   }
-  .backgroundborder-inner,
-  .our-inflatable-solutions-container {
+  .backgroundborder-inner{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 37px;
+    flex-direction: row;
     min-width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .our-inflatable-solutions-container {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 37px;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: center;
   }
   .backgroundborder9 {
     gap: var(--gap-16xl);
+    /* gap: 100px; */
     padding-top: var(--padding-37xl);
     padding-bottom: var(--padding-23xl);
     box-sizing: border-box;
+    
+    
+   
+  }
+  .backgroundborder-wrapper{
+    margin-left: 47px;
+    width: 90%;
   }
   .frame-parent45 {
     gap: var(--gap-xl);
     grid-template-columns: minmax(262px, 1fr);
+  }
+  .explore-inflatable-airbags{
+    font-size: 20px;
+    font-weight: 200;
   }
   .explore-inflatable-airbags-sys-parent {
     padding-left: var(--padding-2xl);
@@ -410,10 +436,22 @@
   }
   .enhance-safety-with-inflatable-parent {
     gap: var(--gap-18xl);
+    margin-top: 80px;
   }
   .home-inner3 {
     padding-bottom: var(--padding-67xl);
     box-sizing: border-box;
+  }
+  .multirotor-drone-for2,
+  .sea-based-recovery2,
+  .multirotor-drone-for3,
+  .land-based-recovery2,
+  .fixed-wing-drone5,
+  .sea-based-recovery3,
+  .fixed-wing-drone6,
+  .land-based-recovery3{
+    font-size: 20px;
+
   }
 }
 @media screen and (max-width: 450px) {
@@ -422,12 +460,22 @@
     line-height: 35px;
   }
   .our-inflatable-solutions-container {
-    font-size: var(--font-size-lgi);
+    font-size: 20px;
     line-height: 37px;
     height: 100%;
+    width: 100%;
+  }
+  .backgroundborder-wrapper{
+    /* width: 100%; */
+    width: 100%;
+   margin: 0;
+   padding: 0;
+    
   }
   .backgroundborder9 {
+  
     gap: var(--gap-lg);
+    object-fit: cover;
   }
   .explore-inflatable-airbags,
   .fixed-wing-drone-container2,
@@ -435,14 +483,19 @@
   .multirotor-drone-for-container2,
   .multirotor-drone-for-container3 {
     font-size: var(--font-size-lgi);
-    line-height: 26px;
+    line-height: 37px;
     font-weight: 100;
   }
   .explore-inflatable-airbags {
     line-height: 20px;
+    font-size: 15px;
   }
   .frame-parent44 {
     gap: var(--gap-mini);
+  }
+  .enhance-safety-with{
+    font-size: 20px;
+    line-height: 37px;
   }
   .enhance-safety-with-inflatable-parent {
     gap: var(--gap-lgi);
@@ -450,5 +503,11 @@
   .home-inner3 {
     padding-bottom: var(--padding-37xl);
     box-sizing: border-box;
+  }
+  .our-inflatable-solutions-container{
+    font-size: 18px;
+    align-items: center;
+    line-height: 37px;
+    font-weight: 200;
   }
 }
