@@ -54,6 +54,10 @@
   min-width: 77px;
   z-index: 1;
 }
+.message2{
+  color: #3B69B2;
+  font-weight: 500;
+}
 .frame-child23 {
   height: 62.8px;
   width: 418.7px;
@@ -403,6 +407,7 @@
   /* height: 100vh; */
 }
 .frame-wrapper12 {
+  padding-bottom: 15%;
   align-self: stretch;
   justify-content: center;
   padding-top: 17%;

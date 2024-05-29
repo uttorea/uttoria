@@ -32,10 +32,14 @@
   z-index: 1;
 }
 .small-medium1 {
+  padding-top: 9px;
   align-self: stretch;
   position: relative;
-  line-height: 33px;
+  line-height: 37px;
   text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+  color: #3B69B2;
   z-index: 1;
 }
 

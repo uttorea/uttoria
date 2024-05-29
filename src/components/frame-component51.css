@@ -93,11 +93,10 @@
 .discover-our-recovery-systems-parent {
   width: 1520px;
   display: flex;
-  padding-top: 230px;
+  /* padding-top: 230px; */
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  /* gap: var(--gap-93xl-3); */
   gap:55px;
   max-width: 100%;
 }

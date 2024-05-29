@@ -67,12 +67,15 @@ const FrameComponent1 = () => {
                 </div>
               </div>
             </div>
-            <input className="message2" placeholder="Message" type="text" />
+            {/* <input className="message2" placeholder="Message" type="text" /> */}
+            <div className="message2">Message</div>
             <textarea
+            style={{overflow: 'hidden',width: '100%', height: '150px', resize: 'none'}}
               className="frame-child27"
               placeholder="Write your message.."
               rows={10}
               cols={46}
+              
             />
           </div>
           <button className="send-message-frame">

@@ -25,15 +25,7 @@ const Home = () => {
           <source src={backGround} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* <div className="frame-parent2">
-          <div className="uttorea-group">
-            <h1 className="uttorea1">Uttorea</h1>
-            <h2 className="rescue-safety1">{`Rescue & Safety systems`}</h2>
-          </div>
-          <div className="imbibing-the-qualities-of-our-wrapper">
-            <div className="imbibing-the-qualities1">{`Imbibing the qualities of our name, Uttoria’s goal is about bringing safety & protection to Unmanned Aerial Systems (UAS), Remotely Piloted Aerial Systems (RPAS)  & Urban Air Mobility (UAM) operations.`}</div>
-          </div>
-        </div> */}
+        <div className="gradient-overlayhome"></div>
       </section>
 
       <section className="home-child">
