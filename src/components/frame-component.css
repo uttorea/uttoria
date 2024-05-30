@@ -2,7 +2,7 @@
 .footer {
   background: url('../../public/Frame\ 325.png');
   width: 100%;
-  color: white;
+  color: #F8F8F8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,9 +56,12 @@
 hr {
   width: 94%;
   margin: 0px;
+ 
 }
 .hrbottom{
   margin-left: 50px;
+  /* color: #F8F8F8; */
+ 
 }
 
 .footer-phone {
@@ -144,13 +147,12 @@ hr {
 }
 
 .social-icons img {
-  color: white;
+  color: #F8F8F8;
   margin: 10px 10px;
   font-size: 24px;
 }
 @media screen and (max-width: 925px) {
   .footer {
-    padding: 10px;
     text-align: center;
    }
 
@@ -226,7 +228,7 @@ hr {
   .footer-section-services p{
     font-size: 15px;
   }
-  .footer-section-products p{
+  .footer-section-products p {
     font-size: 15px;
   }
   .footer-section-office p{
@@ -248,7 +250,7 @@ hr {
   .social-icons p {
     position: static;
     text-align: center;
-    padding-left: 45%;
+    padding-left: 49%;
     font-size: 15px;
    
   }
@@ -264,7 +266,8 @@ hr {
 
 @media screen and (max-width: 450px) {
   .footer {
-    padding: 10px;
+    padding: 10px 0 10px 0;
+    
     text-align: center;
    }
 

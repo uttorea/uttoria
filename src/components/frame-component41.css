@@ -179,6 +179,7 @@
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
+  box-shadow: var(--blue-blur);
 }
 .land-based-recovery2,
 .multirotor-drone-for3 {
@@ -352,7 +353,6 @@
   flex-shrink: 0;
 }
 .home-inner3 {
-  
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -428,9 +428,11 @@
     width: 90%;
   }
   .frame-parent45 {
-    gap: var(--gap-xl);
-    grid-template-columns: minmax(262px, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+ 
   .explore-inflatable-airbags{
     font-size: 20px;
     font-weight: 200;
@@ -503,7 +505,7 @@
     gap: var(--gap-mini);
   }
   .enhance-safety-with{
-    font-size: 20px;
+    font-size: 30px;
     line-height: 37px;
   }
   .enhance-safety-with-inflatable-parent {

@@ -34,8 +34,8 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-us">
-      <main className="frame-parent">
+    <div className="contact-us27">
+      <main className="frame-parent-contectus">
         <Navbar />
         <section className="parent">
           <div className="rectangle-parent">
@@ -160,7 +160,7 @@ const ContactUs = () => {
             </div>
           </div>
         </section>
-        <FrameComponent />
+      <FrameComponent />
       </main>
     </div>
   );

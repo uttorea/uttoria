@@ -44,7 +44,7 @@
   flex-wrap: wrap;
   gap: var(--gap-83xl);
   color: var(--cyan);
-  box-shadow: var(--blue-blur);
+ 
  
 
 }
@@ -103,6 +103,7 @@
   max-width: 100%;
 }
 .home-inner2 {
+
   width: 100%;
   align-self: stretch;
   display: flex;
@@ -162,7 +163,7 @@
 }
 @media screen and (max-width: 450px) {
   .discover-our-recovery {
-   font-size: 20px;
+   font-size: 30px;
     line-height: 35px;
     margin-top: 150px;
   }

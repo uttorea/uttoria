@@ -54,7 +54,7 @@ const AboutUs = () => {
      
       <FrameComponent8/>
       <FrameComponent1 />
-      {/* <FrameComponent /> */}
+      <FrameComponent />
     </div>
   );
 };
