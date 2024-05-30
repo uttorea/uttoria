@@ -30,6 +30,8 @@
   max-width: 100%;
   flex-shrink: 0;
   z-index: 1;
+  box-shadow: var(--blue-blur);
+
 }
 .small-medium1 {
   padding-top: 9px;
@@ -52,6 +54,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
+  box-shadow: var(--blue-blur);
 }
 .vtol-uam1 {
   align-self: stretch;
@@ -77,6 +80,7 @@
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
+  box-shadow: var(--blue-blur);
 }
 .inflatables-for-uav1 {
   align-self: stretch;
@@ -176,11 +180,17 @@
   
   }
   .rectangle-parent12 {
-    /* background-color: red; */
-    gap: var(--gap-lg);
+   
+    /* gap: var(--gap-lg); */
+    gap: 0;
     padding-top: var(--padding-41xl);
     padding-bottom: var(--padding-29xl);
     box-sizing: border-box;
+  }
+  .backgroundborderoverlayblur-icon11,
+  .backgroundborderoverlayblur-icon12,
+  .backgroundborderoverlayblur-icon13{
+    height: 280px;
   }
 }
 

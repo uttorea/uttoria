@@ -7,7 +7,7 @@
   .close-btn27 {
     position: absolute;
     right: 50px;
-    top: -130px;
+    top: -115px;
     background: transparent;
     border: none;
     font-size: 36px;
@@ -20,7 +20,7 @@
     top: 40%;
     left: 15%;
     width: 70%;
-    height: 30%;
+    height: 34%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
@@ -58,6 +58,8 @@ font-family: urbanist;
   }
   
   .download-small{
+    padding: 0;
+    margin: 10px;
     color: #3B69B2;
     font-size: 24px;
     font-family: urbanist;
@@ -126,7 +128,15 @@ font-family: urbanist;
     font-size: 24px;
     font-family: urbanist;
   }
-  
+  .form-group27 input{
+   margin-top: 15px;
+   font-size: 24px;
+    padding-top:20px ;
+    border: none; 
+    outline: none;
+    background: none;
+     border-bottom: 2px solid #3B69B2; 
+  }
 
   @media screen and (max-width: 1350px){
     .frame-parent48{
