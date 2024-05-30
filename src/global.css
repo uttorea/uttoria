@@ -6,6 +6,10 @@ body {
   margin: 0;
   line-height: normal;
 }
+body::-webkit-scrollbar{
+display: none;
+}
+
 :root {
   /* fonts */
   --font-poppins: Poppins;
