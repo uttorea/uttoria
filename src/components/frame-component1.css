@@ -83,7 +83,7 @@
   max-width: 100%;
 }
 .your-full-name2 {
-  width: 622.5px;
+  /* width: 622.5px; */
   border: 0;
   outline: 0;
   font-family: var(--font-poppins);
@@ -211,6 +211,7 @@
 }
 .your-email-address22 {
   width: 350.6px;
+  color: var(--color-ghostwhite-100);
   position: relative;
   line-height: 32.3px;
   display: flex;
@@ -432,7 +433,8 @@
   font-size: var(--font-size-45xl);
   color: var(--secondary);
   font-family: var(--font-poppins);
-  background: url('../../public/Frame\ 427318926\ 8.png');
+  background: url('../../public/Frame\ 427318926\ 8.png'); 
+
 }
 @media screen and (max-width: 1350px) {
   .need-help-lets-discuss-you-group {
@@ -531,12 +533,17 @@
   }
   .need-help1{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .lets1,
   .discuss1,
   .your-vision1{
     font-size: 28px;
     line-height: 35px;
+    display: flex;
+    flex-direction: row;
 
   }
 }

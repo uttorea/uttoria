@@ -124,7 +124,7 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  
+
 
 }
 @media screen and (max-width: 1350px) {
@@ -230,7 +230,7 @@
     font-size: 20px;
   }
   .autonomous-drone-safety{
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .unnamed-2-icon{

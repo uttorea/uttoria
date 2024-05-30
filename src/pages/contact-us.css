@@ -688,13 +688,13 @@
   color: var(--white);
   font-family: var(--font-urbanist);
 }
-.contact-us,
-.frame-parent {
+.contact-us27,
+.frame-parent-contectus {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-parent {
+.frame-parent-contectus {
   flex: 1;
   overflow: hidden;
   flex-direction: column;
@@ -702,7 +702,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.contact-us {
+.contact-us27 {
   width: 100%;
   position: relative;
   overflow-y: auto;

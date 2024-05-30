@@ -28,7 +28,7 @@ const FrameComponent = () => {
 
         <div className="footer-section-products">
           <h3>Product</h3>
-          <p>Multirotor Recovery system</p>
+          <p className='multidrone-footer'>Multirotor Recovery system</p>
           <p>Fixed wing Recovery system</p>
         </div>
         <div className="footer-section-services">
