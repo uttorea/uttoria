@@ -25,6 +25,7 @@
   flex-direction: row;
   align-items: flex-start;
   text-align: left;
+  margin-left: 49px;
 }
 
 .logo-footer {
@@ -66,6 +67,7 @@ hr {
 .footer-phone {
   font-size: 24px;
   padding-left: 7%;
+  margin-top: 12px;
 }
 
 .footer-phone p {
@@ -269,9 +271,14 @@ hr {
     text-align: center;
    }
 
-  .footer-top, .footer-section-1 {
+  .footer-top{
     align-items: center;
   }
+  .footer-section-1 {
+    align-items: center;
+    margin-left: -117px;
+  }
+
   .footer-top{
     padding-top: 15%;
   }
@@ -369,3 +376,24 @@ hr {
     margin-left: 0;
   }
 }
+/* frame-component.css */
+
+/* Add these styles to prevent anchor tag background color change */
+.footer-phone a,
+.footer-phone a:hover,
+.footer-phone a:visited {
+  background-color: transparent;
+  text-decoration: none; /* Optional: Remove underline on links */
+  color: inherit; /* Optional: Inherit text color */
+}
+
+.email-footer a,
+.custom-footer a,
+.footer-section-products a,
+.email-footer a:hover,
+.email-footer a:visited {
+  background-color: transparent;
+  text-decoration: none; /* Optional: Remove underline on links */
+  color: inherit; /* Optional: Inherit text color */
+}
+

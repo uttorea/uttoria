@@ -1,5 +1,6 @@
 import React from 'react';
 import './frame-component.css';
+import { Link } from 'react-router-dom';
 
 const FrameComponent = () => {
   return (
@@ -16,49 +17,57 @@ const FrameComponent = () => {
             <h2>UTTOREA</h2>
             <p>Rescue & Safety Systems</p>
           </div>
-          
         </div>
       </div>
 
       <div className="footer-content">
-      <div className="footer-phone">
+        <div className="footer-phone">
+          <a href="https://wa.me/917219286003" target="_blank" rel="noopener noreferrer">
             <p>+91 721 928 6003</p>
+          </a>
+          <a href="mailto:sales@uttorea.com">
             <p className="email-footer">sales@uttorea.com</p>
-          </div>
+          </a>
+        </div>
 
         <div className="footer-section-products">
           <h3>Product</h3>
-          <p className='multidrone-footer'>Multirotor Recovery system</p>
-          <p>Fixed wing Recovery system</p>
+          <p><Link to="/product">Multirotor Recovery system</Link></p>
+          <p><Link to="/product">Fixed wing Recovery system</Link></p>
         </div>
         <div className="footer-section-services">
           <h3 className="footer-service">Services</h3>
-          <p className="custom-footer">Custom Drone Recovery system</p>
+          {/* <p className="custom-footer">Custom Drone Recovery system</p> */}
+          <p className="custom-footer"><Link to="/">Custom Drone Recovery system</Link></p>
         </div>
         <div className="footer-section-office">
           <h3>Office</h3>
-          <p style={{ textAlign: 'start', width:'60%'}}>
+          <p style={{ textAlign: 'start', width: '60%' }}>
             DJAC, SIIC building, IIT Kanpur 208016
           </p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <hr className='hrbottom'/>
+        <hr className='hrbottom' />
         <div className="social-icons">
-          <img
-          className="facebook-icon2"
-          loading="lazy"
-          alt=""
-          src="/facebook.svg"
-        />
-        <img
-          className="linkedin-icon2"
-          loading="lazy"
-          alt=""
-          src="/linkedin.svg"
-        />
-        <p>&copy; 2024 UTTOREA. All rights reserved</p>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img
+              className="facebook-icon2"
+              loading="lazy"
+              alt="Tw"
+              src="/facebook.svg"
+            />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <img
+              className="linkedin-icon2"
+              loading="lazy"
+              alt="LinkedIn"
+              src="/linkedin.svg"
+            />
+          </a>
+          <p>&copy; 2024 UTTOREA. All rights reserved</p>
         </div>
       </div>
     </footer>
