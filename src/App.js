@@ -44,6 +44,9 @@ function App() {
         title = "Contact Us";
         metaDescription = "Get in touch with us.";
         break;
+      default:
+        title = "React App";
+        metaDescription = "A sample react application.";
     }
 
     if (title) {
@@ -61,10 +64,22 @@ function App() {
   }, [pathname]);
 
   useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);  // Set loading to false when page fully loads
+    };
+
+    window.addEventListener('load', handleLoad);
+
+    // Cleanup listener on unmount
+    return () => window.removeEventListener('load', handleLoad);
+  }, []);
+
+  useEffect(() => {
     setLoading(true);  // Show loading screen on route change
 
+    // Simulate a delay (like fetching data) before setting loading to false
     const timer = setTimeout(() => {
-      setLoading(false);  // Hide loading screen after 1 second
+      setLoading(false);
     }, 1000);
 
     return () => clearTimeout(timer);  // Cleanup timer on unmount
