@@ -37,7 +37,8 @@ const FrameComponent = () => {
         </div>
         <div className="footer-section-services">
           <h3 className="footer-service">Services</h3>
-          <p className="custom-footer">Custom Drone Recovery system</p>
+          {/* <p className="custom-footer">Custom Drone Recovery system</p> */}
+          <p className="custom-footer"><Link to="/">Custom Drone Recovery system</Link></p>
         </div>
         <div className="footer-section-office">
           <h3>Office</h3>
