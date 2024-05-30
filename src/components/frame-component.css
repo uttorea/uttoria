@@ -366,3 +366,23 @@ hr {
     margin-left: 0;
   }
 }
+/* frame-component.css */
+
+/* Add these styles to prevent anchor tag background color change */
+.footer-phone a,
+.footer-phone a:hover,
+.footer-phone a:visited {
+  background-color: transparent;
+  text-decoration: none; /* Optional: Remove underline on links */
+  color: inherit; /* Optional: Inherit text color */
+}
+
+.email-footer a,
+.footer-section-products a,
+.email-footer a:hover,
+.email-footer a:visited {
+  background-color: transparent;
+  text-decoration: none; /* Optional: Remove underline on links */
+  color: inherit; /* Optional: Inherit text color */
+}
+
