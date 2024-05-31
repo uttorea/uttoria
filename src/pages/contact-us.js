@@ -34,136 +34,142 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-us27">
-      <main className="frame-parent-contectus">
-        <Navbar />
-        <section className="parent">
-          <div className="rectangle-parent">
-            <div className="frame-child" />
-            <div className="frame-item" />
-            <div className="frame-inner" />
-            <div className="image-25-parent">
-              <img className="image-25-icon" alt="" src="/image-25@2x.png" />
-              <div className="overlay-parent">
-                <div className="overlay" />
-                <div className="divelementor-widget-wrap">
-                  <div className="djac-siic-building">
-                    DJAC, SIIC building, IIT Kanpur 208016
-                  </div>
-                </div>
+    <div className='contectusmain'>
+    <section className="frame-wrapper121">
+      <Navbar/>
+      <div className="frame-parent33">
+        <div className='mapimage'>
+        <img className="image-25-icon" alt="" src="/Section 2.png" />
+        <div className="overlay-parent"/>
+        <div className='contectusdivmain'>
+        <div className="contectusleft">
 
-                <div className="wrapper-vector-parent">
-                  <div className="wrapper-vector">
-                    <img
-                      className="vector-icon"
-                      loading="lazy"
-                      alt=""
-                      src="/vector.svg"
-                    />
-                  </div>
-                  <div className="gradient" />
-                </div>
-              </div>
-            </div>
-
-            <form onSubmit={handleSubmit}>
-              <textarea
-                className="frame-textarea"
-                placeholder="Write your message.."
-                name="message"
-                rows={11}
-                cols={52}
-                value={formData.message}
-                onChange={handleChange}
-              />
-              <div className="message">Message</div>
-              <div className="message-content">
-                <div className="message-content-child" />
-                <input
-                  className="your-full-name"
-                  placeholder="Your full name"
-                  type="text"
-                  name="fullName"
-                  value={formData.fullName}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="name">Name</div>
-              <div className="message-content1">
-                <div className="message-content-item" />
-                <input
-                  className="phno-name"
-                  placeholder="Phno. name"
-                  type="text"
-                  name="phoneNumber"
-                  value={formData.phoneNumber}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="contact">{`Contact `}</div>
-              <div className="message-content2">
-                <div className="message-content-inner" />
-                <input
-                  className="your-email-address"
-                  placeholder="Your email address"
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="email">Email</div>
-              <div className="message-content3">
-                <div className="rectangle-div" />
-                <input
-                  className="reason-for-the"
-                  placeholder="Reason for the message"
-                  type="text"
-                  name="reason"
-                  value={formData.reason}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="subject">{`Subject `}</div>
-              <button type="submit" className="send-message-wrapper">
-                <div className="send-message">Send message</div>
-              </button>
-            </form>
-
-            <div className="for-general-other-inquiries-parent">
-              <div className="for-general-other-inquiries">
-                <div className="spanelementor-icon">
-                  <h3 className="symbol"></h3>
-                </div>
-                <div className="heading-6">Address</div>
-                <div className="djac-siic-building1">
-                  DJAC, SIIC building, IIT Kanpur 208016
-                </div>
-              </div>
-              <div className="for-general-other-inquiries1">
-                <div className="spanelementor-icon1">
-                  <h3 className="symbol1"></h3>
-                </div>
-                <div className="heading-61">For Inquiries</div>
-                <div className="salesuttoreacom">sales@uttorea.com</div>
-              </div>
-              <div className="for-general-other-inquiries2">
-                <img
-                  className="spanelementor-icon2"
+          <div className='addressmain'>
+            <div className='addressall'>
+            <img
+                  className="spanelementor-icon1"
                   loading="lazy"
                   alt=""
-                  src="/spanelementoricon.svg"
+                  src="/Symbol.png"
                 />
-                <div className="heading-62">For Sales Inquiry</div>
-                <div className="div">+91 721 928 6003</div>
+            </div>
+            <div className='addresssection'>
+            <h1>Address</h1>
+            <p>DJAC, SIIC building, IIT Kanpur 208016</p>
+            </div>
+          </div>
+
+          <div className='forinquarymain'>
+            <div className='forinquaryimage'>
+            <img
+                  className="spanelementor-2"
+                  loading="lazy"
+                  alt=""
+                  src="/Symbolm.png"
+                />
+            </div>
+            <div className='forinquari-heading'>
+              <h1>For Inquiries</h1>
+              <p>sales@uttorea.com</p>
+            </div>
+          </div>
+
+
+          <div className='for-sales-inquari-main'>
+            <div className='forsalesimg'> <img
+                  className="spanelementor-3"
+                  loading="lazy"
+                  alt=""
+                  src="/Vector.png"
+                />
+                </div>
+            <div className='forsalehead'>
+              <h1>For Sales Inquiry</h1>
+              <p>+91 721 928 6003</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="frame-parent341">
+
+          <div className="frame-parent351">
+            <div className="name-group1">
+              <div className="name21">Name</div>
+              <div className="rectangle-parent61">
+                <input
+                  className="your-full-name21"
+                  placeholder="Your full name"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div className="contact-group1">
+              <div className="contact21">{`Contact `}</div>
+              <div className="rectangle-parent71">
+              
+                <input
+                  className="phno-name271"
+                  placeholder="Phno. name"
+                  type="text"
+                />
               </div>
             </div>
           </div>
-        </section>
-      <FrameComponent />
-      </main>
+          
+          <div className="frame-parent361">
+            <div className="frame-parent371">
+              <div className="email-group1">
+                <div className="email21">Email</div>
+                <div className="frame-parent381">
+                 
+                 
+                  <input
+                  className="emailinput"
+                  placeholder="Your email address"
+                  type="text"
+                />
+                 
+                </div>
+              </div>
+              <div className="subject-group1">
+                <div className="subject21">{`Subject `}</div>
+                <div className="rectangle-parent91">
+                 
+                  <input
+                    className="reason-for-the21"
+                    placeholder="Reason for the message"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+            </div>
+            
+            <div className="message21">Message</div>
+            <textarea
+            // style={{overflow: 'hidden',width: '1033px', height: '224.53px', resize: 'none'}}
+              className="frame-child27"
+              placeholder="Write your message.."
+              rows={10}
+              cols={46}
+              
+            />
+          
+          <button className="send-message-frame1">
+            <div className="send-message21">Send message</div>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+    </section>
+      <FrameComponent/>
     </div>
   );
+
+         
+
 };
 
 export default ContactUs;

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const FrameComponent = () => {
   return (
-    <footer className="footer">
+    <footer className="footermain">
       <div className="footer-top">
         <div className="footer-section-1">
           <img
@@ -37,7 +37,6 @@ const FrameComponent = () => {
         </div>
         <div className="footer-section-services">
           <h3 className="footer-service">Services</h3>
-          {/* <p className="custom-footer">Custom Drone Recovery system</p> */}
           <p className="custom-footer"><Link to="/">Custom Drone Recovery system</Link></p>
         </div>
         <div className="footer-section-office">
