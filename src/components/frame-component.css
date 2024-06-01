@@ -1,5 +1,5 @@
 
-.footer {
+.footermain {
   background: url('../../public/Frame\ 325.png');
   width: 100%;
   color: #F8F8F8;
@@ -51,6 +51,7 @@
   margin: 0;
   font-size: 12.07px;
   padding-left: 10px;
+  font-family: arimo;
 }
 
 hr {
@@ -68,9 +69,11 @@ hr {
   font-size: 24px;
   padding-left: 7%;
   margin-top: 12px;
+  font-family: poppins;
 }
 
 .footer-phone p {
+  font-family: poppins;
   margin: 22px 0;
   font-size: 24px;
 }
@@ -94,13 +97,20 @@ hr {
   flex: 1;
   min-width: 200px;
 }
+.footer-section-services p{
+  font-family: arimo;
+
+}
 .footer-section-office{
   flex: 1;
   /* margin-left: 5%; */
   min-width: 200px;
 }
 .footer-section-office p{
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1px; */
+  font-family: arimo;
+  font-size: 24px;
+  font-weight: 100;
   
 
 }
@@ -144,6 +154,7 @@ hr {
 .social-icons p {
   position: absolute;
   left: 65%;
+  font-family: arimo;
 }
 
 .social-icons img {
@@ -152,7 +163,7 @@ hr {
   font-size: 24px;
 }
 @media screen and (max-width: 925px) {
-  .footer {
+  .footermain {
     text-align: center;
    }
 
@@ -204,11 +215,11 @@ hr {
 
   .footer-section-products {
     margin: 5px 0;
-    /* min-width: 100%; */
+  
   }
   .footer-section-services {
     margin: 5px 0;
-    /* min-width: 100%; */
+  
   }
   .footer-section-office {
     margin:  0;
@@ -265,7 +276,7 @@ hr {
 }
 
 @media screen and (max-width: 450px) {
-  .footer {
+  .footermain {
     padding: 10px 0 10px 0;
     
     text-align: center;
@@ -363,7 +374,6 @@ hr {
     position: static;
     text-align: center;
     padding-left: 30px;
-    
     font-size: 15px;
   }
 
@@ -376,15 +386,12 @@ hr {
     margin-left: 0;
   }
 }
-/* frame-component.css */
-
-/* Add these styles to prevent anchor tag background color change */
 .footer-phone a,
 .footer-phone a:hover,
 .footer-phone a:visited {
   background-color: transparent;
-  text-decoration: none; /* Optional: Remove underline on links */
-  color: inherit; /* Optional: Inherit text color */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .email-footer a,
