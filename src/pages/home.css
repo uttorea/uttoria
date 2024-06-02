@@ -4,12 +4,12 @@
 }
 .gradient-overlayhome {
   position: absolute;
-  bottom:-200px;
+  bottom:-160px;
   left: 0;
   width: 100%;
-  height: 20%; 
+  height: 10%; 
 opacity: 0.1;
-  background: linear-gradient(to top, #1c1c36, #4f4d63, #868494, #c1c0c8, #ffffff);
+  background: linear-gradient(to top, #1c1c36f6, #4f4d63, #868494, #c8c7cc, #ffffffcd);
   pointer-events: none; 
 }
 
@@ -531,7 +531,6 @@ opacity: 0.1;
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 10%;
-  /* padding: 0 var(--padding-6xs) 273.1px 0; */
   gap: 168.5px;
   width: 1920px;
   height: 601px;
@@ -692,6 +691,7 @@ opacity: 0.1;
   color: var(--color-whitesmoke-300);
   font-family: var(--font-urbanist);
  background-image: url('../../public/Frame\ 427318928.png');
+ 
 }
 @media screen and (max-width: 1725px) {
   .frame-parent3,
@@ -787,7 +787,7 @@ opacity: 0.1;
   .empowering-unmanned-aerial-container {
     padding-top: 0px;
     margin: 0;
-    font-size: var(--font-size-10xl);
+    font-size: 32px;
     line-height: 53px;
   }
   .backgroundborder2{
@@ -882,12 +882,15 @@ opacity: 0.1;
   height: 500px;
  }
  .empowering-unmanned-aerial-container{
-font-size: 20px;
+font-size: 32px;
 line-height: 35px;
 
  }
+ .empowering,.unmanned-aerial-operations,.to-fly-everywhere{
+  font-size: 32px;
+ }
  .safety-is-paramount{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 35px;
  }
  

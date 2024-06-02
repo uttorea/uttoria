@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 const FrameComponent = () => {
   return (
-    <footer className="footermain">
+    <div className="footermain">
+      <hr className='hruper'/>
       <div className="footer-top">
         <div className="footer-section-1">
           <img
@@ -15,6 +16,7 @@ const FrameComponent = () => {
           />
           <div className="foter-h2">
             <h2>UTTOREA</h2>
+            <hr className='hrlogo'/>
             <p>Rescue & Safety Systems</p>
           </div>
         </div>
@@ -69,7 +71,7 @@ const FrameComponent = () => {
           <p>&copy; 2024 UTTOREA. All rights reserved</p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

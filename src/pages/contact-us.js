@@ -37,7 +37,7 @@ const ContactUs = () => {
     <div className='contectusmain'>
     <section className="frame-wrapper121">
       <Navbar/>
-      <div className="frame-parent33">
+      <div className="frame-parent331">
         <div className='mapimage'>
         <img className="image-25-icon" alt="" src="/Section 2.png" />
         <div className="overlay-parent"/>
@@ -122,8 +122,6 @@ const ContactUs = () => {
               <div className="email-group1">
                 <div className="email21">Email</div>
                 <div className="frame-parent381">
-                 
-                 
                   <input
                   className="emailinput"
                   placeholder="Your email address"
@@ -132,10 +130,10 @@ const ContactUs = () => {
                  
                 </div>
               </div>
+              
               <div className="subject-group1">
                 <div className="subject21">{`Subject `}</div>
                 <div className="rectangle-parent91">
-                 
                   <input
                     className="reason-for-the21"
                     placeholder="Reason for the message"

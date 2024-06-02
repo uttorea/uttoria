@@ -14,7 +14,7 @@ const AboutUs = () => {
       <Navbar/>
       
 
-      <img className="about-us-child" alt="" src="/frame-427318931@2x.png" />
+      <img className="about-us-child" alt="" src="/aboutmain.png" />
       <div className="overlay1" />
       <div className="gradient1" />
      
@@ -51,7 +51,6 @@ const AboutUs = () => {
         </div>
       </div>
       <FrameComponent9/>
-     
       <FrameComponent8/>
       <FrameComponent1 />
       <FrameComponent />

@@ -17,10 +17,10 @@
 }
 .backgroundborderoverlayblur-parent10,
 .our-customer {
-  width: 1520px;
+  /* width: 1520px; */
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  /* width: 100%; */
   z-index: 1;
 }
 .our-customer {
@@ -245,7 +245,7 @@
 }
 @media screen and (max-width: 450px) {
   .our-customer {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 35px;
     
   }
@@ -265,7 +265,9 @@
     line-height: 18px;
   }
   .backgroundborderoverlayblur-parent10{
-    gap: 30px;
+    gap: 10px;
+  display: flex;
+  flex-direction: row;
   }
   .rectangle-parent11 {
     gap: var(--gap-base);

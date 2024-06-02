@@ -13,7 +13,7 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
             
             <form className="popup-form27">
               <div className="form-group27">
-                <label className=''>Name</label>
+                <label>Name</label>
                 <input type="text" placeholder="Your full name" className='input-box'/>
               </div>
               <div className="form-group27">
