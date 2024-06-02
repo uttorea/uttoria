@@ -14,7 +14,7 @@ const AboutUs = () => {
       <Navbar/>
       
 
-      <img className="about-us-child" alt="" src="/aboutmain.png" />
+      {/* <img className="about-us-child" alt="" src="/aboutmain.png" /> */}
       <div className="overlay1" />
       <div className="gradient1" />
      

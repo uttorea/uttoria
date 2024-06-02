@@ -353,7 +353,7 @@
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-41xl-1);
-  margin-top: 83px;
+  /* margin-top: 83px; */
 }
 .enhance-safety-with-inflatable-parent {
   width: 1521px;

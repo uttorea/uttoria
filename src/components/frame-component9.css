@@ -2,16 +2,14 @@
     margin: 0;
     align-self: stretch;
     position: relative;
-    font-size: inherit;
+    font-size: 48px;
     letter-spacing: 0.04em;
     line-height: 89px;
     text-transform: capitalize;
     font-weight: 700;
-    font-family: inherit;
+    font-family: urbanist;
     z-index: 1;
   }
- 
- 
   .experience-and-turnaround-h2,
   .cost-of-integration,
   .cost-of-test-and-certificate{
@@ -20,16 +18,25 @@
     font-size: 36px;
     line-height:46px;
     letter-spacing: 4%;
+    font-weight: 700;
+    font-family: urbanist;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .experience-and-turnaround-p,
   .cost-of-integration-p,
   .cost-of-test-p{
     font-size: 24px;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 40px ;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     line-height: 35px;
     letter-spacing: 0%;
+    font-family: poppins;
+    font-weight: 300;
+   
   }
   .experience-and-turnaround-time {
     flex: 1;
@@ -40,7 +47,8 @@
   .div1-choose, .div2-choose, .div3-choose{
     width: 466px;
     height: 420px;
-    box-shadow: var(--blue-blur);
+    /* box-shadow: var(--blue-blur); */
+    box-shadow: 0px 15px 60px rgba(59, 105, 178, 0.15);
     border-radius: var(--br-5xs);
     background: linear-gradient(
       114.03deg,
@@ -90,6 +98,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: var(--gap-32xl);
+    margin-top: 10%;
   }
   .why-choose {
     align-self: stretch;
@@ -107,13 +116,16 @@
   }
   .why-choose-uttorea-discription{
     color: white;
+    margin-top:40px;
     width: 1520px;
     line-height: 46px;
-    letter-spacing: 4%;
-    z-index: 1;
     font-size: 24px;
+    letter-spacing: 0.96px;
+    z-index: 1;
     text-align: start;
-    padding-left: 3%;
+    padding-left: 1%;
+   
+    font-family: poppins;
     
     
 }
@@ -134,8 +146,34 @@
     .experience-and-turnaround-time,
     .cost-of-tests,
     .cost-of-integrations {
-      font-size: var(--font-size-lgi);
+      /* font-size:32px; */
       line-height: 23px;
     }
+    .why-choose-uttorea{
+      /* margin-top: 20px; */
+    }
+.choose-h1{
+  font-size: 32px;
+}
+.experience-and-turnaround-h2{
+  font-size: 32px;
+}
+.div1-choose, .div2-choose, .div3-choose{
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ 
+  
+}
+
+.experience-and-turnaround-p,
+.cost-of-integration-p,
+.cost-of-test-p{
+  font-size: 16px;
+}
+.why-choose-uttorea-discription{
+  width: 100%;
+  font-size: 16px;
+}
 }
 
