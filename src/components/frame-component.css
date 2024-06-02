@@ -1,23 +1,22 @@
 
 .footermain {
-  background: url('../../public/Frame\ 325.png');
+ background: url('../../public/footerbackground.png');
   width: 100%;
-  color: #F8F8F8;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: -40px;
+
 }
 
 .footer-top {
-  padding-top: 5%;
+  padding-top: 1%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   width: 85%;
   flex-direction: column;
-  /* padding-left: 15%; */
+  
 }
 
 .footer-section-1 {
@@ -44,6 +43,7 @@
   font-weight: 900; 
   font-family: urbanist;
   padding-bottom: 0px;
+  color: white;
   padding-left: 5px;
 }
 
@@ -51,24 +51,41 @@
   margin: 0;
   font-size: 12.07px;
   padding-left: 10px;
-  font-family: arimo;
+  font-family: urbanist;
+  line-height: 123.8%;
+  color: white;
 }
 
 hr {
   width: 94%;
   margin: 0px;
- 
+  height: 2px;
+  color: rgba(70, 68, 68, 0.799) ;
+  border:1px solid  rgba(70, 68, 68, 0.799) ;
+  background-color: rgba(70, 68, 68, 0.799) ;
+  
+  margin-left: 50x;
+  
 }
 .hrbottom{
-  margin-left: 50px;
-  /* color: #F8F8F8; */
- 
+margin-left: 52px;
 }
-
+.hruper{
+  margin-top: 30px;
+}
+hr.hrlogo{
+  height: 0;
+  color: white;
+  background-color: white;
+  width: 100%;
+  border:0.5px solid  white;
+  margin-bottom: 5px;
+}
 .footer-phone {
   font-size: 24px;
   padding-left: 7%;
   margin-top: 12px;
+  color: white;
   font-family: poppins;
 }
 
@@ -80,7 +97,6 @@ hr {
 
 .footer-content {
   display: flex;
-  /* padding-left: 12%; */
   flex-wrap: wrap;
   justify-content: center;
   text-align: left;
@@ -99,42 +115,50 @@ hr {
 }
 .footer-section-services p{
   font-family: arimo;
-
+  color: rgba(148, 148, 148, 0.943);
 }
 .footer-section-office{
   flex: 1;
-  /* margin-left: 5%; */
+
   min-width: 200px;
 }
 .footer-section-office p{
-  /* letter-spacing: 1px; */
+
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 100;
+  color: rgba(148, 148, 148, 0.943);
+}
+.footer-section-products p{
+  color: rgba(148, 148, 148, 0.943);
   font-family: arimo;
   font-size: 24px;
   font-weight: 100;
-  
-
 }
-
 .footer-section-products h3 {
   margin-bottom: 10px;
   font-size: 27.09px;
   font-weight: bold;
   font-family: poppins;
+  color: white;
 }
 .footer-section-services h3 {
   margin-bottom: 10px;
   font-size: 27.09px;
   font-weight: bold;
   font-family: poppins;
+  color: white;
 }
 .footer-section-office h3 {
   margin-bottom: 10px;
   font-size: 27.09px;
   font-weight: bold;
+  color: white;
   font-family: poppins;
 }
 .footer-section-office{
   line-height: 37px;
+  color: #F8F8F8;
 }
 
 .footer-bottom {
@@ -149,17 +173,19 @@ hr {
   justify-content: start;
   padding-left: 10%;
   align-items: center;
+  margin: 20px 0;
 }
 
 .social-icons p {
   position: absolute;
   left: 65%;
+  color: #F8F8F8;
   font-family: arimo;
 }
 
 .social-icons img {
   color: #F8F8F8;
-  margin: 10px 10px;
+  margin-left: 10px;
   font-size: 24px;
 }
 @media screen and (max-width: 925px) {
@@ -171,7 +197,7 @@ hr {
     align-items: center;
   }
   .footer-top{
-    padding-top: 15%;
+    padding-top: 3%;
   }
 
   .logo-footer {
@@ -208,7 +234,7 @@ hr {
     font-size: 18px; 
   }
    .footer-content {
-    /* flex-direction: row; */
+    
     align-items: center;
     padding-left: 7%;
   }
@@ -223,7 +249,7 @@ hr {
   }
   .footer-section-office {
     margin:  0;
-    /* width: 100%; */
+    
   }
   .footer-section-services h3 {
     font-size: 20px;
@@ -250,7 +276,6 @@ hr {
   .footer-bottom {
     margin-top: 5px;
     text-align: center;
-    /* padding-left: 10%; */
     width: 90%;
   }
 
@@ -272,6 +297,12 @@ hr {
   }
   .hrbottom{
     margin-left: 0;
+    width: 100%;
+  }
+  .hruper{
+    margin-left: 0;
+    width: 90%;
+    padding-top: 0;
   }
 }
 
@@ -291,7 +322,7 @@ hr {
   }
 
   .footer-top{
-    padding-top: 15%;
+    padding-top:15%;
   }
 
   .logo-footer {
@@ -400,7 +431,7 @@ hr {
 .email-footer a:hover,
 .email-footer a:visited {
   background-color: transparent;
-  text-decoration: none; /* Optional: Remove underline on links */
-  color: inherit; /* Optional: Inherit text color */
+  text-decoration: none; 
+  color: inherit;
 }
 

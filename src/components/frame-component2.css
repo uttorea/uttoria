@@ -162,14 +162,15 @@
 }
 @media screen and (max-width: 450px) {
   .download-brochure1 {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 53px;
     padding-bottom: 50px;
   }
   .inflatables-for-uav1,
   .small-medium1,
   .vtol-uam1 {
-    font-size: var(--font-size-lgi);
+    /* font-size: var(--font-size-lgi); */
+    font-size: 16px;
     line-height: 26px;
   }
   .frame-parent48 {

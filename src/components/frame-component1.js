@@ -71,7 +71,7 @@ const FrameComponent1 = () => {
             <div className="message2">Message</div>
             <textarea
             style={{overflow: 'hidden',width: '100%', height: '180px', resize: 'none'}}
-              className="frame-child27"
+              className="frame-child271"
               placeholder="Write your message.."
               rows={10}
               cols={46}

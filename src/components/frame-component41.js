@@ -23,7 +23,7 @@ const FrameComponent41 = () => {
                   Our inflatable solutions provide additional safety measures
                   for multi-rotor and fixed-wing drones. Designed for all drone
                   types, these inflatable systems offer custom options to suit
-                  your needs. 
+                  your needs.
                 </p>
                 <p className="furthermore-we-integrate">
                   Furthermore, we integrate robust inflation and deflation
@@ -32,6 +32,7 @@ const FrameComponent41 = () => {
                   reliable inflation systems, we're building the future of
                   adaptable and resilient drones
                 </p>
+               
               </span>
             </div>
             <div className="backgroundborder-inner">
@@ -42,15 +43,17 @@ const FrameComponent41 = () => {
                     alt=""
                     src="/image-75@2x.png"
                   />
-                  <div className="rectangle-parent10">
+                  {/* <div className="rectangle-parent10">
                     <div className="frame-child30" />
                     <div className="frame-child31" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
+        
         <div className="frame-parent44">
           <div className="frame-parent45">
             <div className="backgroundborderoverlayblur-parent6">

@@ -2,7 +2,7 @@ import "./background-border-overlay-blur.css";
 
 const BackgroundBorderOverlayBlur = () => {
   return (
-    <div className="backgroundborderoverlayblur1">
+    <div className="backgroundborderoverlayblur12">
       <div className="heading-2">
         <div className="heading-2-child" />
         <div className="name-wrapper">
