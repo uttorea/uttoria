@@ -41,7 +41,7 @@ const FrameComponent41 = () => {
                   <img
                     className="image-75-icon"
                     alt=""
-                    src="/image-75@2x.png"
+                    src="/drone.svg"
                   />
                   {/* <div className="rectangle-parent10">
                     <div className="frame-child30" />
