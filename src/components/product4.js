@@ -1,32 +1,24 @@
-import React, { useState, useRef } from 'react';
-import './product3.css';
+import React, { useState, useRef, useEffect } from "react";
+import "./product3.css";
 
 const Product4 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
   const sliderRef = useRef(null);
 
-  const handleMouseMove = (event) => {
-    if (sliderRef.current) {
-      const rect = sliderRef.current.getBoundingClientRect();
-      const y = event.clientY - rect.top;
-      const newZoomLevel = 1 - y / rect.height;
+  useEffect(() => {
+    const handleWheel = (event) => {
+      const newZoomLevel = zoomLevel - event.deltaY * 0.01;
       if (newZoomLevel >= 0 && newZoomLevel <= 1) {
         setZoomLevel(newZoomLevel);
       }
-    }
-  };
+    };
 
-  const handleTouchMove = (event) => {
-    if (sliderRef.current) {
-      const rect = sliderRef.current.getBoundingClientRect();
-      const touch = event.touches[0];
-      const y = touch.clientY - rect.top;
-      const newZoomLevel = 1 - y / rect.height;
-      if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-        setZoomLevel(newZoomLevel);
-      }
-    }
-  };
+    document.addEventListener("wheel", handleWheel);
+
+    return () => {
+      document.removeEventListener("wheel", handleWheel);
+    };
+  }, [zoomLevel]);
 
   const translateYValue = (0 + zoomLevel) * 100;
 
@@ -39,16 +31,14 @@ const Product4 = () => {
         <div
           className="ellipse"
           style={{
-            
-            backgroundColor: '#242425',
-            
-          }}
-        >
-          <div className="frame-wrapper53"
-          style={{
-            transform: `scale(${1 - zoomLevel})`,
-            display: zoomLevel < 1 ? 'block' : 'none'
+            backgroundColor: "#242425",
           }}>
+          <div
+            className="frame-wrapper53"
+            style={{
+              transform: `scale(${1 - zoomLevel})`,
+              display: zoomLevel < 1 ? "block" : "none",
+            }}>
             <div className="frame-parent363">
               <div className="pwm-based-manual-sensor-base-parent3">
                 <div className="pwm-based-manual-container3">
@@ -61,8 +51,9 @@ const Product4 = () => {
                 <div className="minimum-effective-height-20-wrapper3">
                   <div className="minimum-effective-height-container3">
                     <p className="minimum3">Minimum</p>
-                    <p className="effective-height-3">Effective Height - 20 m</p>
-                   
+                    <p className="effective-height-3">
+                      Effective Height - 20 m
+                    </p>
                   </div>
                 </div>
                 <div className="descent-speed-5-ms-wrapper3">
@@ -90,7 +81,9 @@ const Product4 = () => {
               <div className="advanced-carbon-composite-stru-parent3">
                 <div className="advanced-carbon-composite-container3">
                   <p className="advanced-carbon3">Advanced Carbon</p>
-                  <p className="composite-structure3">Composite Structuremated</p>
+                  <p className="composite-structure3">
+                    Composite Structuremated
+                  </p>
                   <p>Ejection Mode</p>
                 </div>
                 <div className="operating-temperature-10-to-wrapper3">
@@ -104,13 +97,14 @@ const Product4 = () => {
                 <div className="g-shock-on-mounting-points-wrapper3">
                   <div className="g-shock-on-container3">
                     <p className="g-shock-on3">3G Shock on</p>
-                    <p className="mounting-points3">Mounting Points above ground</p>
+                    <p className="mounting-points3">
+                      Mounting Points above ground
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
         <div className="frame-wrapper63">
           <div className="arsentm-series-offers-built-in-parent3">
@@ -126,12 +120,11 @@ const Product4 = () => {
               className="frame-wrapper7"
               style={{
                 transform: `translateY(${translateYValue}px)`,
-                display: translateYValue > 70 ? 'none' : 'flex',
-                transition: 'transform 0.2s',
-                position: 'absolute',
-                marginTop: '70px'
-              }}
-            >
+                display: translateYValue > 70 ? "none" : "flex",
+                transition: "transform 0.2s",
+                position: "absolute",
+                marginTop: "70px",
+              }}>
               <div className="explore-arsentm-series-parent3">
                 <div className="explore-arsentm-series-container3">
                   <span className="explore-arsentm-series-container13">
@@ -141,7 +134,7 @@ const Product4 = () => {
                   </span>
                 </div>
                 <div className="vector-wrapper3">
-                  <img className="vector-icon1" alt="" src='/vector-1.svg' />
+                  <img className="vector-icon1" alt="" src="/vector-1.svg" />
                 </div>
               </div>
             </div>
@@ -151,39 +144,17 @@ const Product4 = () => {
           className="ellipse"
           style={{
             transform: `scale(${zoomLevel})`,
-            backgroundColor: '#13131A',
-            display: zoomLevel >= 0 ? 'block' : 'none'
-          }}
-        ></div>
+            backgroundColor: "#13131A",
+            display: zoomLevel >= 0 ? "block" : "none",
+          }}></div>
         <img
-          src='/unnamed-3@2x.png'
+          src="/unnamed-3@2x.png"
           alt="Overlay"
           className="overlay-imaged"
           style={{
-            transform: `scale(${0.7 + 0.3 * zoomLevel})`
+            transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
-        <div
-          ref={sliderRef}
-          className="zoom-controls"
-          onMouseMove={handleMouseMove}
-          onTouchMove={handleTouchMove}
-          style={{ right: '50px', top: '40%', height: '150px', width: '50px' }}
-        >
-          <div
-            className="zoom-handle"
-            style={{
-              position: 'absolute',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              bottom: `${zoomLevel * 100}%`,
-              width: '45.41px',
-              height: '192.74px',
-              background: 'white',
-              cursor: 'pointer'
-            }}
-          ></div>
-        </div>
       </div>
     </>
   );
