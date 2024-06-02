@@ -1,7 +1,7 @@
 .about-us-child {
-  /* width: 100%; */
-  width: 1920px;
-  height: 5221px;
+  width: 100%;
+  /* width: 1920px; */
+  /* height: 5221px; */
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -62,7 +62,7 @@
 }
 .at-uttorea-our {
   height: 225px;
-  width: 1203.7px;
+  width: 1111.7px;
   position: relative;
   font-weight: bold;
   letter-spacing: 4%;
@@ -84,6 +84,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
+  margin-top: -5px;
 }
 .about-us-inner,
 .at-uttorea-our-mission-is-sim-wrapper,
@@ -102,7 +103,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 200px var(--padding-xl) 187.5px;
+  padding: 320px var(--padding-xl) 187.5px;
   box-sizing: border-box;
 }
 .our-story {
