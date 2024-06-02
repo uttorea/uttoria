@@ -5,6 +5,7 @@
 body {
   margin: 0;
   line-height: normal;
+  background-color: black;
 }
 body::-webkit-scrollbar{
 display: none;
