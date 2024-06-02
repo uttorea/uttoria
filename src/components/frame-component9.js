@@ -35,17 +35,17 @@ const FrameComponent4 = () => {
                 Cost of Test and Certification
               </h2>
               <p className="cost-of-test-p">
-                Uttoria's systems are compliant with ASTM standards
+                Uttoria's systems are compliant as per international standards
+                with comprehensive post sale service
               </p>
             </div>
           </div>
         </div>
         <div className="why-choose-uttorea-discription">
-          Choose Uttorea for our experience, quick turnaround time, and
-          cost-effectiveness. Our products offer best value to the technology we
-          offer, with ease of integration and certification compliance. Whether
-          you need custom or off-the-shelf systems, Uttorea is your trusted
-          partner in drone safety.
+          Our products offer best value to the technology we offer, with ease of
+          integration and certification compliance.<br/> Whether you need custom or
+          off-the-shelf systems, Uttorea is your trusted partner in drone
+          safety.
         </div>
       </div>
     </div>

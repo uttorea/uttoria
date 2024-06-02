@@ -9,11 +9,17 @@
     font-weight: 700;
     font-family: var(--font-urbanist);
     color: var(--cyan);
+    /* padding-left: 27%; */
     z-index: 1;
   }
   .our-p-solutions {
     margin-block-start: 0;
     margin-block-end: 0;
+    align-items: start;
+    font-size: 24px;
+    font-family: poppins;
+    letter-spacing: 0.96px;
+    font-weight: 400;
   }
  
   .our-solutions-container {
@@ -23,9 +29,9 @@
     line-height: 46px;
     text-transform: capitalize;
     display: flex;
-    align-items: center;
-    min-width: 578px;
-    max-width: 100%;
+    align-items: start;
+    width: 578px;
+    width: 100%;
   }
  
  
@@ -176,22 +182,23 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 100%;
+    width: 100%;
   }
   .frame-parent44 {
     
     align-self: stretch;
     align-items: flex-start;
     gap: var(--gap-41xl-1);
+    margin-top: 0;
+   
   }
   .our-solutions-parent {
     width: 1521px;
+    margin-top: 10%;
+    margin-bottom: 5%;
     align-items: flex-end;
-    /* gap: var(--gap-41xl-1); */
-    gap: var(--gap-21xl-3);
-
-
-    /* gap: var(--gap-130xl-8); */
+    gap: 70px;
+        /* gap: var(--gap-130xl-8); */
     flex-shrink: 0;
   }
   .home-inner8 {
@@ -201,15 +208,16 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    /* padding: 0 var(--padding-9xl) var(--padding-185xl-3) var(--padding-xl); */
-    box-sizing: border-box;
+       box-sizing: border-box;
     max-width: 100%;
-    text-align: center;
+    align-items: center;
     font-size: var(--font-size-5xl);
     color: var(--white);
     font-family: var(--font-poppins);
     padding-top: 8%;
   }
+
+ 
   @media screen and (max-width: 1350px) {
    
     
@@ -254,8 +262,11 @@
       line-height: 7px;
     }
     .our-p-solutions {
-      font-size: var(--font-size-lgi);
+      /* font-size: var(--font-size-lgi); */
+      font-size: 16px;
       line-height: 37px;
+      width: 100%;
+      margin-left: -20px;
     }
     
    
@@ -271,11 +282,36 @@
       gap: var(--gap-mini);
     }
     .our-solutions-parent {
-      gap: var(--gap-lgi);
+      /* gap: var(--gap-lgi); */
+      width: 100%;
+      padding: 0;
     }
     .home-inner3 {
       padding-bottom: var(--padding-37xl);
       box-sizing: border-box;
+    }
+    .our-solutions-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+    }
+    .our-solution{
+      padding: 0;
+      line-height: 37px;
+      /* padding-left: 40px; */
+      align-items: center;
+    }
+    .home-inner8{
+      align-items: center;
+    }
+    .our-solutions-container{
+      width: 90%;
+    }
+    .frame-parent45{
+      grid-template-columns: repeat(2, minmax(240px, 1fr));
+      width: 100%;
+      margin-left: 2px;
+      margin-right: 2px;
     }
   }
   
