@@ -300,7 +300,7 @@ hr.hrlogo{
     width: 100%;
   }
   .hruper{
-    margin-left: 0;
+    /* margin-left: 0; */
     width: 90%;
     padding-top: 0;
   }
