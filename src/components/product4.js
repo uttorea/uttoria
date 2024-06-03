@@ -1,9 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./product3.css";
 
 const Product4 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
-  const sliderRef = useRef(null);
+  // const sliderRef = useRef(null);
 
   // const handleMouseMove = (event) => {
   //   if (sliderRef.current) {
@@ -27,6 +27,21 @@ const Product4 = () => {
   //     }
   //   }
   // };
+
+  //Zoom Effect Logic
+  useEffect(() => {
+    const handleWheel = (event) => {
+      const newZoomLevel = zoomLevel - event.deltaY * 0.01;
+      if (newZoomLevel >= 0 && newZoomLevel <= 1) {
+        setZoomLevel(newZoomLevel);
+      }
+    };
+    document.addEventListener("wheel", handleWheel);
+
+    return () => {
+      document.removeEventListener("wheel", handleWheel);
+    };
+  }, [zoomLevel]);
 
   const translateYValue = (0 + zoomLevel) * 100;
 
@@ -164,10 +179,7 @@ const Product4 = () => {
           }}
         />
         <div
-          ref={sliderRef}
           className="zoom-controls"
-          onMouseMove={handleMouseMove}
-          onTouchMove={handleTouchMove}
           style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
           <div
             className="zoom-handle"
