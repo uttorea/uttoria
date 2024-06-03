@@ -214,3 +214,38 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5 green, blue, alpha);
   animation: animateText 2s ease-in-out;
 }
+
+/* In Mobile */
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .plug-text {
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    font-size: 16px;
+  }
+
+  .question {
+    margin-left: 1rem;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .answer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 18px;
+    font-size: 12px;
+  }
+
+  .recoveryContainer {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-left: 1rem;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .image-72-parent {
+    min-height: 300px;
+  }
+}

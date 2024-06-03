@@ -169,15 +169,15 @@
   font-family: var(--font-urbanist);
   /* background-image: url('/public/Frame\ 427318925\ 3.png'); */
 }
-.uttoria-offers-oem
-,.our-engineering,.with-uttoria-as{
+.uttoria-offers-oem,
+.our-engineering,
+.with-uttoria-as {
   font-size: 24px;
   font-weight: 200;
   font-family: poppins;
   letter-spacing: 4%;
   line-height: 36px;
   margin-bottom: 0px;
-  
 }
 
 @media screen and (max-width: 1350px) {
@@ -220,13 +220,14 @@
 }
 @media screen and (max-width: 450px) {
   .custom-drone-recovery2 {
-    font-size: 32px;
-    line-height:36px;
+    font-size: 22px;
+    line-height: 36px;
     margin-top: 40%;
   }
- 
-   
-  .uttoria-offers-oem,.our-engineering,.with-uttoria-as{
+
+  .uttoria-offers-oem,
+  .our-engineering,
+  .with-uttoria-as {
     font-size: 16px;
     /* margin-top: 20%; */
     font-weight: 200;
@@ -254,19 +255,18 @@
     height: 224px;
     z-index: 1;
   } */
-  .uttoria-offers-oem
-,.our-engineering,.with-uttoria-as{
-  font-size: 16px;
-  font-weight: 200;
-  font-family: poppins;
-  letter-spacing: 4%;
-  line-height: 36px;
-  margin-bottom: 0px;
-  
-}
+  .uttoria-offers-oem,
+  .our-engineering,
+  .with-uttoria-as {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: poppins;
+    letter-spacing: 4%;
+    line-height: 36px;
+    margin-bottom: 0px;
+  }
 
-/* .uttoria-offers-oem{
+  /* .uttoria-offers-oem{
 margin-top: 20%;
 } */
-  
 }
