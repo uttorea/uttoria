@@ -43,10 +43,7 @@ const FrameComponent41 = () => {
                     alt=""
                     src="/drone.svg"
                   />
-                  {/* <div className="rectangle-parent10">
-                    <div className="frame-child30" />
-                    <div className="frame-child31" />
-                  </div> */}
+                  
                 </div>
               </div>
             </div>

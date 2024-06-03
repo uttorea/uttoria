@@ -1,13 +1,19 @@
+.homepagemainimage{
+ background-image: url('../../public/homebackground.svg');
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
 .background-video{
-  width: 102.9%;
+  width: 103%;
   position: relative;
 }
 .gradient-overlayhome {
   position: absolute;
-  bottom:-160px;
+  bottom:-80px;
   left: 0;
   width: 100%;
-  height: 10%; 
+  height: 20%; 
 opacity: 0.1;
   background: linear-gradient(to top, #1c1c36f6, #4f4d63, #868494, #c8c7cc, #ffffffcd);
   pointer-events: none; 
@@ -30,9 +36,10 @@ opacity: 0.1;
   font-size: var(--font-size-109xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  height: 110vh;
+  height: 128.4vh;
   width: 100%;
   position: relative;
+ 
 }
 .empowering,
 .to-fly-everywhere,
@@ -46,12 +53,12 @@ opacity: 0.1;
   text-transform: capitalize;
 }
 .empowering-unmanned-aerial-container {
-  margin-top: 300px;
+  margin-top: 240px;
   align-self: stretch;
-  font-size: inherit;
+  font-size: 48px;
   line-height: 80px;
   font-weight: 700;
-  font-family: inherit;
+  font-family:urbanist;
   z-index: 1;
 }
 .safety-is-paramount {
@@ -102,14 +109,14 @@ opacity: 0.1;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-8xl) 300px var(--padding-xl);
+  padding: 0 var(--padding-8xl) 240px var(--padding-xl);
   box-sizing: border-box;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  background: url('../../public/Frame\ 427318926\ 3.png');
+  /* background: url('../../public/Frame\ 427318926\ 3.png'); */
 
 }
 .image-116-icon2 {
@@ -690,9 +697,9 @@ opacity: 0.1;
   font-size: var(--font-size-5xl);
   color: var(--color-whitesmoke-300);
   font-family: var(--font-urbanist);
- background-image: url('../../public/Frame\ 427318928.png');
  
 }
+
 @media screen and (max-width: 1725px) {
   .frame-parent3,
   .frame-parent4,
@@ -708,7 +715,6 @@ opacity: 0.1;
 @media screen and (max-width: 1350px) {
  
   .home-inner {
-    padding-bottom: 300px;
     box-sizing: border-box;
   }
   .backgroundborder2 {
@@ -727,19 +733,20 @@ opacity: 0.1;
   }
 }
 @media screen and (max-width: 900px) {
- 
+ .home2{
+  width: 100%;
+ }
   .home-inner {
     width: 100%;
     padding: 0;
     height: 400px;
-    /* height: 100vh; */
     box-sizing: border-box;
   }
   .gradient-overlayhome{
     bottom: -194px;
   }
   .safety-is-paramount{
-    font-size: 20px;
+    font-size: 17px;
     line-height: 35px;
    }
   .empowering-unmanned-aerial-container {
@@ -767,7 +774,7 @@ opacity: 0.1;
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: 80px;
+    margin-top:5%;
     
   }
   .backgroundborder2{
@@ -777,10 +784,12 @@ opacity: 0.1;
   .empowering,
   .unmanned-aerial-operations,
   .to-fly-everywhere{
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 34px;
+    line-height: 45px;
   }
- 
+  .homepagemainimage{
+    width: 100%;
+  }
 
 }
 @media screen and (max-width: 450px) {
@@ -789,6 +798,9 @@ opacity: 0.1;
     margin: 0;
     font-size: 32px;
     line-height: 53px;
+  }
+  .homepagemainimage{
+    width: 100%;
   }
   .backgroundborder2{
     margin-left: 20px;

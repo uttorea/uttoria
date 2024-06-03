@@ -129,7 +129,7 @@ const Product3 = () => {
           <div className="arsentm-series-offers-built-in-parent3">
             <div className="arsentm-series-offers-container3">
               <b>ARSENTM</b>
-              <span>
+              <span className='arsentmpara'>
                 {" "}
                 Series offers built in intelligence and split-second decision
                 making capable recovery system
@@ -180,6 +180,7 @@ const Product3 = () => {
         
         style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
         <div
+
           className="zoom-handle"
           style={{
             position: "absolute",
