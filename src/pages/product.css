@@ -154,11 +154,11 @@
 }
 @media screen and (max-width: 450px) {
   .urban-air-mobility {
-    font-size: var(--font-size-10xl);
+    font-size: 32px;
     line-height: 53px;
   }
   .with-the-age {
-    font-size: var(--font-size-lgi);
+    font-size:16px;
     line-height: 37px;
   }
   .backgroundborder1 {
@@ -168,7 +168,7 @@
     box-sizing: border-box;
   }
   .urban-air-mobility-parent {
-    gap: var(--gap-base);
+   
   }
   .frame-wrapper {
     padding-bottom: var(--padding-43xl);
