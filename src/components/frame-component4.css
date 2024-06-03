@@ -205,17 +205,17 @@
 @media screen and (max-width: 450px) {
   .our-plug-and {
     margin-top: 30%;
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 95px;
   }
   .airframe-specific-composite-container,
   .customized-parachute-canopyai,
   .electro-mechanical-pyrotechni,
   .operations-and-maintenance-container,
   .quicklinks-and-carabiners-container {
-font-size: 16px;
-font-weight: 200;
-font-family: poppins;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: poppins;
     line-height: 20px;
   }
 }
