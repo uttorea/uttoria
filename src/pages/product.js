@@ -1,5 +1,4 @@
 import FrameComponent5 from "../components/frame-component5";
-// import Product2 from "../components/product2";
 import FrameComponent4 from "../components/frame-component4";
 import Product1 from "../components/product1";
 import FrameComponent3 from "../components/frame-component3";
@@ -8,22 +7,30 @@ import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import Product3 from "../components/product3";
 import Product4 from "../components/product4";
-import './product.css'
+// import FrameComponent5 from "../components/frame-component5";
+
+import './product.css';
 import Navbar from "./Navbar";
 
 const Product = () => {
   return (
     <div className="product">
       <main className="frame-container">
+ productsection2
       <Navbar/>
+        <Navbar />
+        <img className="frame-icon" alt="" src="/frame-427318925@2x.png" />
+
         <FrameComponent5 />
         
         <section className="product-1-parent">
+
           <Product3/>
           <FrameComponent4 />
         </section>
         <section className="product-2-parent"> 
            <Product4/>
+
           <FrameComponent3 />
         </section>
         <section className="frame-wrapper">
