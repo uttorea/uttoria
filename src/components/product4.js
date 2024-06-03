@@ -178,22 +178,22 @@ const Product4 = () => {
             transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
+        {/*<div
+        className="zoom-controls"
+        style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
         <div
-          className="zoom-controls"
-          style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
-          <div
-            className="zoom-handle"
-            style={{
-              position: "absolute",
-              left: "50%",
-              transform: "translateX(-50%)",
-              bottom: `${zoomLevel * 100}%`,
-              width: "45.41px",
-              height: "192.74px",
-              background: "white",
-              cursor: "pointer",
-            }}></div>
-        </div>
+          className="zoom-handle"
+          style={{
+            position: "absolute",
+            left: "50%",
+            transform: "translateX(-50%)",
+            bottom: `${zoomLevel * 100}%`,
+            width: "45.41px",
+            height: "192.74px",
+            background: "white",
+            cursor: "pointer",
+          }}></div>
+        </div>*/}
       </div>
     </>
   );
