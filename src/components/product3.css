@@ -387,6 +387,8 @@
   letter-spacing: 0.5;
   border: 2px solid lightseagreen;
   overflow: hidden;
+  margin: 0;
+  margin-top: 7rem;
 }
 
 .arsentm-series-offers-built-in-parent3 {
