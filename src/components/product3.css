@@ -15,6 +15,17 @@
     border-radius: 50%;
     transition: transform 0.2s, display 0.2s;
   }
+
+  .zoom-handle{
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45.41px;
+    height: 192.74px;
+    background: white;
+    cursor: pointer;
+  }
+
   .overlay-image {
     
     position: absolute;
@@ -55,8 +66,7 @@
     -webkit-appearance: slider-vertical;
     position: relative;
     border-radius: var(--br-base);
-    /* background-color: var(--white); */
-    background-color: red;
+  
   }
   
   .zoom-image {
@@ -428,61 +438,59 @@
   
   
   @media screen and (max-width: 1350px) {
-    .ballistic-emergency-recovery-s-parent {
-      gap: var(--gap-115xl);
-    }
-    .product-1-inner {
-      min-width: 100%;
-    }
-    .container {
-      gap: var(--gap-47xl);
-      padding-left: var(--padding-81xl);
-      box-sizing: border-box;
-    }
+    
   }
   @media screen and (max-width: 925px) {
-    .ballistic-emergency-recovery-container13 {
-      font-size: var(--font-size-19xl);
-      line-height: 39px;
-    }
-    .arsentm-series-offers-built-in-parent3 {
-      gap: var(--gap-32xl);
-    }
-    .ballistic-emergency-recovery-s-parent {
-      gap: var(--gap-48xl);
-    }
+   
     
   }
   @media screen and (max-width: 450px) {
-    .ballistic-emergency-recovery-container13 {
-      font-size: var(--font-size-10xl);
-      line-height: 29px;
+    .container{
+      width: 100%;
     }
-    .arsentm-series-offers-container3 {
-      font-size: var(--font-size-lgi);
-      line-height: 39px;
+    .ballistic-emergency-recovery-container13{
+      width: 90%;
+    top: 8%;
+    margin-left: 10%;
+    font-size: 24px;
+    line-height: 36px;
     }
-    .explore-arsentm-series-container3 {
-      font-size: var(--font-size-lgi);
-      line-height: 12px;
+    .zoom-handle{
+     
+       left: 50%;
+      
+       width: 45.41px;
+       height: 100.74px;
+       background: white;
+       cursor: pointer;
+     }
+     .ellipse{
+      width: 100%;
+     }
+     .overlay-image {
+      top:250px;
+      width: 202.5px; 
+      height: 300px;
     }
-    .explore-arsentm-series-parent3 {
-      padding-left: var(--padding-xl);
-      padding-right: var(--padding-xl);
-      box-sizing: border-box;
+    .overlay-imaged{
+      top:250px;
+      width: 202.5px; 
+      height: 200px;
+    }
+    .arsentmpara{
+
+      width: 90%;
+      font-size: 16px;
+     
+    }
+    .arsentm-series-offers-container3{
+      margin: 0px;
+      margin-bottom: -15%;
+      font-size:16px;
+      width:90%;
+      height: 49px; 
+    }
    
-    }
-    .arsentm-series-offers-built-in-parent3{
-      gap: var(--gap-7xl);
-    }
-    .ballistic-emergency-recovery-s-parent {
-      gap: var(--gap-14xl);
-    }
-    .container {
-      padding-top: var(--padding-54xl);
-      padding-bottom: var(--padding-54xl);
-      box-sizing: border-box;
-    }
   }
   
   

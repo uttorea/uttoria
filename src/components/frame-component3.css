@@ -2,13 +2,14 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size: 48px;
   letter-spacing: 0.04em;
   line-height: 89px;
   text-transform: capitalize;
   font-weight: 700;
-  font-family: inherit;
+  font-family: urbanist;
   z-index: 1;
+  margin-top: 10%;
 }
 .generateanimageshowcasinguttor-icon {
   margin-top: -38px;
@@ -21,7 +22,7 @@
   object-fit: cover;
   debug_commit: 1de1738;
 }
-.frame-child20 {
+/* .frame-child20 {
   position: absolute;
   top: 219px;
   left: 0;
@@ -35,7 +36,7 @@
   width: 460px;
   height: 224px;
   z-index: 1;
-}
+} */
 .generateanimageshowcasinguttor-icon1 {
   position: absolute;
   top: 0;
@@ -102,7 +103,7 @@
 }
 .uttoria-offers-oem-container {
   align-self: stretch;
-  height: 405px;
+  /* height: 405px; */
   position: relative;
   letter-spacing: 0.04em;
   line-height: 46px;
@@ -168,6 +169,17 @@
   font-family: var(--font-urbanist);
   /* background-image: url('/public/Frame\ 427318925\ 3.png'); */
 }
+.uttoria-offers-oem
+,.our-engineering,.with-uttoria-as{
+  font-size: 24px;
+  font-weight: 200;
+  font-family: poppins;
+  letter-spacing: 4%;
+  line-height: 36px;
+  margin-bottom: 0px;
+  
+}
+
 @media screen and (max-width: 1350px) {
   .generateanimageshowcasinguttor-parent {
     flex: 1;
@@ -208,14 +220,53 @@
 }
 @media screen and (max-width: 450px) {
   .custom-drone-recovery2 {
-    font-size: var(--font-size-10xl);
-    line-height: 53px;
+    font-size: 32px;
+    line-height:36px;
+    margin-top: 40%;
   }
-  .uttoria-offers-oem-container {
-    font-size: var(--font-size-lgi);
-    line-height: 37px;
+ 
+   
+  .uttoria-offers-oem,.our-engineering,.with-uttoria-as{
+    font-size: 16px;
+    /* margin-top: 20%; */
+    font-weight: 200;
+    font-family: poppins;
+    letter-spacing: 4%;
+    line-height: 36px;
+    margin-bottom: 0;
   }
+
   .backgroundborder6 {
     gap: var(--gap-lg);
   }
+  /* .frame-child20 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    backdrop-filter: blur(5.2px);
+    background: linear-gradient(
+      180deg,
+      rgba(217, 191, 166, 0.05),
+      rgba(141, 114, 98, 0.1),
+      rgba(115, 101, 88, 0.1)
+    );
+    width: 460px;
+    height: 224px;
+    z-index: 1;
+  } */
+  .uttoria-offers-oem
+,.our-engineering,.with-uttoria-as{
+  font-size: 16px;
+  font-weight: 200;
+  font-family: poppins;
+  letter-spacing: 4%;
+  line-height: 36px;
+  margin-bottom: 0px;
+  
+}
+
+/* .uttoria-offers-oem{
+margin-top: 20%;
+} */
+  
 }
