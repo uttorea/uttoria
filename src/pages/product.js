@@ -9,27 +9,24 @@ import Product3 from "../components/product3";
 import Product4 from "../components/product4";
 // import FrameComponent5 from "../components/frame-component5";
 
-import './product.css';
+import "./product.css";
 import Navbar from "./Navbar";
 
 const Product = () => {
   return (
     <div className="product">
       <main className="frame-container">
- productsection2
-      <Navbar/>
+        productsection2
+        <Navbar />
         <Navbar />
         <img className="frame-icon" alt="" src="/frame-427318925@2x.png" />
-
         <FrameComponent5 />
-        
         <section className="product-1-parent">
-
-          <Product3/>
+          <Product3 />
           <FrameComponent4 />
         </section>
-        <section className="product-2-parent"> 
-           <Product4/>
+        <section className="product-2-parent">
+          <Product4 />
 
           <FrameComponent3 />
         </section>
