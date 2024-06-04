@@ -6,25 +6,6 @@ const Product3 = () => {
   const sliderRef = useRef(null);
   const lastTouchYRef = useRef(0);
 
-  // Handle touch start to initialize touch position
-  const handleTouchStart = (event) => {
-    lastTouchYRef.current = event.touches[0].clientY;
-  };
-
-  // Handle touch move for Android devices
-  const handleTouchMove = (event) => {
-    const touchY = event.touches[0].clientY;
-    const deltaY = touchY - lastTouchYRef.current;
-    const newZoomLevel = zoomLevel - deltaY * 0.01;
-
-    if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-      setZoomLevel(newZoomLevel);
-    }
-
-    lastTouchYRef.current = touchY;
-  };
-
-  // Zoom effect logic for mouse wheel
   useEffect(() => {
     const handleWheel = (event) => {
       const newZoomLevel = zoomLevel - event.deltaY * 0.01;
@@ -174,25 +155,6 @@ const Product3 = () => {
             transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
-        {/*<div
-        ref={sliderRef}
-        className="zoom-controls"
-        
-        style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
-        <div
-
-          className="zoom-handle"
-          style={{
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
-            bottom: `${zoomLevel * 100}%`,
-            width: "45.41px",
-            height: "192.74px",
-            background: "white",
-            cursor: "pointer",
-          }}></div>
-        </div>*/}
       </div>
     </>
   );

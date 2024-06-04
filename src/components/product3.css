@@ -519,4 +519,136 @@
   .explore-arsentm-series-container13 {
     margin-bottom: 16px;
   }
-}
+
+  .explore-arsentm-series-container3 {
+    height: 15px;
+    width: 272px;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 14.4px;
+    text-transform: capitalize;
+    display: flex;justify-content: center;
+    align-items: center;
+  }
+  .vector-icon13 {
+    width: 17.2px;
+    height: 11.5px;
+    position: relative;
+  }
+  .vector-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    width: 17.2px;
+    height: 11.52px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  
+  .explore-arsentm-series-parent3 {
+    border-radius: var(--br-5xs);
+    background: linear-gradient(
+      114.03deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0)
+    );
+    width: 369.2px;
+    height: 55px;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 0.5;
+    border: 2px solid lightseagreen;
+    overflow: hidden;
+   
+  }
+  
+  .arsentm-series-offers-built-in-parent3 {
+    width: 1225px;
+    display: flex;
+    margin-bottom:7%;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .frame-wrapper63 {
+      display: flex;
+      align-self: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+  }
+  
+  
+  @media screen and (max-width: 1350px) {
+    
+  }
+  @media screen and (max-width: 925px) {
+   
+    
+  }
+  @media screen and (max-width: 450px) {
+    .container{
+      margin-top: 15%;
+      width: 100%;
+    }
+    .ballistic-emergency-recovery-container13{
+      width: 90%;
+    margin-left: 10%;
+    font-size: 32px;
+    line-height: 36px;
+    }
+    .zoom-handle{
+     
+       left: 50%;
+      
+       width: 45.41px;
+       height: 100.74px;
+       background: white;
+       cursor: pointer;
+     }
+     .ellipse{
+      width: 100%;
+     }
+     .overlay-image {
+      top:250px;
+      width: 202.5px; 
+      height: 300px;
+    }
+    .overlay-imaged{
+      top:250px;
+      width: 202.5px; 
+      height: 200px;
+    }
+    .arsentmpara{
+
+      width: 90%;
+      font-size: 16px;
+     
+    }
+    .arsentm-series-offers-container3{
+      margin: 0px;
+      margin-bottom: -15%;
+      font-size:16px;
+      width:90%;
+      height: 49px; 
+    }
+    .frame-parent363{
+      width: 100%;
+    }
+    .pwm-based-manual-sensor-base-parent3{
+      width: 100%;
+    }
+    .pwm-based-manual-container3{
+      width: 100%;
+    }
+   .pwm-based3,.manual-sensor3,.automated-ejection-mod3{
+    font-size: 16px;
+   }
+  }
