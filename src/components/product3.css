@@ -444,13 +444,13 @@
   }
   @media screen and (max-width: 450px) {
     .container{
+      margin-top: 15%;
       width: 100%;
     }
     .ballistic-emergency-recovery-container13{
       width: 90%;
-    top: 8%;
     margin-left: 10%;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 36px;
     }
     .zoom-handle{
@@ -488,7 +488,18 @@
       width:90%;
       height: 49px; 
     }
-   
+    .frame-parent363{
+      width: 100%;
+    }
+    .pwm-based-manual-sensor-base-parent3{
+      width: 100%;
+    }
+    .pwm-based-manual-container3{
+      width: 100%;
+    }
+   .pwm-based3,.manual-sensor3,.automated-ejection-mod3{
+    font-size: 16px;
+   }
   }
   
   

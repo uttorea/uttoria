@@ -171,7 +171,7 @@ const Product4 = () => {
             display: zoomLevel >= 0 ? "block" : "none",
           }}></div>
         <img
-          src="/unnamed-3@2x.png"
+          src="/unnamed 7.png"
           alt="Overlay"
           className="overlay-imaged"
           style={{

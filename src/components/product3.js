@@ -5,30 +5,7 @@ const Product3 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
   const sliderRef = useRef(null);
 
-  // const handleMouseMove = (event) => {
-  //   if (sliderRef.current) {
-  //     const rect = sliderRef.current.getBoundingClientRect();
-  //     const y = event.clientY - rect.top;
-  //     const newZoomLevel = 1 - y / rect.height;
-  //     if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-  //       setZoomLevel(newZoomLevel);
-  //     }
-  //   }
-  // };
 
-  // const handleTouchMove = (event) => {
-  //   if (sliderRef.current) {
-  //     const rect = sliderRef.current.getBoundingClientRect();
-  //     const touch = event.touches[0];
-  //     const y = touch.clientY - rect.top;
-  //     const newZoomLevel = 1 - y / rect.height;
-  //     if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-  //       setZoomLevel(newZoomLevel);
-  //     }
-  //   }
-  // };
-
-  //Zoom Effect Logic
   useEffect(() => {
     const handleWheel = (event) => {
       const newZoomLevel = zoomLevel - event.deltaY * 0.01;
@@ -174,25 +151,6 @@ const Product3 = () => {
             transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
-        {/*<div
-        ref={sliderRef}
-        className="zoom-controls"
-        
-        style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
-        <div
-
-          className="zoom-handle"
-          style={{
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
-            bottom: `${zoomLevel * 100}%`,
-            width: "45.41px",
-            height: "192.74px",
-            background: "white",
-            cursor: "pointer",
-          }}></div>
-        </div>*/}
       </div>
     </>
   );
