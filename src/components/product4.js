@@ -171,6 +171,7 @@ const Product4 = () => {
             display: zoomLevel >= 0 ? "block" : "none",
           }}></div>
         <img
+
           src="/ellipseimg.png"
           alt="Overlay"
           className="overlay-imaged"
