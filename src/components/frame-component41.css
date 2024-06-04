@@ -136,7 +136,7 @@
   padding: 0 0 var(--padding-4xl-8);
   text-align: left;
 }
-.backgroundborderoverlayblur-icon7 {
+/* .backgroundborderoverlayblur-icon7 {
   align-self: stretch;
   height: 350px;
   position: relative;
@@ -157,15 +157,14 @@
   letter-spacing: -0.01em;
   line-height: 33px;
   text-transform: capitalize;
-}
-.backgroundborderoverlayblur-parent6 {
+} */
+/* .backgroundborderoverlayblur-parent6 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   padding: 0 0 var(--padding-smi-9);
   box-sizing: border-box;
-  /* gap: var(--gap-sm-4); */
   width: 100%;
   
 }
@@ -267,8 +266,8 @@
   box-sizing: border-box;
   gap: var(--gap-sm-4);
   max-width: 100%;
-}
-.frame-parent45 {
+} */
+/* .frame-parent45 {
   align-self: stretch;
   display: grid;
   flex-direction: row;
@@ -278,8 +277,8 @@
   width: 100%;
   grid-template-columns: repeat(4, minmax(262px, 1fr));
   z-index: 1;
-}
-.explore-inflatable-airbags {
+} */
+/* .explore-inflatable-airbags {
   position: relative;
   font-size: var(--font-size-5xl);
   letter-spacing: 0.5px;
@@ -332,28 +331,28 @@
    
     box-sizing: border-box;
  
-}
-.frame-wrapper17 {
+} */
+/* .frame-wrapper17 {
   margin-top: 30px;
   width: 1510.8px;
   justify-content: center;
   padding: 0 var(--padding-xl);
   
-}
+} */
 
-.enhance-safety-with-inflatable-parent,
-.frame-parent44 {
+/* .frame-parent44 , */
+.enhance-safety-with-inflatable-parent{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-parent44 {
+/* .frame-parent44 {
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-41xl-1);
   margin-top: 83px;
-}
+} */
 .enhance-safety-with-inflatable-parent {
   width: 1521px;
   align-items: flex-end;
@@ -387,10 +386,10 @@
     padding-right: var(--padding-12xl);
     box-sizing: border-box;
   }
-  .frame-parent45 {
+  /* .frame-parent45 {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(262px, 455px));
-  }
+  } */
   .enhance-safety-with-inflatable-parent {
     gap: var(--gap-56xl);
   }
@@ -433,12 +432,12 @@
     /* margin-left: 47px; */
     width: 100%;
   }
-  .frame-parent45 {
+  /* .frame-parent45 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .image-75-parent{
+  } */
+  /* .image-75-parent{
     height: 220px;
     width: 250px;
   }
@@ -451,10 +450,10 @@
     padding-left: var(--padding-2xl);
     padding-right: var(--padding-2xl);
     box-sizing: border-box;
-  }
-  .frame-parent44 {
+  } */
+  /* .frame-parent44 {
     gap: var(--gap-11xl);
-  }
+  } */
   .enhance-safety-with-inflatable-parent {
     gap: var(--gap-18xl);
     margin-top: 80px;
@@ -463,22 +462,7 @@
     padding-bottom: var(--padding-67xl);
     box-sizing: border-box;
   }
-  .multirotor-drone-for2,
-  .sea-based-recovery2,
-  .multirotor-drone-for3,
-  .land-based-recovery2,
-  .fixed-wing-drone5,
-  .sea-based-recovery3,
-  .fixed-wing-drone6,
-  .land-based-recovery3{
-    font-size: 17px;
-    line-height: 35px;
-
-  }
-  .our-inflatable-solutions,.furthermore-we-integrate{
-    font-size: 17px;
-    line-height: 35px;
-  }
+  
   .frame-wrapper16{
     height: 220px;
     width: 66%;
@@ -489,7 +473,7 @@
     position: relative;
     }
    
-    
+/*     
  .backgroundborderoverlayblur-icon7,.backgroundborderoverlayblur-icon8,
  .backgroundborderoverlayblur-icon9,.backgroundborderoverlayblur-icon10{
   width: 100%;
@@ -507,9 +491,8 @@
  .land-based-recovery3,.land-based-recovery3{
   font-size: 17px;
 
- }
- .frame-parent45{
-
+ } */
+ /* .frame-parent45{
 align-self: stretch;
 display: grid;
 flex-direction: row;
@@ -518,14 +501,15 @@ justify-content: flex-start;
 width: 100%;
 grid-template-columns: repeat(2, minmax(150px, 1fr));
 z-index: 1;
- }
- .frame-wrapper17{
+
+ } */
+ /* .frame-wrapper17{
   margin-top: 30px;
  }
  .explore-inflatable-airbags-sys-parent{
   align-items: center;
   justify-content: center;
- }
+ } */
 
 }
 @media screen and (max-width: 450px) {
@@ -563,22 +547,7 @@ z-index: 1;
     display: flex;
     flex-direction: column;
   }
-  .explore-inflatable-airbags,
-  .fixed-wing-drone-container2,
-  .fixed-wing-drone-container3,
-  .multirotor-drone-for-container2,
-  .multirotor-drone-for-container3 {
-    font-size: 16px;
-    line-height: 37px;
-    font-weight: 100;
-  }
-  .explore-inflatable-airbags {
-    line-height: 20px;
-    font-size: 16px;
-  }
-  .frame-parent44 {
-    gap: var(--gap-mini);
-  }
+  
   .enhance-safety-with{
     font-size: 32px;
     line-height: 37px;
@@ -609,49 +578,12 @@ z-index: 1;
     border-radius: 5px;
     
   }
- 
+  
  .frame-wrapper16{
   align-items: start;
   justify-content: start;
   height: 180px;
   width: 180px;
  
- }
-
- .backgroundborderoverlayblur-icon7,.backgroundborderoverlayblur-icon8,
- .backgroundborderoverlayblur-icon9,.backgroundborderoverlayblur-icon10{
-  width: 100%;
-  height: auto;
- }
- .multirotor-drone-for-container2,.multirotor-drone-for-container3,
- .fixed-wing-drone-container2,.fixed-wing-drone-container3{
-  font-size: 16px;
-  line-height: 22px;
-  width: 100%;
- }
- .multirotor-drone-for2,.sea-based-recovery2,
- .multirotor-drone-for3,.land-based-recovery2,
- .sea-based-recovery3,.fixed-wing-drone6,.fixed-wing-drone5,
- .land-based-recovery3,.land-based-recovery3{
-  font-size: 16px;
-
- }
- .frame-parent45{
-
-align-self: stretch;
-display: grid;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-width: 100%;
-grid-template-columns: repeat(2, minmax(150px, 1fr));
-z-index: 1;
- }
- .frame-wrapper17{
-  margin-top: 30px;
- }
- .explore-inflatable-airbags-sys-parent{
-  align-items: center;
-  justify-content: center;
  }
 }

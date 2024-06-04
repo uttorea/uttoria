@@ -423,7 +423,6 @@
   gap: var(--gap-84xl-5);
 }
 .frame-wrapper12 {
-
   padding-bottom: 14%;
   align-self: stretch;
   justify-content: center;
@@ -433,7 +432,6 @@
   font-size: var(--font-size-45xl);
   color: var(--secondary);
   font-family: var(--font-poppins);
-  /* background: url('../../public/Frame\ 427318926\ 8.png');  */
 
 }
 @media screen and (max-width: 1350px) {
@@ -537,7 +535,7 @@
     gap: var(--gap-7xl);
   }
   .need-help1{
-    font-size: 30px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
