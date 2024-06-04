@@ -78,7 +78,7 @@
    
     position: absolute;
     top: 8%;
-    font-size: 24px;
+    font-size: 48px;
     line-height: 48.59px;
     font-weight: 700;
     font-family: var(--font-urbanist);
@@ -89,9 +89,7 @@
     align-items: center;
     flex-shrink: 0;
     z-index: 4;
-    flex: top;
-   
-  
+    flex: top; 
   }
   
   .pwm-based3 ,
