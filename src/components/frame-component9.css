@@ -129,13 +129,27 @@
     
     
 }
-  @media screen and (max-width: 925px) {
+  @media screen and (max-width: 900px) {
     .choose-h1 {
-      font-size: var(--font-size-19xl);
-      line-height: 71px;
+      font-size: 34px;
+      line-height: 35px;
     }
     .why-choose-uttorea {
-      gap: var(--gap-6xl);
+      /* gap: var(--gap-6xl); */
+    }
+    .experience-and-turnaround-h2,.cost-of-integration,
+    .cost-of-test-and-certificate{
+      font-size: 34px;
+      line-height: 45px;
+    }
+    .cost-of-test-p,.cost-of-integration-p,.experience-and-turnaround-p{
+      font-size: 17px;
+      line-height: 35px;
+    }
+    .why-choose-uttorea-discription{
+      width: 100%;
+      font-size: 17px;
+      line-height: 35px;
     }
   }
   @media screen and (max-width: 450px) {
@@ -144,14 +158,12 @@
       line-height: 53px;
     }
     .experience-and-turnaround-time,
-    .cost-of-tests,
-    .cost-of-integrations {
-      /* font-size:32px; */
-      line-height: 23px;
+   
+    .cost-of-integration ,.cost-of-test-and-certificate{
+      font-size:32px;
+      line-height: 45px;
     }
-    .why-choose-uttorea{
-      /* margin-top: 20px; */
-    }
+  
 .choose-h1{
   font-size: 32px;
 }
@@ -161,9 +173,7 @@
 .div1-choose, .div2-choose, .div3-choose{
   width: 90%;
   padding-top: 40px;
-  padding-bottom: 40px;
- 
-  
+  padding-bottom: 40px;  
 }
 
 .experience-and-turnaround-p,
@@ -174,6 +184,7 @@
 .why-choose-uttorea-discription{
   width: 100%;
   font-size: 16px;
+  line-height: 35px;
 }
 }
 

@@ -1,3 +1,87 @@
+.productpage{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.productpagemain{
+  width: 100%;
+  background: url('../../public/product.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.productallcont{
+  width: 100%;
+  background: url('../../public/1234.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  margin-top: -3%;
+  
+}
+.product-innercont{
+  width: 100%; 
+  padding-top: 6%;
+}
+.recoverysystemh1{
+  width: 967.47px;
+  color: #00F8F8;
+  font-size: 128px;
+  line-height: 109px;
+  letter-spacing: 4%;
+  font-weight: bold;
+  font-family: urbanist;
+  margin-bottom: 0;
+  margin-left: 8%;
+}
+.plug-and-play{
+  font-size: 36px;
+  font-weight: 300;
+  font-family: poppins;
+  line-height: 37px;
+  color: white;
+  width: 945px;
+  height: 49px;
+  margin-left: 9%;
+}
+.what-we-do{
+  margin: 0;
+  font-size: 48px;
+  font-family: urbanist;
+  font-weight:700;
+  color: cyan;
+  line-height: 48.6px;
+  width: 497px;
+  height: 70px;
+  margin-left: 9%;
+  margin-top: 50px;
+  padding-top: 0;
+}
+.we-design-and-parent{
+  width: 1519px;
+  margin-top: -10px;
+  background-color:#13131A;
+  opacity: 0.9;
+  align-items: center;
+  margin-left: 9%;
+  padding:25px;
+}
+.we-design-and,.We-offer-airframe{
+  width: 90%;
+  font-size: 24px;
+  font-family: poppins;
+  align-items: center;
+  line-height: 37px;
+  letter-spacing: 0.48px;
+  padding-left: 3.5%;
+  color: white;
+}
+
+.we-design-and{
+  margin-top: 0;
+}
+
+
+
 .urban-air-mobility,
 .with-the-age {
   position: relative;
@@ -15,7 +99,7 @@
   margin-top: 12%;
 }
 .with-the-age {
-  height: 242px;
+  /* height: 242px; */
   flex: 1;
   line-height: 46px;
   display: flex;
@@ -63,7 +147,7 @@
 .urban-air-mobility-parent {
   display: flex;
   align-items: flex-start;
-  max-width: 100%;
+  width: 100%;
 }
 .urban-air-mobility-parent {
   width: 1520px;
@@ -81,30 +165,8 @@
   font-size: var(--font-size-29xl);
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  /* background-image: url('/public//Frame\ 427318925\ 4.png'); */
 }
-.frame-container,
-.product {
-  position: relative;
-  overflow-y: auto;
-  display: flex;
-  justify-content: flex-start;
-  box-sizing: border-box;
-}
-.frame-container {
-  flex: 1;
-  flex-direction: column;
-  /* align-items: flex-end; */
-  padding: 0 0 var(--padding-11xs);
-  /* gap: 167.5px; */
-  max-width: 100%;
-  flex-shrink: 0;
-  /* text-align: center; */
-  font-size: var(--font-size-5xl);
-  color: var(--color-whitesmoke-300);
-  font-family: var(--font-urbanist);
-}
-.product {
+.allpages{
   width: 100%;
   flex-direction: row;
   align-items: flex-start;
@@ -113,6 +175,7 @@
   letter-spacing: normal;
   background-image: url("/public/Frame\ 427318925.png");
 }
+
 @media screen and (max-width: 1800px) {
 }
 @media screen and (max-width: 1350px) {
@@ -128,7 +191,7 @@
     gap: var(--gap-65xl);
   }
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 900px) {
   .urban-air-mobility {
     font-size: var(--font-size-19xl);
     line-height: 71px;
@@ -165,11 +228,49 @@
     padding-bottom: var(--padding-37xl);
     box-sizing: border-box;
   }
-  .urban-air-mobility-parent {
-   
-  }
+
   .frame-wrapper {
     padding-bottom: var(--padding-43xl);
     box-sizing: border-box;
   }
+
+  .productpagemain,.productpage{
+    width: 100%;
+  }
+  .productallcont{
+    width: 100%;
+  }
+  .product-innercont{
+    width: 100%;  
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .recoverysystemh1{
+    width: 60%;
+    margin-top: 30%;
+    margin-bottom: 0;
+    line-height: 35px;
+    font-size: 32px;
+  }
+  .plug-and-play{
+    width: 70%;
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .what-we-do{
+    width: 70%;
+    font-size: 40px;
+  }
+  .we-design-and-parent{
+    width: 70%;
+  }
+  .we-design-and{
+    font-size: 16px;
+  }
+  .We-offer-airframe{
+    font-size: 16px;
+  
+  }
 }
+
