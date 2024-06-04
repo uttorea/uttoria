@@ -429,6 +429,7 @@
 @media screen and (max-width: 925px) {
 }
 @media screen and (max-width: 450px) {
+  
   .container {
     width: 100%;
   }
@@ -519,4 +520,4 @@
   .explore-arsentm-series-container13 {
     margin-bottom: 16px;
   }
-}
+  }
