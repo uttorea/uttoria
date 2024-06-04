@@ -81,6 +81,7 @@
 }
 
 
+
 .urban-air-mobility,
 .with-the-age {
   position: relative;
@@ -167,6 +168,12 @@
 }
 .allpages{
   width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  line-height: normal;
+  letter-spacing: normal;
+  background-image: url("/public/Frame\ 427318925.png");
 }
 
 @media screen and (max-width: 1800px) {
@@ -226,6 +233,7 @@
     padding-bottom: var(--padding-43xl);
     box-sizing: border-box;
   }
+
   .productpagemain,.productpage{
     width: 100%;
   }
@@ -265,3 +273,4 @@
   
   }
 }
+

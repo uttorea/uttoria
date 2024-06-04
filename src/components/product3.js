@@ -4,31 +4,27 @@ import "./product3.css";
 const Product3 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
   const sliderRef = useRef(null);
+  const lastTouchYRef = useRef(0);
 
-  // const handleMouseMove = (event) => {
-  //   if (sliderRef.current) {
-  //     const rect = sliderRef.current.getBoundingClientRect();
-  //     const y = event.clientY - rect.top;
-  //     const newZoomLevel = 1 - y / rect.height;
-  //     if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-  //       setZoomLevel(newZoomLevel);
-  //     }
-  //   }
-  // };
+  // Handle touch start to initialize touch position
+  const handleTouchStart = (event) => {
+    lastTouchYRef.current = event.touches[0].clientY;
+  };
 
-  // const handleTouchMove = (event) => {
-  //   if (sliderRef.current) {
-  //     const rect = sliderRef.current.getBoundingClientRect();
-  //     const touch = event.touches[0];
-  //     const y = touch.clientY - rect.top;
-  //     const newZoomLevel = 1 - y / rect.height;
-  //     if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-  //       setZoomLevel(newZoomLevel);
-  //     }
-  //   }
-  // };
+  // Handle touch move for Android devices
+  const handleTouchMove = (event) => {
+    const touchY = event.touches[0].clientY;
+    const deltaY = touchY - lastTouchYRef.current;
+    const newZoomLevel = zoomLevel - deltaY * 0.01;
 
-  //Zoom Effect Logic
+    if (newZoomLevel >= 0 && newZoomLevel <= 1) {
+      setZoomLevel(newZoomLevel);
+    }
+
+    lastTouchYRef.current = touchY;
+  };
+
+  // Zoom effect logic for mouse wheel
   useEffect(() => {
     const handleWheel = (event) => {
       const newZoomLevel = zoomLevel - event.deltaY * 0.01;
@@ -37,9 +33,13 @@ const Product3 = () => {
       }
     };
     document.addEventListener("wheel", handleWheel);
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchmove", handleTouchMove);
 
     return () => {
       document.removeEventListener("wheel", handleWheel);
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchmove", handleTouchMove);
     };
   }, [zoomLevel]);
 
@@ -129,7 +129,7 @@ const Product3 = () => {
           <div className="arsentm-series-offers-built-in-parent3">
             <div className="arsentm-series-offers-container3">
               <b>ARSENTM</b>
-              <span className='arsentmpara'>
+              <span className="arsentmpara">
                 {" "}
                 Series offers built in intelligence and split-second decision
                 making capable recovery system
