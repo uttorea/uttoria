@@ -219,10 +219,15 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .custom-drone-recovery-system-parent {
+    margin: 0;
+  }
+  .frame-wrapper11 {
+    margin: 0;
+  }
   .custom-drone-recovery2 {
     font-size: 22px;
     line-height: 36px;
-    margin-top: 40%;
   }
 
   .uttoria-offers-oem,
