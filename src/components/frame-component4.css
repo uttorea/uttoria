@@ -204,7 +204,7 @@
 }
 @media screen and (max-width: 450px) {
   .our-plug-and {
-    margin-top: 30%;
+    margin-top: 0;
     font-size: 18px;
     line-height: 95px;
   }
