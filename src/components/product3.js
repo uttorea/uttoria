@@ -4,7 +4,27 @@ import "./product3.css";
 const Product3 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
   const sliderRef = useRef(null);
+  const lastTouchYRef = useRef(0);
 
+  // Handle touch start to initialize touch position
+  const handleTouchStart = (event) => {
+    lastTouchYRef.current = event.touches[0].clientY;
+  };
+
+  // Handle touch move for Android devices
+  const handleTouchMove = (event) => {
+    const touchY = event.touches[0].clientY;
+    const deltaY = touchY - lastTouchYRef.current;
+    const newZoomLevel = zoomLevel - deltaY * 0.01;
+
+    if (newZoomLevel >= 0 && newZoomLevel <= 1) {
+      setZoomLevel(newZoomLevel);
+    }
+
+    lastTouchYRef.current = touchY;
+  };
+
+  // Zoom effect logic for mouse wheel
 
   useEffect(() => {
     const handleWheel = (event) => {
@@ -14,9 +34,13 @@ const Product3 = () => {
       }
     };
     document.addEventListener("wheel", handleWheel);
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchmove", handleTouchMove);
 
     return () => {
       document.removeEventListener("wheel", handleWheel);
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchmove", handleTouchMove);
     };
   }, [zoomLevel]);
 
@@ -106,7 +130,7 @@ const Product3 = () => {
           <div className="arsentm-series-offers-built-in-parent3">
             <div className="arsentm-series-offers-container3">
               <b>ARSENTM</b>
-              <span className='arsentmpara'>
+              <span className="arsentmpara">
                 {" "}
                 Series offers built in intelligence and split-second decision
                 making capable recovery system

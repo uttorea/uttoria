@@ -19,7 +19,6 @@
   align-items: center;
   width: 100%;
   max-width: 1500px;
-
 }
 
 .logo1 {
@@ -33,18 +32,17 @@
   display: flex;
   width: 100%;
   height: 100px;
-  padding-left:200px ;
- justify-content: space-around;
- align-items: center;
- font-family: 'Urbanist';
- font-weight:600;
+  padding-left: 200px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Urbanist";
+  font-weight: 600;
 }
 
 .navbar-item {
   cursor: pointer;
   font-size: var(--font-size-5xl);
   padding-left: 20px;
-  
 }
 
 .hamburger-menu {
@@ -53,25 +51,24 @@
   font-size: var(--font-size-5xl);
   margin-left: auto;
   padding-right: 50px;
-  
 }
 
 .mobile-menu {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 100px;
+  top: 62px;
   right: -100%;
   background-color: var(--color-gray-300);
-  width: 60%;
+  width: 55%;
   text-align: center;
   z-index: 5;
   border-top: 1px solid var(--color-gray-200);
+  line-height: 26px;
   transition: right 0.3s ease;
-
 }
 .mobile-menu.open {
-  right: 0; 
+  right: 0;
 }
 
 .mobile-menu-item {
@@ -87,30 +84,27 @@
   }
   .hamburger-menu {
     display: block;
-   
   }
   .mobile-menu {
     display: flex;
   }
-
 }
 @media screen and (max-width: 925px) {
-.navbar-item{
-  font-size: 18px;
-  font-weight: 100;
-  padding-left: 0;
+  .navbar-item {
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 0;
+  }
+  .navbar-menu {
+    padding-left: 8%;
+  }
+  .logo1 {
+    width: 80px;
+    height: 60px;
+  }
+  .navbar {
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
 }
-.navbar-menu{
-  padding-left: 8%;
-}
-.logo1{
-  width: 80px;
-  height: 60px;
-}
-.navbar{
-height: 60px;
-align-items: center;
-justify-content: center;
-}
-}
-
