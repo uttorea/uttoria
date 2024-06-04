@@ -1,7 +1,11 @@
+.aboutmaindiv{
+  background: url('../../public/aboutpage.png');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .about-us-child {
   width: 100%;
-  /* width: 1920px; */
-  /* height: 5221px; */
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -211,7 +215,7 @@
   font-size: 24px;
   color: var(--cyan);
   font-family: var(--font-urbanist);
-  background: url('../../public/aboutpage.png');
+  
 }
 @media screen and (max-width: 1250px) {
   .backgroundborder {
@@ -223,45 +227,48 @@
     gap: 109px;
   }
 }
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 900px) {
   .uttorea {
-    font-size: var(--font-size-32xl);
-    line-height: 53px;
+    font-size: 64px;
+    line-height: 35px;
+    padding-bottom: 0;
+  }
+  .aboutmaindiv{
+    width: 100%;
   }
   .rescue-safety {
-    font-size: var(--font-size-13xl);
-    line-height: 40px;
+    font-size: 17px;
+    line-height: 35px;
   }
-  .frame-group {
-    gap: var(--gap-31xl);
+  .at-uttorea-our{
+    width: 100%;
+    font-size: 17px;
+    line-height: 35px;
   }
-  .about-us-inner {
-    padding-bottom: 122px;
-    box-sizing: border-box;
+  .our-story{
+    font-size: 34px;
+    line-height: 35px;
   }
-  .our-story {
-    font-size: var(--font-size-19xl);
-    line-height: 9px;
+  .our-story-parent{
+    gap: 40px;
   }
-  .our-story-parent {
-    gap: var(--gap-33xl);
-  }
-  .about-us-inner1 {
-    padding-bottom: var(--padding-55xl);
-    box-sizing: border-box;
-  }
-  .about-us1 {
-    gap: 55px;
+  .imbibing-the-qualities-container{
+    width: 100%;
+    font-size: 17px;
+    line-height: 35px;
   }
 }
 @media screen and (max-width: 450px) {
   .uttorea {
 
-    font-size: 32px;
+    font-size: 64px;
     line-height: 36px;
     margin: 0;
     margin-top: 40%;
     
+  }
+  .uttorea-parent{
+    gap: 0;
   }
   .about-us1{
     gap: 0;
@@ -272,7 +279,7 @@
   .rescue-safety {
     font-size: 16px;
     line-height: 30px;
-    margin-top: 0;
+    margin-top: 10px;
    
     padding-bottom: 20%;
   }
@@ -287,14 +294,14 @@
     font-weight: 600;
   }
   .frame-group {
-    gap: var(--gap-6xl);
+    gap: 0;
   }
   .our-story {
-    font-size: var(--font-size-10xl);
-    line-height: 7px;
+    margin-top: 40%;
+    font-size:32px;
+    line-height: 35px;
   }
   .imbibing-the-qualities-container {
-    /* font-size: var(--font-size-lgi); */
     font-size: 16px;
     line-height: 37px;
     margin-top:5%;

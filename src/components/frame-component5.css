@@ -133,17 +133,17 @@
 }
 
 .image-72-parent {
-  background-image: url("../../public/baloon.svg");
+  background-image: url("../../public/uttoria-ballon.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   padding: 1rem;
   width: 100%;
   height: auto;
-  min-height: 690px;
+  min-height: 762px;
   box-sizing: border-box;
   object-fit: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); */
 }
 
 .plug-text {
@@ -217,7 +217,11 @@
 
 /* In Mobile */
 /* Responsive CSS */
-@media (max-width: 768px) {
+@media screen and (max-width: 1350px) {
+}
+@media screen and (max-width: 925px) {
+}
+@media screen and (max-width: 450px) {
   .plug-text {
     margin-left: 1rem;
     line-height: 1.5rem;
@@ -247,5 +251,11 @@
 
   .image-72-parent {
     min-height: 300px;
+    background-position: center;
+    padding-top: 46px;
+    padding-left: 16px;
+
+    box-sizing: border-box;
+    object-fit: cover;
   }
 }

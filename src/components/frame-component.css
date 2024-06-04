@@ -6,6 +6,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -57,21 +59,17 @@
 }
 
 hr {
-  width: 94%;
+  width: 100%;
   margin: 0px;
   height: 2px;
   color: rgba(70, 68, 68, 0.799) ;
   border:1px solid  rgba(70, 68, 68, 0.799) ;
   background-color: rgba(70, 68, 68, 0.799) ;
   
-  margin-left: 50x;
-  
 }
-.hrbottom{
-margin-left: 52px;
-}
+
 .hruper{
-  margin-top: 30px;
+  margin-top: 0;
 }
 hr.hrlogo{
   height: 0;
@@ -301,16 +299,20 @@ hr.hrlogo{
   }
   .hruper{
     margin-left: 0;
-    width: 90%;
+    width: 100%;
     padding-top: 0;
+    margin-top: -2px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .footermain {
-    padding: 10px 0 10px 0;
+    padding: 0px 0 10px 0;
     
     text-align: center;
+   }
+   hr{
+    width: 100%;
    }
 
   .footer-top{
@@ -322,7 +324,7 @@ hr.hrlogo{
   }
 
   .footer-top{
-    padding-top:15%;
+    padding-top:5%;
   }
 
   .logo-footer {

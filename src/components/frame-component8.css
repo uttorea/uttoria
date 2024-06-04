@@ -1,3 +1,32 @@
+.home-inner8 {
+  
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+     box-sizing: border-box;
+  max-width: 100%;
+  align-items: center;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+  padding-top: 8%;
+}
+.our-solutions-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.our-solutions-parent {
+  width: 1521px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  align-items: flex-end;
+  gap: 70px;
+  flex-shrink: 0;
+}
 .our-solution {
     padding: 0px;
     margin: 0px;
@@ -12,6 +41,7 @@
     /* padding-left: 27%; */
     z-index: 1;
   }
+
   .our-p-solutions {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -34,284 +64,99 @@
     width: 100%;
   }
  
- 
-  .backgroundborderoverlayblur-icon7 {
-    align-self: stretch;
-    height: 350px;
-    position: relative;
-    border-radius: var(--br-base);
-    max-width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .multirotor-drone-for2,
-  .sea-based-recovery2 {
-    margin: 0;
-  }
-  .multirotor-drone-for-container2 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.01em;
-    line-height: 33px;
-    text-transform: capitalize;
-  }
-  .backgroundborderoverlayblur-parent6 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 0 0 var(--padding-smi-9);
-    box-sizing: border-box;
-    gap: var(--gap-sm-4);
-    max-width: 100%;
-  }
-  .backgroundborderoverlayblur-icon8 {
-    align-self: stretch;
-    height: 350px;
-    position: relative;
-    border-radius: var(--br-base);
-    max-width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .land-based-recovery2,
-  .multirotor-drone-for3 {
-    margin: 0;
-  }
-  .multirotor-drone-for-container3 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.01em;
-    line-height: 33px;
-    text-transform: capitalize;
-  }
-  .backgroundborderoverlayblur-parent7 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 0 0 var(--padding-smi-9);
-    box-sizing: border-box;
-    gap: var(--gap-sm-4);
-    max-width: 100%;
-  }
-  .backgroundborderoverlayblur-icon9 {
-    align-self: stretch;
-    height: 350px;
-    position: relative;
-    border-radius: var(--br-base);
-    max-width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .fixed-wing-drone5,
-  .sea-based-recovery3 {
-    margin: 0;
-  }
-  .fixed-wing-drone-container2 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.01em;
-    line-height: 33px;
-    text-transform: capitalize;
-  }
-  .backgroundborderoverlayblur-parent8 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 0 0 var(--padding-smi-9);
-    box-sizing: border-box;
-    gap: var(--gap-sm-4);
-    max-width: 100%;
-  }
-  .backgroundborderoverlayblur-icon10 {
-    align-self: stretch;
-    height: 350px;
-    position: relative;
-    border-radius: var(--br-base);
-    max-width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .fixed-wing-drone6,
-  .land-based-recovery3 {
-    margin: 0;
-  }
-  .fixed-wing-drone-container3 {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.01em;
-    line-height: 33px;
-    text-transform: capitalize;
-  }
-  .backgroundborderoverlayblur-parent9 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 0 0 var(--padding-smi-9);
-    box-sizing: border-box;
-    gap: var(--gap-sm-4);
-    max-width: 100%;
-  }
-  .frame-parent45 {
-    align-self: stretch;
-    display: grid;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-21xl-3);
-    max-width: 100%;
-    grid-template-columns: repeat(4, minmax(262px, 1fr));
-    z-index: 1;
-  }
-  .explore-inflatable-airbags {
-    position: relative;
-    font-size: var(--font-size-5xl);
-    letter-spacing: 0.5px;
-    line-height: 15px;
-    text-transform: capitalize;
-    font-family: var(--font-poppins);
-    color: var(--cyan);
-    text-align: center;
-  }
- 
-  .our-solutions-parent,
-  .frame-parent44 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-  }
-  .frame-parent44 {
-    
-    align-self: stretch;
-    align-items: flex-start;
-    gap: var(--gap-41xl-1);
-    margin-top: 0;
-   
-  }
-  .our-solutions-parent {
-    width: 1521px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    align-items: flex-end;
-    gap: 70px;
-        /* gap: var(--gap-130xl-8); */
-    flex-shrink: 0;
-  }
-  .home-inner8 {
-  
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-       box-sizing: border-box;
-    max-width: 100%;
-    align-items: center;
-    font-size: var(--font-size-5xl);
-    color: var(--white);
-    font-family: var(--font-poppins);
-    padding-top: 8%;
-  }
 
+
+
+  
  
   @media screen and (max-width: 1350px) {
    
     
-    .frame-parent45 {
-      justify-content: center;
-      grid-template-columns: repeat(2, minmax(262px, 455px));
-    }
-    .our-solutions-parent {
-      gap: var(--gap-56xl);
-    }
-    .home-inner3 {
-      padding-bottom: var(--padding-114xl);
-      box-sizing: border-box;
-    }
+   
   }
   @media screen and (max-width: 900px) {
+    .home-inner8{
+      align-items: center;
+    }
     .our-solution {
-      font-size: var(--font-size-19xl);
-      line-height: 9px;
-    }
-   
-    
-    .frame-parent45 {
-      gap: var(--gap-xl);
-      grid-template-columns: minmax(262px, 1fr);
-    }
-    
-    .frame-parent44 {
-      gap: var(--gap-11xl);
-    }
-    .our-solutions-parent {
-      gap: var(--gap-18xl);
-    }
-    .home-inner3 {
-      padding-bottom: var(--padding-67xl);
-      box-sizing: border-box;
-    }
-  }
-  @media screen and (max-width: 450px) {
-    .our-solution {
-      font-size: var(--font-size-10xl);
+      font-size: 34px;
       line-height: 7px;
     }
     .our-p-solutions {
-      /* font-size: var(--font-size-lgi); */
-      font-size: 16px;
-      line-height: 37px;
+      font-size: 17px;
+      line-height: 35px;
       width: 100%;
       margin-left: -20px;
     }
-    
-   
-    .fixed-wing-drone-container2,
-    .fixed-wing-drone-container3,
-    .multirotor-drone-for-container2,
-    .multirotor-drone-for-container3 {
-      font-size: var(--font-size-lgi);
-      line-height: 26px;
-    }
-   
-    .frame-parent44 {
-      gap: var(--gap-mini);
-    }
     .our-solutions-parent {
-      /* gap: var(--gap-lgi); */
-      width: 100%;
+      
+      width: 90%;
       padding: 0;
     }
+    
     .home-inner3 {
       padding-bottom: var(--padding-37xl);
       box-sizing: border-box;
     }
     .our-solutions-container {
-display: flex;
-flex-direction: row;
-align-items: center;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
     .our-solution{
       padding: 0;
-      line-height: 37px;
-      /* padding-left: 40px; */
+      font-size: 34px;
+      line-height: 45px;
+      margin-top: 25%;
       align-items: center;
     }
-    .home-inner8{
-      align-items: center;
-    }
+   
     .our-solutions-container{
       width: 90%;
     }
-    .frame-parent45{
-      grid-template-columns: repeat(2, minmax(240px, 1fr));
-      width: 100%;
-      margin-left: 2px;
-      margin-right: 2px;
+   
+  }
+  @media screen and (max-width: 450px) {
+   
+    .home-inner8{
+      align-items: center;
     }
+    .our-solution {
+      font-size: var(--font-size-10xl);
+      line-height: 7px;
+    }
+    .our-p-solutions {
+      font-size: 16px;
+      line-height: 35px;
+      width: 100%;
+      margin-left: -20px;
+    }
+    .our-solutions-parent {
+      
+      width: 100%;
+      padding: 0;
+    }
+    
+    .home-inner3 {
+      padding-bottom: var(--padding-37xl);
+      box-sizing: border-box;
+    }
+    .our-solutions-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .our-solution{
+      padding: 0;
+      font-size: 32px;
+      line-height: 45px;
+      margin-top: 25%;
+      align-items: center;
+    }
+   
+    .our-solutions-container{
+      width: 90%;
+    }
+   
   }
   

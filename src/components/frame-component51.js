@@ -27,26 +27,6 @@ const FrameComponent51 = () => {
                 Drone systems. Multirotor, fixed wing, VTOL drones and RUAVs
               </div>
             </div>
-            {/* <div className="backgroundborderoverlayblur-parent5">
-              <BackgroundBorderOverlayBlur1
-                image54="/image-541@2x.png"
-                arsenTM="Arsen"
-                vector="/vector1.svg"
-                onFrameContainer1Click={onFrameContainer1Click}
-              />
-              <BackgroundBorderOverlayBlur1
-                image54="/unnamed 7.png"
-                arsenTM="Diceris"
-                vector="/vector-1.svg"
-                propPadding="201px 0px 0px"
-                propGap="62.5px"
-                propPadding1="0px var(--padding-xl) 0px var(--padding-2xl)"
-                width= "389px"
-                margin-top="27px"
-                onFrameContainer1Click={onFrameContainer12Click}
-              />
-            </div> */}
-
 
             <div className="recoversectionimages">
               <div className="assentnmimagesection">

@@ -11,10 +11,9 @@ import Navbar from "./Navbar";
 const AboutUs = () => {
   return (
     <div className="about-us1">
-      <Navbar/>
-      
+     <div className="aboutmaindiv">
 
-      {/* <img className="about-us-child" alt="" src="/aboutmain.png" /> */}
+           <Navbar/>
       <div className="overlay1" />
       <div className="gradient1" />
      
@@ -53,8 +52,10 @@ const AboutUs = () => {
       <FrameComponent9/>
       <FrameComponent8/>
       <FrameComponent1 />
+    </div>
       <FrameComponent />
     </div>
+
   );
 };
 

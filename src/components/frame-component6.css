@@ -95,6 +95,7 @@
   font-size: var(--font-size-5xl);
   color: var(--white);
   font-family: var(--font-poppins);
+ 
   
 }
 .autonomous-drone-safety-parent,
@@ -109,16 +110,15 @@
   flex-direction: column;
   justify-content: flex-start;
   /* gap: var(--gap-179xl); */
-  gap: 140px;
+  gap: 106px;
+  padding-top: 1.8%;
 }
 .home-inner1 {
-  
   width: 100%;
-  /* height: 1080px; */
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0px var(--padding-8xl) 0 var(--padding-xl);
+  padding: 0px var(--padding-8xl) 22.3% var(--padding-xl);
   box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-29xl);
@@ -229,13 +229,8 @@
     padding-top: 100px;
     font-size: 20px;
   }
-  .autonomous-drone-safety{
-    font-size: 30px;
-  }
-
   .unnamed-2-icon{
-    /* width: 50%;
-    height: auto; */
+  
     margin-right: 0;
     right: 0;
     height: 250px;
