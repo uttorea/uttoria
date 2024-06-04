@@ -208,6 +208,10 @@
     font-size: 18px;
     line-height: 95px;
   }
+
+  .div4 {
+    max-width: 76%;
+  }
   .airframe-specific-composite-container,
   .customized-parachute-canopyai,
   .electro-mechanical-pyrotechni,
