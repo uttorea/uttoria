@@ -123,7 +123,7 @@
     flex: 1;
     position: relative;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
     width: 442px;
     font-size: 24px;
     line-height: 3.3px;
@@ -141,7 +141,6 @@
   .speed-53 {
     font-size: 24px;
     width: 200px;
-    
     line-height: 3.3px;
   }
   .descent-speed-container3 {
@@ -149,7 +148,6 @@
     /* font-size: 24px; */
     text-align: center;
     height: 25px;
-   
     text-transform: capitalize;
   }
   .descent-speed-5-ms-wrapper3 {
@@ -392,6 +390,7 @@
     height: 11.52px;
     align-items: flex-end;
     justify-content: flex-start;
+    
   }
   
   .explore-arsentm-series-parent3 {
@@ -409,6 +408,7 @@
     letter-spacing: 0.5;
     border: 2px solid lightseagreen;
     overflow: hidden;
+    display: flex;
    
   }
   
@@ -522,6 +522,7 @@
      line-height: 0;
       position: relative;
       right: 80px;
+      height: 20px;
     }
     .descent-speed-container3 {
       width: 100%;
@@ -529,13 +530,15 @@
     .descent-speed-5-ms-wrapper3 {
       width: 100%;
     }
-    .speed-53, .descent3 {
+    .speed-53, .descent3 {  
       font-size: 12px;
-      width: 250px;
+      width: 100px;
       /* line-height: 5px; */
       position: relative;
-      right: -30px;
-      bottom:20px;
+      /* right: -30px; */
+      left: 230px;
+      bottom:70px;
+      
     }
     .pneumatic-micro-servo-container3 {
       width: 100%;
@@ -550,6 +553,7 @@
       position: relative;
       left: 20px;
       top: 30px;
+      height: 20px;
       /* top:""= */
       /* bottom:20px; */
     }
@@ -564,8 +568,8 @@
       width: 120px;
       line-height: 0px;
       position: relative;
-      left: 200px;
-      bottom:65px;
+      left: 100px;
+      top: 13px;
     }
     .advanced-carbon-composite-stru-parent3 {
       width: 100%;
@@ -626,7 +630,7 @@
      
       width: 250.2px;
       height: 55px;
-      gap: 10px;  
+      gap: 1px;  
       font-size: 16px;
       letter-spacing: 0.5;
       overflow: hidden;
