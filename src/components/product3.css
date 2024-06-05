@@ -443,9 +443,31 @@
   .ballistic-ejection3,
   .pneumatic-micro-servo3 {
     margin: 0;
-    font-size: 16px;
-    margin-right: 90px;
-    line-height: 35px;
+    /* color: ; */
+    font-size: 24px;
+    text-align: center;
+    width: 442px; 
+    height: 33px;
+    
+  }
+  .pneumatic-micro-servo-container3 {
+    letter-spacing: 0%;
+    line-height: 33px;
+    margin-top: 100px;
+    align-self: stretch;
+    position: relative;
+    line-height: 7.14px;
+    text-transform: capitalize;
+  }
+  .dust-protection3,
+  .waterproof-and3 {
+  
+    width: 197px;
+    font-size: 24px;
+    line-height: 7.14px;
+    align-items: center;
+    /* margin: 0px; */
+    
   }
 
   .pwm-based3,
@@ -589,67 +611,207 @@
   @media screen and (max-width: 1350px) {
     
   }
-  @media screen and (max-width: 925px) {
-   
-    
-  }
+ 
+
   @media screen and (max-width: 450px) {
-    .container{
+    .container {
       margin-top: 15%;
       width: 100%;
     }
-    .ballistic-emergency-recovery-container13{
+    .ballistic-emergency-recovery-container13 {
       width: 90%;
-    margin-left: 10%;
-    font-size: 32px;
-    line-height: 36px;
+      margin-left: 10%;
+      font-size: 32px;
+      line-height: 36px;
     }
-    .zoom-handle{
-     
-       left: 50%;
-      
-       width: 45.41px;
-       height: 100.74px;
-       background: white;
-       cursor: pointer;
-     }
-     .ellipse{
+    .zoom-handle {
+      left: 50%;
+      width: 45.41px;
+      height: 100.74px;
+      background: white;
+      cursor: pointer;
+    }
+    .ellipse {
       width: 100%;
-     }
-     .overlay-image {
-      top:250px;
+    }
+    .overlay-image {
+      top: 250px;
       width: 202.5px; 
       height: 300px;
     }
-    .overlay-imaged{
-      top:250px;
-      width: 202.5px; 
-      height: 200px;
+    .overlay-imaged {
+      top: 320px;
+      width: 180.5px; 
+      height: 150px;
     }
-    .arsentmpara{
-
+    .arsentmpara {
       width: 90%;
       font-size: 16px;
-     
     }
-    .arsentm-series-offers-container3{
+    .arsentm-series-offers-container3 {
       margin: 0px;
       margin-bottom: -15%;
-      font-size:16px;
-      width:90%;
+      font-size: 16px;
+      width: 90%;
       height: 49px; 
     }
-    .frame-parent363{
+    .frame-parent363 {
+      width: 100%;
+      position: relative;
+      right: 50px;
+      top: 25px;
+      /* gap:50px; */
+    }
+    .pwm-based-manual-sensor-base-parent3 {
+      margin-bottom: 20%;
       width: 100%;
     }
-    .pwm-based-manual-sensor-base-parent3{
+    .pwm-based-manual-container3 {
+      width: 100%;
+      padding-left: 0;
+      top: 20px;
+    }
+    .pwm-based3, .manual-sensor3, .automated-ejection-mod3 {
+      font-size: 12px;
+      width: 190px;
+      line-height: 5px;
+      position: relative;
+      right: 235px;
+      top: 20px;
+    }
+    .frame-wrapper53 {
+      height: 0;
+      width: 0;
+    }
+    .minimum-effective-height-20-wrapper3 {
       width: 100%;
     }
-    .pwm-based-manual-container3{
+    .minimum-effective-height-container3 {
       width: 100%;
     }
-   .pwm-based3,.manual-sensor3,.automated-ejection-mod3{
-    font-size: 16px;
-   }
+    .above-ground3, .effective-height-3, .minimum3 {
+      font-size: 12px;
+      width: 200px;
+     line-height: 0;
+      position: relative;
+      right: 80px;
+    }
+    .descent-speed-container3 {
+      width: 100%;
+    }
+    .descent-speed-5-ms-wrapper3 {
+      width: 100%;
+    }
+    .speed-53, .descent3 {
+      font-size: 12px;
+      width: 250px;
+      /* line-height: 5px; */
+      position: relative;
+      right: -30px;
+      bottom:20px;
+    }
+    .pneumatic-micro-servo-container3 {
+      width: 100%;
+    }
+    .pneumatic-micro-servo-sprin-parent3 {
+      width: 100%;
+    }
+    .pneumatic-micro-servo3, .ballistic-ejection3 {
+      font-size: 12px;
+      width: 200px;
+      line-height: 0;
+      position: relative;
+      left: 20px;
+      top: 30px;
+      /* top:""= */
+      /* bottom:20px; */
+    }
+    .waterproof-and-dust-protection-wrapper3 {
+      width: 100%;
+    }
+    .waterproof-and-dust-container3 {
+      width: 100%;
+    }
+    .dust-protection3, .waterproof-and3 {
+      font-size: 12px;
+      width: 120px;
+      line-height: 0px;
+      position: relative;
+      left: 200px;
+      bottom:65px;
+    }
+    .advanced-carbon-composite-stru-parent3 {
+      width: 100%;
+    }
+    .advanced-carbon-composite-container3 {
+      width: 100%;
+    }
+    .composite-structure3, .advanced-carbon3,.ejection-mode {
+      font-size: 12px;
+      width: 250px;
+      /* line-height: 5px; */
+      position: relative;
+      right: 120px;
+      top: 40px;
+      /* bottom:20px; */
+    }
+    .operating-temperature-10-to-wrapper3 {
+      width: 100%;
+    }
+    .operating-temperature-container3 {
+      width: 100%;
+    }
+    .operating-temperature3, .to-50-deg3 {
+      font-size: 12px;
+      width: 170px;
+      /* line-height: 5px; */
+      position: relative;
+      left: 65px;
+      bottom:25px;
+    }
+    .g-shock-on-mounting-points-wrapper3 {
+      width: 100%;
+    }
+    .g-shock-on-container3 {
+      width: 100%;
+    }
+    .mounting-points3, .g-shock-on3 {
+      font-size: 12px;
+      width: 120px;
+      /* line-height: 5px; */
+      position: relative;
+      left: 190px;
+      /* bottom:25px; */
+    }
+    .mounting-points3{
+      line-height: 15px;
+    }
+    .waterproof-and-dust-protection-wrapper3 {
+      width: 100%;
+    }
+    .waterproof-and-dust-container3 {
+      width: 100%;
+    }
+    /* .dust-protection3, .waterproof-and3 {
+      font-size: 12px;
+    } */
+    .explore-arsentm-series-parent3{
+     
+      width: 250.2px;
+      height: 55px;
+      gap: 10px;  
+      font-size: 16px;
+      letter-spacing: 0.5;
+      overflow: hidden;
+     
+    }
+    
+    .explore-arsentm-series-parent3{
+      margin-top: 200px;
+      
+    }
+    .container{
+      margin-bottom:100px;
+    }
   }
-  
+

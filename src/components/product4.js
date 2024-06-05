@@ -107,7 +107,7 @@ const Product4 = () => {
                   <p className="composite-structure3">
                     Composite Structuremated
                   </p>
-                  <p>Ejection Mode</p>
+                  <p className="ejection-mode">Ejection Mode</p>
                 </div>
                 <div className="operating-temperature-10-to-wrapper3">
                   <div className="operating-temperature-container3">
