@@ -7,23 +7,12 @@ const FrameComponent3 = () => {
         <h1 className="custom-drone-recovery2">Custom Drone Recovery system</h1>
         <div className="backgroundborder6">
           <div className="generateanimageshowcasinguttor-parent">
-            <img
-              className="generateanimageshowcasinguttor-icon"
-              loading="lazy"
-              alt=""
-              src="/generateanimageshowcasinguttoriasexpertiseinoemintegrationofsafetyandrecoverysystemsforspecializeduasalongsidetheircapabilitiesincargoorpayloaddeliverysystemsthescen1-1@2x.png"
-            />
-            <div className="rectangle-parent4">
-              <div className="frame-child20" />
-              <div className="generateanimageshowcasinguttor-group">
-                <img
-                  className="generateanimageshowcasinguttor-icon1"
+           
+          <img
+                  className="img1"
                   alt=""
                   src="/generateanimageshowcasinguttoriasexpertiseinoemintegrationofsafetyandrecoverysystemsforspecializeduasalongsidetheircapabilitiesincargoorpayloaddeliverysystemsthescen1-2@2x.png"
                 />
-                <div className="frame-child21" />
-              </div>
-            </div>
           </div>
           <div className="uttoria-offers-oem-integration-wrapper">
             <div className="uttoria-offers-oem-container">
