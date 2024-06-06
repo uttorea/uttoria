@@ -8,7 +8,8 @@ import FrameComponent51 from "../components/frame-component51";
 import FrameComponent31 from "../components/frame-component31";
 
 import Navbar from "./Navbar";
-
+// import img2 from '../../public/group-1000001782.svg'
+import gradient from "../assert/Gradient.png"
 import { useNavigate } from "react-router-dom";
 import "./home.css";
 import backGround from "../assert/Uttorea H.mp4";
@@ -24,7 +25,9 @@ const Home = () => {
             <source src={backGround} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="gradient-overlayhome"></div>
+          <div className="gradient-overlayhome">
+            <img src={gradient} alt="home "/>
+          </div>
         </section>
 
         <section className="home-child">
