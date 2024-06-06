@@ -43,7 +43,7 @@ const FrameComponent = () => {
         </div>
         <div className="footer-section-office">
           <h3>Office</h3>
-          <p style={{ textAlign: 'start', width: '60%' }}>
+          <p style={{ textAlign: 'start', width: '55%' }}>
             DJAC, SIIC building, IIT Kanpur 208016
           </p>
         </div>
