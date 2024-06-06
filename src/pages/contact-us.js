@@ -42,6 +42,7 @@ const ContactUs = () => {
         <img className="image-25-icon" alt="" src="/Section 2.png" />
         <div className="overlay-parent"/>
         <div className='contectusdivmain'>
+
         <div className="contectusleft">
 
           <div className='addressmain'>

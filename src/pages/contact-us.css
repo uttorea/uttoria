@@ -6,6 +6,9 @@
 .frame-wrapper121{
   width: 100%;
 }
+.image-25-icon{
+  width: 100%;
+}
 .contectusdivmain{
   display: flex;
   gap: 80px;
@@ -482,9 +485,11 @@ textarea.frame-child27{
   }
   .mapimage{
 margin-top: 10px;
+width: 100%;
 
   }
   .image-25-icon{
+    width: 100%;
     height:55vh;
   }
  

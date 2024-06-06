@@ -36,6 +36,7 @@ const Navbar = () => {
     }, [navigate]);
 
     const toggleMenu = () => {
+        console.log("Toggling menu:", !isMenuOpen);
         setIsMenuOpen(!isMenuOpen);
     };
 
