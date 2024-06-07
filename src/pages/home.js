@@ -8,7 +8,6 @@ import FrameComponent51 from "../components/frame-component51";
 import FrameComponent31 from "../components/frame-component31";
 
 import Navbar from "./Navbar";
-// import img2 from '../../public/group-1000001782.svg'
 import gradient from "../assert/Gradient.png"
 import { useNavigate } from "react-router-dom";
 import "./home.css";

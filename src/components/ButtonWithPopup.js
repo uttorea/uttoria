@@ -7,6 +7,7 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
       {isPopupVisible && (
         <div className="popup-overlay27" onClick={togglePopup}>
           <div className="popup-content27" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn27" onClick={togglePopup}>&times;</button>
             <h2 className='One-last-step'>One Last Step!</h2>
             <p className='provide-your-email'>Provide Your Email, And We'll Email Your Brochure</p>
             <p className='download-small'>Download {selectedSystem} Brochure</p>

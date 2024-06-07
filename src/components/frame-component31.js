@@ -11,8 +11,9 @@ const FrameComponent3 = () => {
           <BackgroundBorderOverlayBlur />
           <BackgroundBorderOverlayBlur />
           <BackgroundBorderOverlayBlur />
-           {/*<BackgroundBorderOverlayBlur />
-          <BackgroundBorderOverlayBlur /> */}
+          <BackgroundBorderOverlayBlur />
+
+          
        
         </div> 
       </div>

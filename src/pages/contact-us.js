@@ -120,7 +120,7 @@ const ContactUs = () => {
           
           <div className="frame-parent361">
             <div className="frame-parent371">
-              <div className="email-group1">
+              <div className="email-group11">
                 <div className="email21">Email</div>
                 <div className="frame-parent381">
                   <input
