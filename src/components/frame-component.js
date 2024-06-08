@@ -46,6 +46,7 @@ const FrameComponent = () => {
           <p style={{ textAlign: 'start', width: '55%' }}>
             DJAC, SIIC building, IIT Kanpur 208016
           </p>
+
         </div>
       </div>
 
