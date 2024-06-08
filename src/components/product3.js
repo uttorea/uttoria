@@ -3,8 +3,9 @@ import "./product3.css";
 
 const Product3 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
-  const sliderRef = useRef(null);
+  const [lastTouch, setLastTouch] = useState(null);
 
+  const sliderRef = useRef(null);
 
   useEffect(() => {
     const handleWheel = (event) => {
@@ -13,12 +14,47 @@ const Product3 = () => {
         setZoomLevel(newZoomLevel);
       }
     };
+
+    const handleTouchStart = (event) => {
+      if (event.touches.length === 2) {
+        const touch1 = event.touches[0];
+        const touch2 = event.touches[1];
+        setLastTouch({
+          distance: Math.hypot(
+            touch2.pageX - touch1.pageX,
+            touch2.pageY - touch1.pageY
+          ),
+        });
+      }
+    };
+
+    const handleTouchMove = (event) => {
+      if (event.touches.length === 2 && lastTouch) {
+        const touch1 = event.touches[0];
+        const touch2 = event.touches[1];
+        const newDistance = Math.hypot(
+          touch2.pageX - touch1.pageX,
+          touch2.pageY - touch1.pageY
+        );
+        const deltaDistance = newDistance - lastTouch.distance;
+        const newZoomLevel = zoomLevel + deltaDistance * 0.01;
+        if (newZoomLevel >= 0 && newZoomLevel <= 1) {
+          setZoomLevel(newZoomLevel);
+        }
+        setLastTouch({ distance: newDistance });
+      }
+    };
+
     document.addEventListener("wheel", handleWheel);
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchmove", handleTouchMove);
 
     return () => {
       document.removeEventListener("wheel", handleWheel);
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchmove", handleTouchMove);
     };
-  }, [zoomLevel]);
+  }, [zoomLevel, lastTouch]);
 
   const translateYValue = (0 + zoomLevel) * 100;
 
