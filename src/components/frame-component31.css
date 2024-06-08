@@ -269,6 +269,16 @@
     gap: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+
+
+  }
+  .backgroundborderoverlayblur-parent10 > * {
+    flex: 1 1 200px; 
+    min-width: 100px; 
+    max-width: 120px; 
+    margin: 10px; 
+    
   }
   .rectangle-parent11 {
     gap: var(--gap-base);

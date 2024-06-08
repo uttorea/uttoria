@@ -19,7 +19,7 @@ const FrameComponent6 = () => {
               className="unnamed-2-icon"
               alt=""
               
-              src="/Layer_1.png"
+              src="/dronesafty.svg"
             />
             
           </div>

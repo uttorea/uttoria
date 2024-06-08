@@ -57,8 +57,12 @@
   margin-top: 20px;
   width: 41%;
 }
+.email-group11,.subject-group1{
+width: 41%;
+}
 .email21,.subject21{
-  /* width: 100%; */
+  width: 100%;
+  
 }
 .addressmain{
   margin-top: 24%;
@@ -88,6 +92,7 @@
 .frame-parent371{
   display: flex;
   width: 100%;
+gap: 48px;
 }
 .name21, .contact21,.email21,.subject21,.message21{
   font-size: 32px;
@@ -108,7 +113,7 @@
  width: 100%;
 }
 .frame-parent371{
-  /* gap: 260px; */
+  
   width: 100%;
 }
 .rectangle-parent61,.rectangle-parent71,.rectangle-parent91{
@@ -127,17 +132,18 @@ color:#F2F2F8;
 width: 100%;
 }
 .emailinput{
-  margin-left: -10px;
+  /* margin-left: -10px; */
 }
 .reason-for-the21{
-  margin-left: 15px
+  /* margin-left: 15px */
 }
 
 
 
 .frame-parent381{
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
+  
 }
 .addresssection h1{
   padding-left: 45px;
@@ -354,12 +360,8 @@ margin-bottom: 220px;
 width: 100%;
 
 }
-.email-group1,.subject-group1{
 
-}
-.email21{
-  /* width: 440px; */
-}
+
 textarea.frame-child27{
   width: 100%;
  
@@ -464,6 +466,7 @@ textarea.frame-child27{
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    width: 100%;
   }
   .message21{
     margin-left: 10%;
