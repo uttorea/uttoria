@@ -4,7 +4,7 @@ const FrameComponent3 = () => {
   return (
     <div className="frame-wrapper11">
       <div className="custom-drone-recovery-system-parent">
-        <h1 className="custom-drone-recovery2" id="customdrone">Custom Drone Recovery system</h1>
+        <h1 className="custom-drone-recovery2" >Custom Drone Recovery system</h1>
         <div className="backgroundborder6">
           <div className="generateanimageshowcasinguttor-parent">
            

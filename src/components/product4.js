@@ -47,7 +47,7 @@ const Product4 = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container1">
         <h1 className="ballistic-emergency-recovery-container13">
           Ballistic Emergency Recovery Systems For Fixed Wing & Vtol UAVS
         </h1>
@@ -107,7 +107,7 @@ const Product4 = () => {
                   <p className="composite-structure3">
                     Composite Structuremated
                   </p>
-                  <p>Ejection Mode</p>
+                  <p className="ejectionmode">Ejection Mode</p>
                 </div>
                 <div className="operating-temperature-10-to-wrapper3">
                   <div className="operating-temperature-container3">
@@ -140,7 +140,7 @@ const Product4 = () => {
               </span>
             </div>
             <div
-              className="frame-wrapper7"
+              className="frame-wrapper7" 
               style={{
                 transform: `translateY(${translateYValue}px)`,
                 display: translateYValue > 70 ? "none" : "flex",
@@ -157,7 +157,7 @@ const Product4 = () => {
                   </span>
                 </div>
                 <div className="vector-wrapper3">
-                  <img className="vector-icon1" alt="" src="/vector-1.svg" />
+                  <img className="vector-icon1" alt="" src="/vector1.svg" />
                 </div>
               </div>
             </div>
@@ -171,29 +171,14 @@ const Product4 = () => {
             display: zoomLevel >= 0 ? "block" : "none",
           }}></div>
         <img
-          src="/ellipseimg.png"
+          src="/unnamed 7.png"
           alt="Overlay"
           className="overlay-imaged"
           style={{
             transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
-        {/*<div
-        className="zoom-controls"
-        style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
-        <div
-          className="zoom-handle"
-          style={{
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
-            bottom: `${zoomLevel * 100}%`,
-            width: "45.41px",
-            height: "192.74px",
-            background: "white",
-            cursor: "pointer",
-          }}></div>
-        </div>*/}
+       
       </div>
     </>
   );

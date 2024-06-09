@@ -131,11 +131,11 @@ padding-top: 60px;
 .assentnmimagesection{
   
   width: 628px;
-  height: 540px;
+  height: 536px;
   flex: 1;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-base);
-  border: 1px solid var(--color-cornflowerblue-100);
+  /* border: 1px solid var(--color-cornflowerblue-100); */
   box-sizing: border-box;
   flex-direction: column;
   align-items: flex-end;
@@ -148,7 +148,6 @@ padding-top: 60px;
   font-size: var(--font-size-5xl);
   color: var(--cyan);
   font-family: var(--font-poppins);
-  /* background-color: rgba(59, 105, 178, 0.1); */
   background: url('../../public/blureimg.png');
 }
 .asentimageicon{
@@ -156,18 +155,18 @@ padding-top: 60px;
   height: 440.2px;
 }
 .assentmname{
-  margin-top: 22px;
+  margin-top: 16px;
 }
 .deassentmname{
-  margin-top: 22px;
+  margin-top: 15px;
 }
 .dessentnmimagesection{
   width: 628px;
-  height: 540px;
+  height: 536px;
   flex: 1;
   box-shadow: var(--blue-blur);
   border-radius: var(--br-base);
-  border: 1px solid var(--color-cornflowerblue-100);
+  /* border: 1px solid var(--color-cornflowerblue-100); */
   box-sizing: border-box;
   flex-direction: column;
   align-items: flex-end;

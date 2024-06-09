@@ -47,7 +47,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <FrameComponent51 />
+        <FrameComponent51/>
         <FrameComponent41 />
         <FrameComponent6 />
         <FrameComponent31 />

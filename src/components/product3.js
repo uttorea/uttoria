@@ -141,7 +141,7 @@ const Product3 = () => {
         <div className="frame-wrapper63">
           <div className="arsentm-series-offers-built-in-parent3">
             <div className="arsentm-series-offers-container3">
-              <b>ARSENTM</b>
+              <b>ARSEN<sup>TM</sup></b>
               <span className='arsentmpara'>
                 {" "}
                 Series offers built in intelligence and split-second decision
@@ -161,7 +161,7 @@ const Product3 = () => {
                 <div className="explore-arsentm-series-container3">
                   <span className="explore-arsentm-series-container13">
                     <span>{`Explore `}</span>
-                    <span className="arsentm3">ArsenTM</span>
+                    <span className="arsentm3">Arsen<sup>TM</sup></span>
                     <span> Series</span>
                   </span>
                 </div>

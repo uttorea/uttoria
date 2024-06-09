@@ -1,13 +1,12 @@
-// import FrameComponent5 from "../components/frame-component5";
+
 import FrameComponent4 from "../components/frame-component4";
-// import Product1 from "../components/product1";
 import FrameComponent3 from "../components/frame-component3";
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import Product3 from "../components/product3";
 import Product4 from "../components/product4";
-// import FrameComponent5 from "../components/frame-component5";
+
 
 import "./product.css";
 import Navbar from "./Navbar";
@@ -19,6 +18,7 @@ const Product = () => {
         <div className="productallcont">
           <Navbar />
           <div className="product-innercont">
+            {/* <img src="/1234.svg"/> */}
             <h1 className="recoverysystemh1">Recovery Systems</h1>
             <p className="plug-and-play">Plug and Play solution</p>
             <h3 className="what-we-do">What we do</h3>
@@ -37,13 +37,13 @@ const Product = () => {
         </div>
 
 
-        <div className="allpages">
-        <Product3 />
+        <div className="allpages ">
+        <Product3 id='asentm'/>
         <FrameComponent4/>
         <Product4/>
         <FrameComponent3/>
 
-        <section className="frame-wrapper">
+        <section className="frame-wrapper" >
           <div className="urban-air-mobility-parent">
             <h1 className="urban-air-mobility">Urban Air Mobility</h1>
             <div className="backgroundborder1">

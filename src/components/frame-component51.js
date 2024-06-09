@@ -28,9 +28,9 @@ const FrameComponent51 = () => {
               </div>
             </div>
 
-            <div className="recoversectionimages">
+            <div className="recoversectionimages ">
               <div className="assentnmimagesection">
-                <div className="assentimage12">
+                <div className="assentimage12 ">
                   <img className="asentimageicon" alt="" src="/image-541@2x.png"/>
                   <hr className="assentnmhr" />
                   <div className="assentmname">Explore Arsen<sup>TM</sup> Series <spam><img alt="" className="svgicondecent" src="./vector1.svg"/></spam></div>

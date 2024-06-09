@@ -1,6 +1,7 @@
 import React from 'react';
 import './frame-component.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const FrameComponent = () => {
   return (
@@ -34,10 +35,10 @@ const FrameComponent = () => {
 
         <div className="footer-section-products">
           <h3>Product</h3>
-          <p><Link to="/product" href="#customdrone" >Multirotor Recovery system</Link></p>
+          <p><Link smooth to="/product#asentm">Multirotor Recovery system</Link></p>
           <p><Link to="/product">Fixed wing Recovery system</Link></p>
         </div>
-        <div className="footer-section-services">
+        <div className="footer-section-services">  
           <h3 className="footer-service">Services</h3>
           <p className="custom-footer"><Link to="/">Custom Drone Recovery system</Link></p>
         </div>
