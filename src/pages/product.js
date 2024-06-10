@@ -6,8 +6,6 @@ import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import Product3 from "../components/product3";
 import Product4 from "../components/product4";
-
-
 import "./product.css";
 import Navbar from "./Navbar";
 
@@ -18,7 +16,7 @@ const Product = () => {
         <div className="productallcont">
           <Navbar />
           <div className="product-innercont">
-            {/* <img src="/1234.svg"/> */}
+            <img className="productTopImage" src="/1234.svg"/>
             <h1 className="recoverysystemh1">Recovery Systems</h1>
             <p className="plug-and-play">Plug and Play solution</p>
             <h3 className="what-we-do">What we do</h3>

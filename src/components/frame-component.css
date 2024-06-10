@@ -342,6 +342,9 @@ hr.hrlogo{
   .foter-h2 {
     margin-top: 5px;
   }
+  .hruper{
+    width: 90%;
+  }
 
   .foter-h2 h2 {
     font-size: 24px;

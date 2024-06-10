@@ -105,7 +105,7 @@ const ContactUs = () => {
                       <div className="email21">Email</div>
                       <div className="frame-parent381">
                         <input
-                          className="emailinput"
+                          className="emailinput1"
                           placeholder="Your email address"
                           type="text"
                           name="email"

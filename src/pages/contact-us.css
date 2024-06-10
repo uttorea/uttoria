@@ -120,7 +120,7 @@ gap: 48px;
   margin: 20px;
   margin-top: 30px;
 }
-.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput{
+.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
   font-size: 24px;
   line-height: 48px;
   font-family: urbanist;
@@ -131,9 +131,7 @@ gap: 48px;
 color:#F2F2F8;
 width: 100%;
 }
-.emailinput{
-  /* margin-left: -10px; */
-}
+
 .reason-for-the21{
   /* margin-left: 15px */
 }
@@ -143,6 +141,7 @@ width: 100%;
 .frame-parent381{
   margin-top: 30px;
   margin-left: 20px;
+  width: 100%;
   
 }
 .addresssection h1{
@@ -344,7 +343,7 @@ margin-bottom: 220px;
   margin: 20px;
   margin-top: 20px;
 }
-.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput{
+.your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
   font-size: 22px;
  
 }
@@ -456,7 +455,7 @@ textarea.frame-child27{
     margin-left: 0;
     padding-left: 2px;
   }
-  .your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput{
+  .your-full-name21 ,.phno-name271,.reason-for-the21,.emailinput1{
     font-size: 22px;
    
   }
@@ -493,13 +492,25 @@ textarea.frame-child27{
   .mapimage{
 margin-top: 10px;
 width: 100%;
+overflow: hidden;
 
   }
   .image-25-icon{
-    width: 100%;
-    height:55vh;
+    width: 100% !important;
+    height: 55vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
   }
- 
   
+ 
+  .frame-parent381{
+    width: 100%;
+  }
+  .email-group11{
+    width: 90%;
+    }
+    .subject-group1{
+width: 100%;
+    }
 
 }
