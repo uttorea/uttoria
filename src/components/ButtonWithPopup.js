@@ -22,6 +22,7 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
       if (!csrfToken) {
         throw new Error("CSRF token not found.");
       }
+      console.log("CSRF Token:", csrfToken); // Log CSRF token for debugging
       const response = await axios.post(
         "https://uttoria.pythonanywhere.com/send_brochure_request/",
         { 
