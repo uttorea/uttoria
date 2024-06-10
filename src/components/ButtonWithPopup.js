@@ -1,7 +1,60 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ButtonWithPopup.css';
+import axios from 'axios';
 
 const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: ''
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const csrfToken = getCSRFToken();
+      if (!csrfToken) {
+        throw new Error("CSRF token not found.");
+      }
+      const response = await axios.post(
+        "https://uttoria.pythonanywhere.com/send_brochure_request/",
+        { 
+          system: selectedSystem, 
+          fullName: formData.fullName, 
+          email: formData.email 
+        },
+        {
+          headers: {
+            "X-CSRFToken": csrfToken,
+            "Content-Type": "application/json"
+          }
+        }
+      );
+      alert("Email sent successfully!");
+      togglePopup();
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert(`Error sending email: ${error.response ? error.response.data : error.message}`);
+    }
+  };
+
+  const getCSRFToken = () => {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+      const [name, value] = cookie.trim().split('=');
+      if (name === 'csrftoken') {
+        return decodeURIComponent(value);
+      }
+    }
+    return null;
+  };
+
   return (
     <div>
       {isPopupVisible && (
@@ -12,22 +65,38 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
             <p className='provide-your-email'>Provide Your Email, And We'll Email Your Brochure</p>
             <p className='download-small'>Download {selectedSystem} Brochure</p>
             
-            <form className="popup-form27">
+            <form className="popup-form27" onSubmit={handleSubmit}>
               <div className="form-group27">
                 <label>Name</label>
-                <input type="text" placeholder="Your full name" className='input-box'/>
+                <input 
+                  type="text" 
+                  name="fullName" 
+                  placeholder="Your full name" 
+                  className='input-box' 
+                  value={formData.fullName} 
+                  onChange={handleInputChange} 
+                  required 
+                />
               </div>
               <div className="form-group27">
                 <label>Email</label>
-                <input type="email" placeholder="Your email address" className='input-box' />
+                <input 
+                  type="email" 
+                  name="email" 
+                  placeholder="Your email address" 
+                  className='input-box' 
+                  value={formData.email} 
+                  onChange={handleInputChange} 
+                  required 
+                />
+              </div>
+              <div>
+                <p className="privacy-text27">We Respect Your Privacy. Your Email Will Not Be Shared Or Used For Spam</p>
+                <div className='popup-btn-submit'>
+                  <button type="submit" className="submit-btn27">Get My Brochure</button>
+                </div>
               </div>
             </form>
-            <div>
-              <p className="privacy-text27">We Respect Your Privacy. Your Email Will Not Be Shared Or Used For Spam</p>
-              <div className='popup-btn-submit'>
-                <button type="submit" className="submit-btn27">Get My Brochure</button>
-              </div>
-            </div>
           </div>
         </div>
       )}
