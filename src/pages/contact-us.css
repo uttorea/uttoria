@@ -224,6 +224,10 @@ textarea.frame-child27{
     font-family: var(--font-poppins);
     font-size: var(--font-size-2xl-5);
     z-index: 1;
+    color: white;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 5px;
     border: 0.9px solid var(--secondary);
 }
 .send-message-frame1{
