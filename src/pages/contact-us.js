@@ -20,8 +20,37 @@ const ContactUs = () => {
     });
   };
 
+  const validateEmail = (email) => {
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return re.test(String(email).toLowerCase());
+  };
+
+  const validatePhoneNumber = (phoneNumber) => {
+    const re = /^\d{10}$/;
+    return re.test(phoneNumber);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validate form data
+    if (!formData.fullName || !formData.phoneNumber || !formData.email || !formData.reason || !formData.message) {
+      alert('All fields are required!');
+      return;
+    }
+
+    // Validate email format
+    if (!validateEmail(formData.email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    // Validate phone number format
+    if (!validatePhoneNumber(formData.phoneNumber)) {
+      alert('Please enter a valid 10-digit phone number.');
+      return;
+    }
+
     try {
       // const response = await axios.post('http://localhost:8000/api/contact/', formData);
       const response = await axios.post('https://uttoria.pythonanywhere.com/api/contact/', formData);
@@ -91,8 +120,8 @@ const ContactUs = () => {
                     <div className="rectangle-parent71">
                       <input
                         className="phno-name271"
-                        placeholder="Phno. name"
-                        type="text"
+                        placeholder="Phone number"
+                        type="tel"
                         name="phoneNumber"
                         value={formData.phoneNumber}
                         onChange={handleChange}
@@ -108,7 +137,7 @@ const ContactUs = () => {
                         <input
                           className="emailinput1"
                           placeholder="Your email address"
-                          type="text"
+                          type="email"
                           name="email"
                           value={formData.email}
                           onChange={handleChange}
