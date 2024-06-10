@@ -24,8 +24,7 @@ const ContactUs = () => {
     e.preventDefault();
     try {
       // const response = await axios.post('http://localhost:8000/api/contact/', formData);
-      const response = await axios.post('https://uttoria.pythonanywhere.com/api/contact/', formData);
-
+      const response = await axios.post('https://uttoria.pythonanywhere.com/api/contact', formData);
       console.log('Form submitted successfully:', response.data);
       alert('Message sent successfully!');
     } catch (error) {
