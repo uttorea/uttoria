@@ -49,7 +49,7 @@ const FrameComponent1 = () => {
                 <div className="frame-parent38">
                   <div className="rectangle-parent8">
                     <div className="frame-child25" />
-                    <input className="your-email-address22" placeholder="Your email address"/>
+                    <input type="email" className="your-email-address22" placeholder="Your email address"/>
                      
                     
                   </div>
