@@ -3,10 +3,28 @@ import "./product3.css";
 
 const Product3 = () => {
   const [zoomLevel, setZoomLevel] = useState(1);
-  const [lastTouch, setLastTouch] = useState(null);
-
   const sliderRef = useRef(null);
+  const lastTouchYRef = useRef(0);
 
+  // Handle touch start to initialize touch position
+  const handleTouchStart = (event) => {
+    lastTouchYRef.current = event.touches[0].clientY;
+  };
+
+  // Handle touch move for Android devices
+  const handleTouchMove = (event) => {
+    const touchY = event.touches[0].clientY;
+    const deltaY = touchY - lastTouchYRef.current;
+    const newZoomLevel = zoomLevel - deltaY * 0.01;
+
+    if (newZoomLevel >= 0 && newZoomLevel <= 1) {
+      setZoomLevel(newZoomLevel);
+    }
+
+    lastTouchYRef.current = touchY;
+  };
+
+  // Zoom effect logic for mouse wheel
   useEffect(() => {
     const handleWheel = (event) => {
       const newZoomLevel = zoomLevel - event.deltaY * 0.01;
@@ -14,37 +32,6 @@ const Product3 = () => {
         setZoomLevel(newZoomLevel);
       }
     };
-
-    const handleTouchStart = (event) => {
-      if (event.touches.length === 2) {
-        const touch1 = event.touches[0];
-        const touch2 = event.touches[1];
-        setLastTouch({
-          distance: Math.hypot(
-            touch2.pageX - touch1.pageX,
-            touch2.pageY - touch1.pageY
-          ),
-        });
-      }
-    };
-
-    const handleTouchMove = (event) => {
-      if (event.touches.length === 2 && lastTouch) {
-        const touch1 = event.touches[0];
-        const touch2 = event.touches[1];
-        const newDistance = Math.hypot(
-          touch2.pageX - touch1.pageX,
-          touch2.pageY - touch1.pageY
-        );
-        const deltaDistance = newDistance - lastTouch.distance;
-        const newZoomLevel = zoomLevel + deltaDistance * 0.01;
-        if (newZoomLevel >= 0 && newZoomLevel <= 1) {
-          setZoomLevel(newZoomLevel);
-        }
-        setLastTouch({ distance: newDistance });
-      }
-    };
-
     document.addEventListener("wheel", handleWheel);
     document.addEventListener("touchstart", handleTouchStart);
     document.addEventListener("touchmove", handleTouchMove);
@@ -54,7 +41,7 @@ const Product3 = () => {
       document.removeEventListener("touchstart", handleTouchStart);
       document.removeEventListener("touchmove", handleTouchMove);
     };
-  }, [zoomLevel, lastTouch]);
+  }, [zoomLevel]);
 
   const translateYValue = (0 + zoomLevel) * 100;
 
@@ -67,7 +54,7 @@ const Product3 = () => {
         <div
           className="ellipse"
           style={{
-            backgroundColor: "#131420",
+            backgroundColor: "#242425",
           }}>
           <div
             className="frame-wrapper53"
@@ -141,8 +128,8 @@ const Product3 = () => {
         <div className="frame-wrapper63">
           <div className="arsentm-series-offers-built-in-parent3">
             <div className="arsentm-series-offers-container3">
-              <b>ARSEN<sup>TM</sup></b>
-              <span className='arsentmpara'>
+              <b>ARSENTM</b>
+              <span className="arsentmpara">
                 {" "}
                 Series offers built in intelligence and split-second decision
                 making capable recovery system
@@ -161,7 +148,7 @@ const Product3 = () => {
                 <div className="explore-arsentm-series-container3">
                   <span className="explore-arsentm-series-container13">
                     <span>{`Explore `}</span>
-                    <span className="arsentm3">Arsen<sup>TM</sup></span>
+                    <span className="arsentm3">ArsenTM</span>
                     <span> Series</span>
                   </span>
                 </div>
@@ -187,6 +174,25 @@ const Product3 = () => {
             transform: `scale(${0.7 + 0.3 * zoomLevel})`,
           }}
         />
+        {/*<div
+        ref={sliderRef}
+        className="zoom-controls"
+        
+        style={{ right: "50px", top: "40%", height: "150px", width: "50px" }}>
+        <div
+
+          className="zoom-handle"
+          style={{
+            position: "absolute",
+            left: "50%",
+            transform: "translateX(-50%)",
+            bottom: `${zoomLevel * 100}%`,
+            width: "45.41px",
+            height: "192.74px",
+            background: "white",
+            cursor: "pointer",
+          }}></div>
+        </div>*/}
       </div>
     </>
   );

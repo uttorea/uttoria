@@ -54,7 +54,7 @@ const Product4 = () => {
         <div
           className="ellipse"
           style={{
-            backgroundColor: "#131420",
+            backgroundColor: "#242425",
           }}>
           <div
             className="frame-wrapper53"
