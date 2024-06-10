@@ -18,11 +18,6 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const csrfToken = getCSRFToken();
-      if (!csrfToken) {
-        throw new Error("CSRF token not found.");
-      }
-      console.log("CSRF Token:", csrfToken); // Log CSRF token for debugging
       const response = await axios.post(
         "https://uttoria.pythonanywhere.com/send_brochure_request/",
         { 
@@ -32,7 +27,6 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
         },
         {
           headers: {
-            "X-CSRFToken": csrfToken,
             "Content-Type": "application/json"
           }
         }
@@ -43,17 +37,6 @@ const ButtonWithPopup = ({ togglePopup, isPopupVisible, selectedSystem }) => {
       console.error("Error sending email:", error);
       alert(`Error sending email: ${error.response ? error.response.data : error.message}`);
     }
-  };
-
-  const getCSRFToken = () => {
-    const cookies = document.cookie.split(';');
-    for (let cookie of cookies) {
-      const [name, value] = cookie.trim().split('=');
-      if (name === 'csrftoken') {
-        return decodeURIComponent(value);
-      }
-    }
-    return null;
   };
 
   return (
